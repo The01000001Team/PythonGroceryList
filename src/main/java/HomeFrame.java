@@ -194,8 +194,8 @@ public class HomeFrame extends JFrame {
 
 				isRunning = true;
 				//PARSE DIS SHEET
-				PyInterpreter.execPyFile("Scrapper", );
-				recipeModel.addElement("WEEEEE");
+				String[] recipe = PyInterpreter.execPyFile("Scrapper", textArea_Url.getText());
+				recipeModel.addElement(recipe[0]);
 
 				SwingUtilities.invokeLater(new Runnable() 
 				{
