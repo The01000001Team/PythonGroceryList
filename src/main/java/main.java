@@ -1,5 +1,12 @@
 package main.java;
 
+import main.python.PyInterpreter;
+
+
 public class Main {
-	//java stuff
+	
+	public static void main(String args[]) {
+		PyInterpreter.execPyFile("hello");
+	}
+	
 }
