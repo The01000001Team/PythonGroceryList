@@ -92,8 +92,8 @@ public class Item {
 				itemName = itemName + " " + arrayStr[i];
 				
 			}
-			System.out.println("Item Name: " + itemName);
-			result[1] = new Item(itemName, itemQuantity, itemUnit);
+			result[x-1] = new Item(itemName, itemQuantity, itemUnit);
+			
 		}
 		
 		return result;
