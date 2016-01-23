@@ -45,19 +45,13 @@ public class PyInterpreter
     * 
     * @param fileName A String for the file name. Omit the ".py" extension
     */
-   public static void execPyFile(String fileName)
+   public static String[] execPyFile(String fileName)
    {
       PyInterpreter ie = new PyInterpreter();
       ie.execfile("Python/" + fileName + ".py");
 
-      //ArrayList array = new ArrayList(Arrays.asList((Object[])ie.interpreter.get("list", Object[].class)));
       String[] array = ie.interpreter.get("jythonArray", String[].class);
-      int size = array.length;
-      for(int i = 0; i < size; i++){
-    	  System.out.println(array[i]);
-      }
-
-      
+      return array;    
    }
    
 }

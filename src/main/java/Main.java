@@ -14,7 +14,6 @@ public class Main {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					launchPyFile("Scrapper");
 					HomeFrame frame = new HomeFrame(recipeModel);
 					frame.setVisible(true);
 				} catch (Exception e) {
@@ -24,11 +23,13 @@ public class Main {
 		});
 	}
 	
-	/** Give the name of the .py file WITHOUT THE EXTENSION and it will launch the python file
-	 * 
-	 * @param fileName Name of the .py file
-	 */
+/*
+	 //Give the name of the .py file WITHOUT THE EXTENSION and it will launch the python file
+	 // 
+	 // @param fileName Name of the .py file
+	 //
 	public static void launchPyFile(String fileName) {
 		PyInterpreter.execPyFile(fileName);
 	}
+*/
 }

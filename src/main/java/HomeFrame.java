@@ -8,6 +8,8 @@ import javax.swing.event.DocumentListener;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
+import main.python.PyInterpreter;
+
 import java.awt.GridBagLayout;
 import javax.swing.JLabel;
 
@@ -192,6 +194,7 @@ public class HomeFrame extends JFrame {
 
 				isRunning = true;
 				//PARSE DIS SHEET
+				PyInterpreter.execPyFile("Scrapper");
 				recipeModel.addElement("WEEEEE");
 
 				SwingUtilities.invokeLater(new Runnable() 
