@@ -38,6 +38,3 @@ for line in f:
 
 jythonArray = array(list, String)
 f.close() #Close the text file
-
-for e in list:
-	print e
