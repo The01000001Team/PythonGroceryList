@@ -104,14 +104,14 @@ public class UnitConverter {
 		return result != null ? result : new Unit(quantity, unitName);
 	}
 	
-	public Unit convertToExistingUnit(Unit unit1, Unit unit2) {
+	public static Unit convertToExistingUnit(Unit unit1, Unit unit2) {
 		double factor = findConversionAmount(unit1, unit2);
 		unit1.increaseQuantity(factor);
 		
 		return null;
 	}
 
-	private double findConversionAmount(Unit unit1, Unit unit2) {
+	private static double findConversionAmount(Unit unit1, Unit unit2) {
 		double factor1 = unit1.convertToCup();
 		double factor2 = unit2.convertToCup();
 		System.out.println(factor1);

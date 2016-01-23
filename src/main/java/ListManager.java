@@ -6,7 +6,7 @@ import javax.swing.JTextArea;
 import main.python.PyInterpreter;
 
 public class ListManager {
-	DefaultListModel recipeModel;
+	private static DefaultListModel recipeModel;
 	
 	public ListManager(){
 		recipeModel = new DefaultListModel();
@@ -24,10 +24,30 @@ public class ListManager {
 		 * the recipeModel is not typed, so you can add whatever type of objects you want and it will display
 		 * their toString() method in the list. It would be best to ONLY add Item objects, however
 		 */
+		Item[] items = Item.toItemArray(recipe);
+		
+		for(int i=0; i<items.length; i++) {
+			if(checkIfExistingItem(items[i])) {
+				items[i] = null;
+			}
+			else recipeModel.addElement(items[i]);
+		}
+		
 		areaToBeCleared.setText("");
 	}
 	
 	public DefaultListModel getListModel(){
 		return recipeModel;
+	}
+	
+	public static boolean checkIfExistingItem(Item item) {
+		for(int i=0; i < recipeModel.getSize(); i++){
+			Item existing = (Item) recipeModel.getElementAt(i);
+			if(existing.getItemName().toLowerCase().equals(item.getItemName().toLowerCase())) {
+				existing.updateCurrentItem(item);
+				return true;
+			}
+		}
+		return false;
 	}
 }

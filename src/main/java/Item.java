@@ -32,8 +32,12 @@ public class Item {
 		this.displayName = displayName;
 	}
 	
+	public Unit getUnit() {
+		return this.unit;
+	}
+	
 	public void updateCurrentItem(Item item2) {
-		
+		UnitConverter.convertToExistingUnit(this.getUnit(), item2.getUnit());
 	}
 	
 	public String toString() {
@@ -42,7 +46,12 @@ public class Item {
 	}
 
 	public static Item[] toItemArray(String[] recipe) {
-		// TODO Auto-generated method stub
-		return null;
+		Item[] result = null;
+		
+		for(String str: recipe) {
+			System.out.println(str);
+		}
+		
+		return result;
 	}
 }
