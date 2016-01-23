@@ -42,10 +42,10 @@ public class Item {
 	
 	public String toString() {
 		if(this.unit.getQuantity() != 0.0) {
-			return (new DoubleToFraction(unit.getQuantity()).toString() + " " + unit.getName() + " -- " + displayName + " -- ") + ((price == 0.0) ? "Price Unavailable" : ("$" + String.valueOf(price)));
+			return (new DoubleToFraction(unit.getQuantity()).toString() + " " + unit.getName() + " \t " + displayName + " \t ") + ((price == 0.0) ? "Price Unavailable" : ("$" + String.valueOf(price)));
 		}
 		else {
-			return (displayName + " -- ") + ((price == 0.0) ? "Price Unavailable" : ("$" + String.valueOf(price)));
+			return (displayName + " \t ") + ((price == 0.0) ? "Price Unavailable" : ("$" + String.valueOf(price)));
 		}
 	}
 
