@@ -1,48 +1,27 @@
 package main.java;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-
 import java.awt.GridBagLayout;
 import javax.swing.JLabel;
 import java.awt.GridBagConstraints;
 import java.awt.Insets;
-import javax.swing.JTextField;
-import javax.swing.JSeparator;
 import javax.swing.JList;
+import javax.swing.DefaultListModel;
 import javax.swing.JButton;
 import javax.swing.JTextArea;
+import javax.swing.ListSelectionModel;
 
 public class HomeFrame extends JFrame {
 
 	private JPanel contentPane;
 	private JLabel lblYourGroceryList;
-	private JList list;
+	private JList list_recipe;
 	private JButton btnEdit;
 	private JButton btnDelete;
-	private JTextArea textArea;
-
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					HomeFrame frame = new HomeFrame();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
+	private JTextArea textArea_Url;
+	DefaultListModel recipeModel;
 
 	/**
 	 * Create the frame.
@@ -83,24 +62,27 @@ public class HomeFrame extends JFrame {
 		gbc_lblPasteUrlsInto.gridy = 1;
 		contentPane.add(lblPasteUrlsInto, gbc_lblPasteUrlsInto);
 		
-		list = new JList();
-		GridBagConstraints gbc_list = new GridBagConstraints();
-		gbc_list.gridwidth = 2;
-		gbc_list.insets = new Insets(0, 0, 5, 0);
-		gbc_list.gridheight = 2;
-		gbc_list.fill = GridBagConstraints.BOTH;
-		gbc_list.gridx = 1;
-		gbc_list.gridy = 1;
-		contentPane.add(list, gbc_list);
+		recipeModel = new DefaultListModel();
+		list_recipe = new JList(recipeModel);
+		list_recipe.setSelectionMode(ListSelectionModel.SINGLE_INTERVAL_SELECTION);
+		list_recipe.setLayoutOrientation(JList.VERTICAL);
+		GridBagConstraints gbc_list_recipe = new GridBagConstraints();
+		gbc_list_recipe.gridwidth = 2;
+		gbc_list_recipe.insets = new Insets(0, 0, 5, 0);
+		gbc_list_recipe.gridheight = 2;
+		gbc_list_recipe.fill = GridBagConstraints.BOTH;
+		gbc_list_recipe.gridx = 1;
+		gbc_list_recipe.gridy = 1;
+		contentPane.add(list_recipe, gbc_list_recipe);
 		
-		textArea = new JTextArea();
-		textArea.setLineWrap(true);
-		GridBagConstraints gbc_textArea = new GridBagConstraints();
-		gbc_textArea.insets = new Insets(0, 0, 5, 5);
-		gbc_textArea.fill = GridBagConstraints.BOTH;
-		gbc_textArea.gridx = 0;
-		gbc_textArea.gridy = 2;
-		contentPane.add(textArea, gbc_textArea);
+		textArea_Url = new JTextArea();
+		textArea_Url.setLineWrap(true);
+		GridBagConstraints gbc_textArea_Url = new GridBagConstraints();
+		gbc_textArea_Url.insets = new Insets(0, 0, 5, 5);
+		gbc_textArea_Url.fill = GridBagConstraints.BOTH;
+		gbc_textArea_Url.gridx = 0;
+		gbc_textArea_Url.gridy = 2;
+		contentPane.add(textArea_Url, gbc_textArea_Url);
 		
 		btnEdit = new JButton("Edit...");
 		btnEdit.setEnabled(false);
@@ -119,6 +101,7 @@ public class HomeFrame extends JFrame {
 		
 		
 		UrlListener urlListener = new UrlListener();
+		textArea_Url.getDocument().addDocumentListener(urlListener);
 	}
 
 }
