@@ -85,9 +85,16 @@ public class Item {
 						System.out.println("Item Quantity: " + String.valueOf(itemQuantity));
 						continue;
 					}
-					
+					if(arrayStr[i].substring(arrayStr[i].length() - 1).equals(",")) {
+						itemName = arrayStr[i].substring(0, arrayStr[i].length()-1);
+						break;
+					}
 					itemName = arrayStr[i];
 					continue;
+				}
+				if(arrayStr[i].substring(arrayStr[i].length() - 1).equals(",")) {
+					itemName = itemName + " " + arrayStr[i].substring(0, arrayStr[i].length()-1);
+					break;
 				}
 				itemName = itemName + " " + arrayStr[i];
 				
@@ -127,8 +134,17 @@ public class Item {
 	}
 
 	private static String addArrToString(String[] arrayStr) {
-		String result = arrayStr[0];
+		String result;
+		if(arrayStr[0].substring(arrayStr[0].length() - 1).equals(",")) {
+			result = arrayStr[0].substring(0, arrayStr[0].length()-1);
+			return result;
+		}
+		else result = arrayStr[0];
 		for(int i=1; i<arrayStr.length; i++) {
+			if(arrayStr[i].substring(arrayStr[i].length() - 1).equals(",")) {
+				result = result + " " + arrayStr[i].substring(0, arrayStr[i].length()-1);
+				break;
+			}
 			result = result + " " + arrayStr[i];
 		}
 		return result;
