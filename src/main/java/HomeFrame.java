@@ -23,6 +23,7 @@ public class HomeFrame extends JFrame {
 	private JSeparator separator;
 	private JList list;
 	private JButton btnEdit;
+	private JButton btnDelete;
 
 	/**
 	 * Launch the application.
@@ -50,9 +51,9 @@ public class HomeFrame extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		GridBagLayout gbl_contentPane = new GridBagLayout();
-		gbl_contentPane.columnWidths = new int[]{0, 0, 0, 0};
+		gbl_contentPane.columnWidths = new int[]{0, 0, 0, 0, 0};
 		gbl_contentPane.rowHeights = new int[]{0, 0, 0, 0, 0};
-		gbl_contentPane.columnWeights = new double[]{0.0, 0.0, 1.0, Double.MIN_VALUE};
+		gbl_contentPane.columnWeights = new double[]{0.0, 0.0, 1.0, 1.0, Double.MIN_VALUE};
 		gbl_contentPane.rowWeights = new double[]{0.0, 0.0, 1.0, 0.0, Double.MIN_VALUE};
 		contentPane.setLayout(gbl_contentPane);
 		
@@ -65,6 +66,7 @@ public class HomeFrame extends JFrame {
 		
 		lblYourGroceryList = new JLabel("Your Grocery List:");
 		GridBagConstraints gbc_lblYourGroceryList = new GridBagConstraints();
+		gbc_lblYourGroceryList.gridwidth = 2;
 		gbc_lblYourGroceryList.insets = new Insets(0, 0, 5, 0);
 		gbc_lblYourGroceryList.gridx = 2;
 		gbc_lblYourGroceryList.gridy = 0;
@@ -98,6 +100,7 @@ public class HomeFrame extends JFrame {
 		
 		list = new JList();
 		GridBagConstraints gbc_list = new GridBagConstraints();
+		gbc_list.gridwidth = 2;
 		gbc_list.insets = new Insets(0, 0, 5, 0);
 		gbc_list.gridheight = 2;
 		gbc_list.fill = GridBagConstraints.BOTH;
@@ -108,9 +111,17 @@ public class HomeFrame extends JFrame {
 		btnEdit = new JButton("Edit...");
 		btnEdit.setEnabled(false);
 		GridBagConstraints gbc_btnEdit = new GridBagConstraints();
+		gbc_btnEdit.insets = new Insets(0, 0, 0, 5);
 		gbc_btnEdit.gridx = 2;
 		gbc_btnEdit.gridy = 3;
 		contentPane.add(btnEdit, gbc_btnEdit);
+		
+		btnDelete = new JButton("Delete...");
+		btnDelete.setEnabled(false);
+		GridBagConstraints gbc_btnDelete = new GridBagConstraints();
+		gbc_btnDelete.gridx = 3;
+		gbc_btnDelete.gridy = 3;
+		contentPane.add(btnDelete, gbc_btnDelete);
 	}
 
 }
