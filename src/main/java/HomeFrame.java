@@ -193,7 +193,7 @@ public class HomeFrame extends JFrame {
 				if(isRunning){return;}
 
 				isRunning = true;
-				recipeManager.addUrl(textArea_Url.getText());
+				recipeManager.addUrl(textArea_Url.getText(), textArea_Url);
 				
 
 				SwingUtilities.invokeLater(new Runnable() 
