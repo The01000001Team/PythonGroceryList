@@ -74,8 +74,12 @@ public class HomeFrame extends JFrame {
 		contentPane.add(lblYourGroceryList, gbc_lblYourGroceryList);
 
 		recipeModel = recipeManager.getListModel();
+		list_recipe = new JList(recipeModel);
+		list_recipe.setSelectionMode(ListSelectionModel.SINGLE_INTERVAL_SELECTION);
+		list_recipe.setLayoutOrientation(JList.VERTICAL);
 		
 		scrollPaneList = new JScrollPane();
+		scrollPaneList.setViewportView(list_recipe);
 		scrollPaneList.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 		GridBagConstraints gbc_scrollPaneList = new GridBagConstraints();
 		gbc_scrollPaneList.gridheight = 6;
@@ -85,25 +89,7 @@ public class HomeFrame extends JFrame {
 		gbc_scrollPaneList.gridx = 1;
 		gbc_scrollPaneList.gridy = 1;
 		contentPane.add(scrollPaneList, gbc_scrollPaneList);
-		list_recipe = new JList(recipeModel);
-		scrollPaneList.setViewportView(list_recipe);
-		list_recipe.setSelectionMode(ListSelectionModel.SINGLE_INTERVAL_SELECTION);
-		list_recipe.setLayoutOrientation(JList.VERTICAL);
 		
-		
-		list_recipe.addListSelectionListener(new ListSelectionListener() {
-			public void valueChanged(ListSelectionEvent e) {
-				if (e.getValueIsAdjusting() == false) {
-					if (list_recipe.getSelectedIndex() == -1) {
-						btnDelete.setEnabled(false);
-						btnEdit.setEnabled(false);
-					} else {
-						btnDelete.setEnabled(true);
-						btnEdit.setEnabled(true);
-					}
-				}
-			}
-		});
 		
 		txtrInstructionsEnterA = new JTextArea();
 		txtrInstructionsEnterA.setBackground(SystemColor.window);
@@ -199,6 +185,21 @@ public class HomeFrame extends JFrame {
 				}
 			}
 		});
+		
+		list_recipe.addListSelectionListener(new ListSelectionListener() {
+			public void valueChanged(ListSelectionEvent e) {
+				if (e.getValueIsAdjusting() == false) {
+					if (list_recipe.getSelectedIndex() == -1) {
+						btnDelete.setEnabled(false);
+						btnEdit.setEnabled(false);
+					} else {
+						btnDelete.setEnabled(true);
+						btnEdit.setEnabled(true);
+					}
+				}
+			}
+		});
+		
 		final Clipboard clipboard = this.getToolkit().getSystemClipboard();
 		btnPaste.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent actionEvent) {
@@ -243,6 +244,7 @@ public class HomeFrame extends JFrame {
 				}
 			} 
 		}
+		textField_Url.addKeyListener(new EnterListener());
 	}
 
 }
