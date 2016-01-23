@@ -210,8 +210,9 @@ public class HomeFrame extends JFrame {
 						textArea_Url.setText("");
 					}else{
 						textAreaStatus.setText("Adding URL... This may take a moment...");
-						recipeManager.addUrl(textArea_Url.getText(), textArea_Url);
-						textAreaStatus.setText("Added!");
+						int returned = recipeManager.addUrl(textArea_Url.getText());
+						if(returned == 1) {textAreaStatus.setText("Added!");}
+						else{ textAreaStatus.setText("The entered URL was not valid");}
 						textArea_Url.setText("");
 					}
 				}else{

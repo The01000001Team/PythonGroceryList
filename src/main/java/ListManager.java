@@ -15,7 +15,10 @@ public class ListManager {
 		recipeModel = new DefaultListModel();
 	}
 
-	public void addUrl(String url, JTextArea statusField){
+	/**
+	 * RETURNS A STATUS. 1 failed, 2 success
+	 */
+	public int addUrl(String url){
 		try{
 			String[] recipe = PyInterpreter.execPyFile("Scrapper", url);
 
@@ -42,9 +45,10 @@ public class ListManager {
 				 */
 				recipeModel.addElement(items[i]);
 			}
+			
+			return 0;
 		}catch(PyException e){
-			statusField.setText("The entered URL was not valid");
-			return;
+			return 1;
 		}
 
 	}
