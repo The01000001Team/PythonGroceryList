@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 
-import org.python.antlr.ast.List;
-import org.python.core.*;
+import org.python.core.PyInstance;
 import org.python.util.PythonInterpreter;
 
 

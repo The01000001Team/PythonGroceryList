@@ -1,4 +1,4 @@
-Roman-Style Chicken Recipe : Giada De Laurentiis : Food Network
+Iceberg BLTs Recipe : Food Network Kitchen : Food Network
     
     
     
@@ -137,7 +137,7 @@ window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){va
 
 
 
-SNI.Food.printTarget = "&#x2f;content&#x2f;food&#x2f;recipes&#x2f;giada-de-laurentiis&#x2f;r&#x2f;ro&#x2f;rom&#x2f;roma&#x2f;roman-style-chicken-recipe.print.html";
+SNI.Food.printTarget = "&#x2f;content&#x2f;food&#x2f;recipes&#x2f;food-network-kitchens&#x2f;i&#x2f;ic&#x2f;ice&#x2f;iceb&#x2f;iceberg-blts.print.html";
 
 
 	
@@ -176,7 +176,7 @@ SNI.Food.printTarget = "&#x2f;content&#x2f;food&#x2f;recipes&#x2f;giada-de-laure
 
     if (typeof MetaDataManager != "undefined") {
     	var mdManager = new MetaDataManager();
-        var mdProps = {"Cuisine":"prosciutto;chicken breast;chicken thighs;red bell pepper;yellow bell pepper;cloves garlic;chicken stock;flat-leaf parsley leaves;","OrigPubDate":"2015-07-22T10:15:22.809-04:00|2016-01-05T19:16:15.031-05:00","talentName":"giada de laurentiis","Url":"/recipes/giada-de-laurentiis/roman-style-chicken-recipe.html","CrosslinkTerms":";prosciutto,;chicken breast,;chicken thighs,;red bell pepper,;yellow bell pepper,;cloves garlic,;chicken stock,;flat-leaf parsley leaves","ContentTag1":"chicken","HubSponsor":"healthyeveryweek_mains","SctnDspName":"recipes &amp; how-tos","Nutrition":"low-fat,diabetic,low-calorie","Title":"roman-style chicken","PackageName":"healthy weeknight dinners","Delivery_Channel":"web","HubID":"90a37e62-ceb0-42a6-8d83-804bb524d1af","FastFwdID":"33365","Type":"recipe","CategoryDspName":"recipes &amp; how-tos","DetailId":"90a37e62-ceb0-42a6-8d83-804bb524d1af","PageNumber":"1","MealType":"dinner","Restricted":"false","Ingredients":"prosciutto;chicken breast;chicken thighs;red bell pepper;yellow bell pepper;cloves garlic;chicken stock;flat-leaf parsley leaves;","HubPath":"/content/food/recipes/giada-de-laurentiis/r/ro/rom/roma/roman-style-chicken-recipe","MainIngredient":"prosciutto;chicken breast;chicken thighs;red bell pepper;yellow bell pepper;cloves garlic;chicken stock;flat-leaf parsley leaves;","Site":"food","Dish":"prosciutto;chicken breast;chicken thighs;red bell pepper;yellow bell pepper;cloves garlic;chicken stock;flat-leaf parsley leaves;","MealPart":"dinner,lunch,main-dish","ImgURL":"http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2011/11/23/0/FN_roman-chicken-011_s4x3.jpg","Section":"recipes","AllTags":"easy,european,diabetic,low-calorie,make-ahead,healthy,american,prosciutto,main-dish,dinner,low-fat,simmer,for-a-family,chicken,italian","CanonicalUrl":"http://www.foodnetwork.com/recipes/giada-de-laurentiis/roman-style-chicken-recipe.html","Source":"cooking","Technique":"simmer","HubType":"recipe","UniqueID":"food|recipe|90a37e62-ceb0-42a6-8d83-804bb524d1af|1","Classification":"recipes, food","AdKey1":"healthy","Difficulty":"easy","ContentTag2":"italian","Sponsorship":"HEALTHYEVERYWEEK_MAINS","PrepTime":"20"};
+        var mdProps = {"AdKey1":"healthy","ImgURL":"http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2014/6/17/1/FN_Iceberg-BLT_s4x3.jpg","CategoryDspName":"recipes &amp; how-tos","HubPath":"unknown","CanonicalUrl":"http://www.foodnetwork.com/recipes/food-network-kitchens/iceberg-blts.html","OrigPubDate":"2014-12-16T07:14:16.670-05:00|2016-01-05T17:59:54.789-05:00","Section":"recipes","HubSponsor":"","Url":"/recipes/food-network-kitchens/iceberg-blts.html","Source":"manual","Classification":"recipes, food","PublishTime":"2014-07-25T06:03:09Z","Site":"food","Difficulty":"easy","AllTags":"bacon,lettuce,low-carbohydrate,low-cholesterol,low-calorie,diabetic,tomato,healthy,blt,gluten-free","PackageName":"comfort foods, lightened up","talentName":"food network kitchen","SctnDspName":"recipes &amp; how-tos","PageNumber":"1","Restricted":"false","Nutrition":"gluten-free,diabetic,low-carbohydrate,low-cholesterol,low-calorie","Cuisine":"whisk;lemon juice;sauce;tomato;iceberg lettuce;yogurt;mayonnaise;chives;lemon zest;","ContentTag2":"gluten-free","Type":"recipe","Delivery_Channel":"web","CrosslinkTerms":";whisk,;lemon juice,;sauce,;tomato,;iceberg lettuce,;yogurt,;mayonnaise,;chives,;lemon zest","PrepTime":"10","Title":"iceberg blts","Ingredients":"whisk;lemon juice;sauce;tomato;iceberg lettuce;yogurt;mayonnaise;chives;lemon zest;","Dish":"whisk;lemon juice;sauce;tomato;iceberg lettuce;yogurt;mayonnaise;chives;lemon zest;","HubID":"9d3224d8-c372-42ac-82f8-eb1395c0dcd4","ContentTag1":"blt","MainIngredient":"whisk;lemon juice;sauce;tomato;iceberg lettuce;yogurt;mayonnaise;chives;lemon zest;","DetailId":"b13e0700-83d4-47fd-9893-f4ec39fbd9e4","Sponsorship":"HEALTHYEVERYWEEK_MAKEOVERS","FastFwdID":"737066","UniqueID":"food|recipe|b13e0700-83d4-47fd-9893-f4ec39fbd9e4|1"};
     	for (var key in mdProps) {
             mdManager.addAttribute(key, mdProps[key]);
     	}
@@ -229,14 +229,14 @@ SNI.Food.printTarget = "&#x2f;content&#x2f;food&#x2f;recipes&#x2f;giada-de-laure
 	if( CQ_Analytics && CQ_Analytics.PageDataMgr) {
     CQ_Analytics.PageDataMgr.loadInitProperties({
   "hits": 0,
-  "title": "Roman-Style Chicken",
-  "path": "/content/food/recipes/giada-de-laurentiis/r/ro/rom/roma/roman-style-chicken-recipe",
-  "navTitle": "Roman-Style Chicken",
+  "title": "Iceberg BLTs",
+  "path": "/content/food/recipes/food-network-kitchens/i/ic/ice/iceb/iceberg-blts",
+  "navTitle": "Iceberg BLTs",
   "tags": "",
   "description": "",
   "sitesection": "recipes",
-  "subsection": "giada-de-laurentiis",
-  "random": "0.48"
+  "subsection": "food-network-kitchens",
+  "random": "0.79"
 }, true);
 }
 
@@ -271,7 +271,7 @@ if (typeof localStorage !== "undefined") {
 
     $CQ(function() {
         CQ_Analytics.SegmentMgr.loadSegments("/etc/segmentation");
-        CQ_Analytics.ClientContextUtils.init("/etc/clientcontext/default","/content/food/recipes/giada-de-laurentiis/r/ro/rom/roma/roman-style-chicken-recipe");
+        CQ_Analytics.ClientContextUtils.init("/etc/clientcontext/default","/content/food/recipes/food-network-kitchens/i/ic/ice/iceb/iceberg-blts");
 
         
     });
@@ -1555,7 +1555,7 @@ SNI.Food.NavCtrl.setDDLoad();
     
         
             
-                Roman-Style Chicken
+                Iceberg BLTs
         
     
     
@@ -1566,7 +1566,7 @@ SNI.Food.NavCtrl.setDDLoad();
 
 
 
-	Roman-Style Chicken
+	Iceberg BLTs
 	
 		
 		
@@ -1574,6 +1574,8 @@ SNI.Food.NavCtrl.setDDLoad();
 		
 	
 	
+	
+		
 	
 
 
@@ -1684,7 +1686,7 @@ SNI.Food.NavCtrl.setDDLoad();
 	        
 	            
 	                
-	                    Recipe courtesy of Giada De Laurentiis
+	                    Recipe courtesy of Food Network Kitchen
 	                
 	                
 	            
@@ -1694,32 +1696,6 @@ SNI.Food.NavCtrl.setDDLoad();
         
             
                 
-                    SHOW:
-                    
-                        
-                            
-                                
-                                    Everyday Italian
-                                
-                            
-                            
-                        
-                    
-                
-                
-                    EPISODE:
-                    
-                        
-                            
-                                
-                                    
-                                        Day Ahead Dishes
-                                    
-                                
-                                
-                            
-                        
-                    
                 
             
         
@@ -1727,6 +1703,12 @@ SNI.Food.NavCtrl.setDDLoad();
 
 
 
+
+	
+	    
+	        This bread-free BLT is made for bacon lovers. Creamy, cool, refreshing, and packed with crispy bacon and still healthy. It's like a summer[ salad you can enjoy on the go.]
+	    
+	
 
 
         
@@ -1832,37 +1814,16 @@ if (!SNI.globalToolbarPinterestTracked) {
 
 	
 		
-            
-                
-                
-                    
-                    
-                        
-                         
-                            
-                        
-                    
-                
-            
+        
+			
 
-            
-            
 
-                
-					
-					    
-                            
-                                
-                                    
-                                
-                                
-                            
-                            
-                        
-                        4 videos | Roman-Style Chicken (06:11)
-                    
-                
-		
+
+	
+	
+
+Iceberg BLTs
+
         
 	
 
@@ -1879,14 +1840,14 @@ if (!SNI.globalToolbarPinterestTracked) {
 
     
         
-            Total Time:1 hr
+            Total Time:30 min
         
         
-            Prep:20 min
+            Prep:10 min
         
         
         
-            Cook:40 min
+            Cook:20 min
         
     
 
@@ -1901,7 +1862,7 @@ if (!SNI.globalToolbarPinterestTracked) {
 	
 		
 			Yield:
-			6 servings
+			2 servings
 		
 	
 	
@@ -1931,31 +1892,31 @@ if (!SNI.globalToolbarPinterestTracked) {
             Per Serving
 	        
                 Calories
-                266
+                230
 			
-                Total Fat  
-                13 g
+                Fat
+                17 g
 			
-                Saturated Fat
-                2 g
+                (Saturated
+                4.5 g
 			
-                Protein
-                28 g 
-			
-                Total Carbohydrates
-                8 g
-			
-                Sugar
-                4 g
-			
-                Fiber 
-                1.5 g
-			
-                Cholesterol 
-                76 mg
+                Cholesterol
+                30 mg
 			
                 Sodium
-                1,307 mg
+                870 mg
+			
+                Carbohydrate
+                10 g
+			
+                Fiber
+                3 g
+			
+                Protein
+                12 g
+			
+                Sugar
+                6 g
 			
 		
 	
@@ -1990,8 +1951,6 @@ if (!SNI.globalToolbarPinterestTracked) {
             
 
             
-                
-            
 
             
                 
@@ -2002,14 +1961,14 @@ if (!SNI.globalToolbarPinterestTracked) {
 
     
         
-            Total Time:1 hr
+            Total Time:30 min
         
         
-            Prep:20 min
+            Prep:10 min
         
         
         
-            Cook:40 min
+            Cook:20 min
         
     
 
@@ -2028,7 +1987,7 @@ if (!SNI.globalToolbarPinterestTracked) {
 	
 		
 			Yield:
-			6 servings
+			2 servings
 		
 	
 	
@@ -2062,31 +2021,31 @@ if (!SNI.globalToolbarPinterestTracked) {
             Per Serving
 	        
                 Calories
-                266
+                230
 			
-                Total Fat  
-                13 g
+                Fat
+                17 g
 			
-                Saturated Fat
-                2 g
+                (Saturated
+                4.5 g
 			
-                Protein
-                28 g 
-			
-                Total Carbohydrates
-                8 g
-			
-                Sugar
-                4 g
-			
-                Fiber 
-                1.5 g
-			
-                Cholesterol 
-                76 mg
+                Cholesterol
+                30 mg
 			
                 Sodium
-                1,307 mg
+                870 mg
+			
+                Carbohydrate
+                10 g
+			
+                Fiber
+                3 g
+			
+                Protein
+                12 g
+			
+                Sugar
+                6 g
 			
 		
 	
@@ -2116,227 +2075,11 @@ if (!SNI.globalToolbarPinterestTracked) {
     
         
         
-            Roman-Style Chicken
+            Iceberg BLTs
         
       
 
 
-
-
-
-
-
-$("head").append('');
-
-
- 
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-  
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-      
-      
-    
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-        
-        
-          
-          
-        
-        
-        
-        
-        
-    
-
-
-
-
-  
-    
-  
-  
-    
-      
-      
-      
-      
-      
-          
-              Roman-Style Chicken
-              (06:11)
-          
-          Make this dish ahead of time and heat it up when you're ready to serve it.
-      
-    
-  
-
-
-
-  if ((!CQ) || (CQ && !CQ.WCM) || (CQ && CQ.WCM && (!(CQ.WCM.isEditMode())))) {
-    var pdkRecipeInline;
-  
-    
-      pdkRecipeInline = SNI.Food.Video.RecipeInlinePlayer (
-          $.extend(true, {}, { player: { autoplay: false, containerId: 'player-channel' }},
-                          
-                            
-                             
-                              { alternateEndframe: { frameId: "nextEndframe-player-channel" } },
-                            
-                          
-                              { freewheel: { adContainerId: "obtwHQXTODWC" } },
-                              {"channels": [{
-  "title": "Roman-Style Chicken Top 100",
-  "start": 0,
-  "end": 3,
-  "total": 4,
-  "videos": [
-    {
-      "releaseUrl": "http://link.theplatform.com/s/ip77QC/A3HVNwwNqoAs?&format=SMIL&MBR=true",
-      "mpxId": "http://data.media.theplatform.com/media/data/Media/276764739918",
-      "title": "Roman-Style Chicken",
-      "description": "Make this dish ahead of time and heat it up when you're ready to serve it.",
-      "length_hhmmss": "06:11",
-      "length": 371,
-      "length_sss": 371,
-      "nlvid": "0124791",
-      "scrid": "590432",
-      "cmsid": "39c08cc4-8889-45b1-9c9b-6b50b8cae0d7",
-      "relatedText": "Get the recipe",
-      "relatedUrl": "/recipes/giada-de-laurentiis/roman-style-chicken-recipe/index.html",
-      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/776/435/0124791_92x69.jpg",
-      "videoFormat": "SD",
-      "showName": "Everyday Italian",
-      "showUrl": "/content/food/shows/e/everyday-italian.html",
-      "hostName": "Giada De Laurentiis",
-      "hostUrl": "/content/food/chefs/giada-de-laurentiis.html",
-      "hasSponsorship": false,
-      "embedUrl": "http://www.foodnetwork.com/videos/roman-style-chicken-0124791.embed.html"
-    },
-    {
-      "releaseUrl": "http://link.theplatform.com/s/ip77QC/XkfWGRx8PWVx?&format=SMIL&MBR=true",
-      "mpxId": "http://data.media.theplatform.com/media/data/Media/276316227665",
-      "title": "How to Julienne and Dice",
-      "description": "Step up your knife skills with our tutorial on three classic cuts.",
-      "length_hhmmss": "01:57",
-      "length": 117,
-      "length_sss": 117,
-      "nlvid": "0154931",
-      "scrid": "1116822",
-      "cmsid": "7df4438d-f51a-460d-942c-13e9ea44b191",
-      "relatedText": "Step-by-step photos",
-      "relatedUrl": "/how-to/how-to-julienne-dice-and-more/pictures/index.html",
-      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/348/707/0154931_92x69.jpg",
-      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/348/707/0154931_126x71.jpg",
-      "videoFormat": "HD",
-      "showName": "",
-      "showUrl": "",
-      "hostName": "",
-      "hostUrl": "",
-      "hasSponsorship": false,
-      "embedUrl": "http://www.foodnetwork.com/videos/how-to-julienne-and-dice-0154931.embed.html"
-    },
-    {
-      "releaseUrl": "http://link.theplatform.com/s/ip77QC/nWbIpHck9YlV?format=SMIL&MBR=true",
-      "mpxId": "http://data.media.theplatform.com/media/data/Media/275951171717",
-      "title": "How to Crush, Slice and Mince Garlic",
-      "description": "Throw out the jarred garlic and see how easy it is to mince like a pro.",
-      "length_hhmmss": "02:02",
-      "length": 122,
-      "length_sss": 122,
-      "nlvid": "0154943",
-      "scrid": "1116834",
-      "cmsid": "2222cee5-6e9a-4576-b206-af1c025c446b",
-      "relatedText": "Step-by-step photos",
-      "relatedUrl": "/how-to/packages/help-around-the-kitchen/photos/how-to-crush-slice-and-mince-garlic.html",
-      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/1024/559/0154943_92x69.jpg",
-      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/1024/559/0154943_126x71.jpg",
-      "videoFormat": "HD",
-      "showName": "",
-      "showUrl": "",
-      "hostName": "",
-      "hostUrl": "",
-      "hasSponsorship": false,
-      "embedUrl": "http://www.foodnetwork.com/videos/how-to-mince-garlic-0154943.embed.html"
-    },
-    {
-      "releaseUrl": "http://link.theplatform.com/s/ip77QC/qmIhMJZFjuAU?&format=SMIL&MBR=true",
-      "mpxId": "http://data.media.theplatform.com/media/data/Media/276323395586",
-      "title": "Washing & Chopping Leafy Herbs",
-      "description": "Avoid bruising with our tips for washing and chopping herbs.",
-      "length_hhmmss": "01:35",
-      "length": 95,
-      "length_sss": 95,
-      "nlvid": "0154934",
-      "scrid": "1116825",
-      "cmsid": "edf36ec2-97de-4a9b-82f9-058b7e42f5e8",
-      "relatedText": "Step-by-step photos",
-      "relatedUrl": "/how-to/how-to-wash-and-chop-herbs/pictures/index.html",
-      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/355/539/0154934_92x69.jpg",
-      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/355/539/0154934_126x71.jpg",
-      "videoFormat": "HD",
-      "showName": "",
-      "showUrl": "",
-      "hostName": "",
-      "hostUrl": "",
-      "hasSponsorship": false,
-      "embedUrl": "http://www.foodnetwork.com/videos/washing-and-chopping-leafy-herbs-0154934.embed.html"
-    }
-  ]
-}]},
-                              {"extras": { "selectedId": "", 
-                                          "isModule": true,
-                                          "crslContainer": ".channel-component",
-                                          "crslPromo": "#hub-video-crsl",
-                                          "initCrsl": true } } )
-        );
-    
-    
-  
-  } 
 
 
 
@@ -2369,7 +2112,7 @@ $("head").append('');
 
         
           
-          4 skinless chicken breast halves, with ribs
+          6 slices bacon (about 6 ounces)
         
       
 
@@ -2380,7 +2123,7 @@ $("head").append('');
 
         
           
-          2 skinless chicken thighs, with bones
+          1 head iceberg lettuce (2 to 2 1/2 pounds)
         
       
 
@@ -2391,7 +2134,7 @@ $("head").append('');
 
         
           
-          1/2 teaspoon salt, plus 1 teaspoon
+          2 tablespoons 2-percent Greek yogurt
         
       
 
@@ -2402,7 +2145,7 @@ $("head").append('');
 
         
           
-          1/2 teaspoon freshly ground black pepper, plus 1 teaspoon
+          1 tablespoon mayonnaise
         
       
 
@@ -2413,7 +2156,7 @@ $("head").append('');
 
         
           
-          1/4 cup olive oil
+          1 tablespoon finely chopped fresh chives
         
       
 
@@ -2424,7 +2167,7 @@ $("head").append('');
 
         
           
-          1 red bell pepper, sliced
+          1 teaspoon lemon juice
         
       
 
@@ -2435,7 +2178,7 @@ $("head").append('');
 
         
           
-          1 yellow bell pepper, sliced
+          1/2 teaspoon lemon zest
         
       
 
@@ -2446,7 +2189,7 @@ $("head").append('');
 
         
           
-          3 ounces prosciutto, chopped
+           Kosher salt and freshly ground black pepper
         
       
 
@@ -2457,84 +2200,7 @@ $("head").append('');
 
         
           
-          2 cloves garlic, chopped
-        
-      
-
-      
-
-      
-        
-
-        
-          
-          1 (15-ounce) can diced tomatoes
-        
-      
-
-      
-
-      
-        
-
-        
-          
-          1/2 cup white wine
-        
-      
-
-      
-
-      
-        
-
-        
-          
-          1 tablespoon fresh thyme leaves
-        
-      
-
-      
-
-      
-        
-
-        
-          
-          1 teaspoon fresh oregano leaves
-        
-      
-
-      
-
-      
-        
-
-        
-          
-          1/2 cup chicken stock
-        
-      
-
-      
-
-      
-        
-
-        
-          
-          2 tablespoons capers
-        
-      
-
-      
-
-      
-        
-
-        
-          
-          1/4 cup chopped fresh flat-leaf parsley leaves
+          1 small tomato, cut into 4 slices
         
       
 
@@ -2566,11 +2232,9 @@ $("head").append('');
     
 	    Directions
         
-            Watch how to make this recipe.
-        
         
             
-            Season the chicken with 1/2 teaspoon salt and 1/2 teaspoon pepper. In a heavy, large skillet, heat the olive oil over medium heat. When the oil is hot, cook the chicken until browned on both sides. Remove from the pan and set aside.Keeping the same pan over medium heat, add the peppers and prosciutto and cook until the peppers have browned and the prosciutto is crisp, about 5 minutes. Add the garlic and cook for 1 minute. Add the tomatoes, wine, and herbs. Using a wooden spoon, scrape the browned bits off the bottom of the pan. Return the chicken to the pan, add the stock, and bring the mixture to a boil. Reduce the heat and simmer, covered, until the chicken is cooked through, about 20 to 30 minutes.If serving immediately, add the capers and the parsley. Stir to combine and serve. If making ahead of time, transfer the chicken and sauce to a storage container, cool, and refrigerate. The next day, reheat the chicken to a simmer over medium heat. Stir in the capers and the parsley and serve.
+            Special equipment: parchment paperPosition a rack in the top third of the oven and preheat to 375 degrees F. Line a baking sheet with parchment paper, then arrange the bacon slices in a single layer on top.  Bake until the bacon is golden brown and crispy, 15 to 20 minutes, flipping once halfway through. Transfer the bacon to a paper-towel-lined plate to absorb any excess fat, cool and then cut each slice in half making 12 smaller strips.Meanwhile, from the top and 3 sides of the lettuce, slice 4 round "cheeks" 4 to 5 inches across to make 2 "buns".Whisk the yogurt, mayonnaise, chives, lemon juice and zest, and 1/4 teaspoon each salt and pepper together in a small bowl.Assemble the sandwiches: On a work surface, lay the lettuce "buns" cut side up and spread 1 tablespoon lemon-pepper sauce on each side. Lay six strips of bacon on each bottom bun and top with two slices of tomato. Season with a pinch of salt and pepper and sandwich with remaining lettuce buns.Copyright 2014 Television Food Network, G.P. All rights reserved.
         
     
     
@@ -2584,7 +2248,7 @@ $("head").append('');
 
     
     
-        Recipe courtesy of Giada De Laurentiis
+        From Food Network Kitchen
     
     
 
@@ -2605,7 +2269,7 @@ $("head").append('');
                         
                         
                             
-                                Chicken
+                                Bacon
                             
                             
                         
@@ -2620,7 +2284,7 @@ $("head").append('');
                         
                         
                             
-                                Dinner
+                                Healthy
                             
                             
                         
@@ -2637,25 +2301,11 @@ $("head").append('');
                         
                         
                             
-                                Simmer
+                                Diabetic
                             
                             
                         
                     
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                
-            
-                
-                    
-                
                 
             
 
@@ -2682,7 +2332,22 @@ $("head").append('');
 							
                             
                                 
-                                    Chicken 
+                                    Bacon 
+								
+                                
+							
+						
+                        
+                            
+                            
+                                
+                                
+									
+								
+							
+                            
+                                
+                                    Lettuce 
 								
                                 
 							
@@ -2697,82 +2362,7 @@ $("head").append('');
 							
                             
                                 
-                                    Vegetables 
-								
-                                
-							
-						
-				
-			
-                
-                    Course
-                    
-                        
-                            
-                            
-                                
-                                
-									
-								
-							
-                            
-                                
-                                    Dinner 
-								
-                                
-							
-						
-                        
-                            
-                            
-                                
-									
-								
-                                
-							
-                            
-                                
-                                    Main Dish 
-								
-                                
-							
-						
-				
-			
-                
-                    Technique
-                    
-                        
-                            
-                            
-                                
-									
-								
-                                
-							
-                            
-                                
-                                    Simmer 
-								
-                                
-							
-						
-				
-			
-                
-                    Cuisine
-                    
-                        
-                            
-                            
-                                
-									
-								
-                                
-							
-                            
-                                
-                                    Italian 
+                                    Tomato 
 								
                                 
 							
@@ -2786,28 +2376,13 @@ $("head").append('');
                             
                             
                                 
-                                
-									
-								
-							
-                            
-                                
-                                    Easy 
-								
-                                
-							
-						
-                        
-                            
-                            
-                                
 									
 								
                                 
 							
                             
                                 
-                                    Make Ahead 
+                                    Healthy 
 								
                                 
 							
@@ -2842,6 +2417,21 @@ $("head").append('');
 							
                             
                                 
+                                    Gluten Free 
+								
+                                
+							
+						
+                        
+                            
+                            
+                                
+                                
+									
+								
+							
+                            
+                                
                                     Low Calorie 
 								
                                 
@@ -2851,22 +2441,17 @@ $("head").append('');
                             
                             
                                 
+                                
 									
 								
-                                
 							
                             
                                 
-                                    Low Fat 
+                                    Low Carbohydrate 
 								
                                 
 							
 						
-				
-			
-                
-                    Season
-                    
                         
                             
                             
@@ -2877,7 +2462,7 @@ $("head").append('');
 							
                             
                                 
-                                    Fall 
+                                    Low Cholesterol 
 								
                                 
 							
@@ -2899,66 +2484,6 @@ $("head").append('');
 
 
 
-
-
-
-
-
-
-
-
-
-
-    
-        
-            
-            
-            
-            
-            
-            
-        
-        
-    
-    
-
-
- 
-
-    Pairs Well With
-
-
-    
-        
-            
-            
-        
-    
-    
-        
-        
-    
-        
-    
-        
-            Sangiovese
-            Bright, fruity Italian red wine
-            
-                
-                
-                    
-                        Find easy pairings for your favorite recipes, Bobby's perfect picks and party ideas.
-                    
-                
-                    
-                        Wine 101: Get All the Basics
-                    
-                
-                
-            
-        
-    
-    
 
 
 
@@ -2985,6 +2510,25 @@ $("head").append('');
 
 
   
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+      
+      
+    
+  
+
+
 
 
 
@@ -3550,27 +3094,22 @@ $("head").append('');
     
         
             
-                    Healthy Broccoli Roman Style
+                    GZ's Ultimate BLT
+                    Recipe courtesy of Geoffrey Zakarian
+                    
+            
+                    Open-Faced Roasted Tomato BLTs
                     Recipe courtesy of Food Network Kitchen
                     
             
-                    Chicken Florentine Style
-                    Recipe courtesy of Giada De Laurentiis
-                    
-            
-                    Spanish Style Chicken and Dumplings
-                    Recipe courtesy of Rachael Ray
+                    BLT - Braised Bacon, Collards and Tomato Jam
+                    Recipe courtesy of Robert Irvine
                     
             
         
                     Also Try:
                     
-                        Chicken Piccata Recipes
-                        Chicken Cacciatore Recipes
-                        Italian Recipes
-                        Zabaglione Recipes
-                        Ravioli Recipes
-                        Spaghetti Recipes
+                        Gluten-Free Recipes
                         
             
         
@@ -3977,7 +3516,7 @@ Advertisement
                 
                     
                         This recipe is featured in:
-                        Healthy Weeknight Dinners
+                        Comfort Foods, Lightened Up
                     
                     
                 
@@ -4166,7 +3705,7 @@ Food Network Sites
 	
 
 	
-window.NREUM||(NREUM={});NREUM.info={"applicationID":"4176188","applicationTime":1096,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"ca450cca9d","transactionName":"ZAYGMhNQDUQCAEILWl1MNgMQRAZEFyJCFkdaARESBB4QWQpOUA1aV0wHCQxBDFkGDUIRGkMCAwMVSBNSEExEB1ZaEwE=","agent":"js-agent.newrelic.com\/nr-768.min.js","errorBeacon":"bam.nr-data.net"}
+window.NREUM||(NREUM={});NREUM.info={"applicationID":"2623209","applicationTime":926,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"ca450cca9d","transactionName":"ZAYGMhNQDUQCAEILWl1MNgMQRAZEFyJCFkdaARESBB4QWQpOUA1aV0wHCQxBDFkGDUIRGkMCAwMVSBNSEExEB1ZaEwE=","agent":"js-agent.newrelic.com\/nr-768.min.js","errorBeacon":"bam.nr-data.net"}
 
     
 
