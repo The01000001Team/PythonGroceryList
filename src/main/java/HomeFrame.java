@@ -210,7 +210,7 @@ public class HomeFrame extends JFrame {
 						textArea_Url.setText("");
 					}else{
 						textAreaStatus.setText("Adding URL... This may take a moment...");
-						recipeManager.addUrl(textArea_Url.getText());
+						recipeManager.addUrl(textArea_Url.getText(), textArea_Url);
 						textAreaStatus.setText("Added!");
 						textArea_Url.setText("");
 					}
