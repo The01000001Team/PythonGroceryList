@@ -1,7 +1,6 @@
 package main.java;
 
 import javax.swing.DefaultListModel;
-import javax.swing.JTextArea;
 
 import main.python.PyInterpreter;
 
