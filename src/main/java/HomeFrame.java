@@ -30,6 +30,9 @@ import java.io.IOException;
 import java.awt.event.ActionEvent;
 import javax.swing.JScrollPane;
 import javax.swing.ScrollPaneConstants;
+import javax.swing.JTextField;
+import java.awt.Color;
+import java.awt.SystemColor;
 
 public class HomeFrame extends JFrame {
 
@@ -38,12 +41,13 @@ public class HomeFrame extends JFrame {
 	private JList list_recipe;
 	private JButton btnEdit;
 	private JButton btnDelete;
-	private JTextArea textArea_Url;
+	private JTextField textField_Url;
 	DefaultListModel recipeModel;
 	private JButton btnPaste;
 	private JLabel lblStatus;
 	private JTextArea textAreaStatus;
 	private JScrollPane scrollPaneList;
+	private JTextArea txtrInstructionsEnterA;
 
 	/**
 	 * Create the frame.
@@ -56,17 +60,10 @@ public class HomeFrame extends JFrame {
 		setContentPane(contentPane);
 		GridBagLayout gbl_contentPane = new GridBagLayout();
 		gbl_contentPane.columnWidths = new int[]{100, 180, 180, 0};
-		gbl_contentPane.rowHeights = new int[]{0, 0, 0, -19, 69, 0, 0};
+		gbl_contentPane.rowHeights = new int[]{0, 0, 50, 0, 0, -19, 69, 0, 0};
 		gbl_contentPane.columnWeights = new double[]{1.0, 1.0, 0.0, Double.MIN_VALUE};
-		gbl_contentPane.rowWeights = new double[]{0.0, 0.0, 1.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
+		gbl_contentPane.rowWeights = new double[]{0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
 		contentPane.setLayout(gbl_contentPane);
-
-		JLabel lblInstructions = new JLabel("Instructions:");
-		GridBagConstraints gbc_lblInstructions = new GridBagConstraints();
-		gbc_lblInstructions.insets = new Insets(0, 0, 5, 5);
-		gbc_lblInstructions.gridx = 0;
-		gbc_lblInstructions.gridy = 0;
-		contentPane.add(lblInstructions, gbc_lblInstructions);
 
 		lblYourGroceryList = new JLabel("Your Grocery List:");
 		GridBagConstraints gbc_lblYourGroceryList = new GridBagConstraints();
@@ -76,20 +73,12 @@ public class HomeFrame extends JFrame {
 		gbc_lblYourGroceryList.gridy = 0;
 		contentPane.add(lblYourGroceryList, gbc_lblYourGroceryList);
 
-		JLabel lblPasteUrlsInto = new JLabel("Paste URLs Into the Box Below");
-		GridBagConstraints gbc_lblPasteUrlsInto = new GridBagConstraints();
-		gbc_lblPasteUrlsInto.anchor = GridBagConstraints.WEST;
-		gbc_lblPasteUrlsInto.insets = new Insets(0, 0, 5, 5);
-		gbc_lblPasteUrlsInto.gridx = 0;
-		gbc_lblPasteUrlsInto.gridy = 1;
-		contentPane.add(lblPasteUrlsInto, gbc_lblPasteUrlsInto);
-
 		recipeModel = recipeManager.getListModel();
 		
 		scrollPaneList = new JScrollPane();
 		scrollPaneList.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 		GridBagConstraints gbc_scrollPaneList = new GridBagConstraints();
-		gbc_scrollPaneList.gridheight = 4;
+		gbc_scrollPaneList.gridheight = 6;
 		gbc_scrollPaneList.gridwidth = 2;
 		gbc_scrollPaneList.insets = new Insets(0, 0, 5, 0);
 		gbc_scrollPaneList.fill = GridBagConstraints.BOTH;
@@ -115,39 +104,50 @@ public class HomeFrame extends JFrame {
 				}
 			}
 		});
+		
+		txtrInstructionsEnterA = new JTextArea();
+		txtrInstructionsEnterA.setBackground(SystemColor.window);
+		txtrInstructionsEnterA.setText("Instructions: Enter a valid URL in the box below and press 'Enter'");
+		txtrInstructionsEnterA.setEditable(false);
+		txtrInstructionsEnterA.setLineWrap(true);
+		GridBagConstraints gbc_txtrInstructionsEnterA = new GridBagConstraints();
+		gbc_txtrInstructionsEnterA.insets = new Insets(0, 0, 5, 5);
+		gbc_txtrInstructionsEnterA.fill = GridBagConstraints.BOTH;
+		gbc_txtrInstructionsEnterA.gridx = 0;
+		gbc_txtrInstructionsEnterA.gridy = 2;
+		contentPane.add(txtrInstructionsEnterA, gbc_txtrInstructionsEnterA);
 
-		textArea_Url = new JTextArea();
-		textArea_Url.setLineWrap(true);
-		GridBagConstraints gbc_textArea_Url = new GridBagConstraints();
-		gbc_textArea_Url.insets = new Insets(0, 0, 5, 5);
-		gbc_textArea_Url.fill = GridBagConstraints.BOTH;
-		gbc_textArea_Url.gridx = 0;
-		gbc_textArea_Url.gridy = 2;
-		contentPane.add(textArea_Url, gbc_textArea_Url);
+		textField_Url = new JTextField();
+		GridBagConstraints gbc_textField_Url = new GridBagConstraints();
+		gbc_textField_Url.anchor = GridBagConstraints.NORTH;
+		gbc_textField_Url.insets = new Insets(0, 0, 5, 5);
+		gbc_textField_Url.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textField_Url.gridx = 0;
+		gbc_textField_Url.gridy = 3;
+		contentPane.add(textField_Url, gbc_textField_Url);
 
 		lblStatus = new JLabel("Status:");
 		GridBagConstraints gbc_lblStatus = new GridBagConstraints();
 		gbc_lblStatus.anchor = GridBagConstraints.WEST;
 		gbc_lblStatus.insets = new Insets(0, 0, 5, 5);
 		gbc_lblStatus.gridx = 0;
-		gbc_lblStatus.gridy = 3;
+		gbc_lblStatus.gridy = 5;
 		contentPane.add(lblStatus, gbc_lblStatus);
 
 		textAreaStatus = new JTextArea();
 		textAreaStatus.setEditable(false);
-		textArea_Url.setLineWrap(true);
 		GridBagConstraints gbc_textAreaStatus = new GridBagConstraints();
 		gbc_textAreaStatus.insets = new Insets(0, 0, 5, 5);
 		gbc_textAreaStatus.fill = GridBagConstraints.BOTH;
 		gbc_textAreaStatus.gridx = 0;
-		gbc_textAreaStatus.gridy = 4;
+		gbc_textAreaStatus.gridy = 6;
 		contentPane.add(textAreaStatus, gbc_textAreaStatus);
 
 		btnPaste = new JButton("Paste");
 		GridBagConstraints gbc_btnPaste = new GridBagConstraints();
 		gbc_btnPaste.insets = new Insets(0, 0, 0, 5);
 		gbc_btnPaste.gridx = 0;
-		gbc_btnPaste.gridy = 5;
+		gbc_btnPaste.gridy = 7;
 		contentPane.add(btnPaste, gbc_btnPaste);
 
 		btnEdit = new JButton("Edit...");
@@ -155,14 +155,14 @@ public class HomeFrame extends JFrame {
 		GridBagConstraints gbc_btnEdit = new GridBagConstraints();
 		gbc_btnEdit.insets = new Insets(0, 0, 0, 5);
 		gbc_btnEdit.gridx = 1;
-		gbc_btnEdit.gridy = 5;
+		gbc_btnEdit.gridy = 7;
 		contentPane.add(btnEdit, gbc_btnEdit);
 
 		btnDelete = new JButton("Delete...");
 		btnDelete.setEnabled(false);
 		GridBagConstraints gbc_btnDelete = new GridBagConstraints();
 		gbc_btnDelete.gridx = 2;
-		gbc_btnDelete.gridy = 5;
+		gbc_btnDelete.gridy = 7;
 		contentPane.add(btnDelete, gbc_btnDelete);
 
 		/**************************************************************
@@ -210,7 +210,7 @@ public class HomeFrame extends JFrame {
 								(DataFlavor.stringFlavor)) {
 							String s = (String)(clipData.getTransferData(
 									DataFlavor.stringFlavor));
-							textArea_Url.replaceSelection(s);
+							textField_Url.replaceSelection(s);
 						}
 					} catch (UnsupportedFlavorException ufe) {
 						System.err.println("Flavor unsupported: " + ufe);
@@ -227,23 +227,22 @@ public class HomeFrame extends JFrame {
 			public void keyReleased(KeyEvent e) {}  
 			public void keyPressed(KeyEvent e) {
 				if(e.getKeyCode() == KeyEvent.VK_ENTER){
-					if(textArea_Url.getText().length() <= 10){
+					if(textField_Url.getText().length() <= 10){
 						textAreaStatus.setText("Entered too short of a url...");
-						textArea_Url.setText("");
+						textField_Url.setText("");
 					}else{
 						textAreaStatus.setText("Adding URL... This may take a moment...");
-						int returned = recipeManager.addUrl(textArea_Url.getText());
+						int returned = recipeManager.addUrl(textField_Url.getText());
 						if(returned == 0) {textAreaStatus.setText("Added!");}
 						else{ textAreaStatus.setText("The entered URL was not valid");}
-						textArea_Url.setText(null);
-						textArea_Url.setCaretPosition(0);
+						textField_Url.setText(null);
+						textField_Url.setCaretPosition(0);
 					}
 				}else{
 					textAreaStatus.setText("Press Enter to Submit!");
 				}
 			} 
 		}
-		textArea_Url.addKeyListener(new EnterListener());
 	}
 
 }
