@@ -46,7 +46,7 @@ public class HomeFrame extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public HomeFrame(ListManager recipeManager) {
+	public HomeFrame(final ListManager recipeManager) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 600, 500);
 		contentPane = new JPanel();
@@ -193,9 +193,8 @@ public class HomeFrame extends JFrame {
 				if(isRunning){return;}
 
 				isRunning = true;
-				//PARSE DIS SHEET
-				String[] recipe = PyInterpreter.execPyFile("Scrapper", textArea_Url.getText());
-				recipeModel.addElement(recipe[0]);
+				recipeManager.addUrl(textArea_Url.getText());
+				
 
 				SwingUtilities.invokeLater(new Runnable() 
 				{
