@@ -14,6 +14,7 @@ public class Main {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
+					launchPyFile("Scrapper");
 					HomeFrame frame = new HomeFrame(recipeModel);
 					frame.setVisible(true);
 				} catch (Exception e) {
@@ -27,7 +28,7 @@ public class Main {
 	 * 
 	 * @param fileName Name of the .py file
 	 */
-	public void launchPyFile(String fileName) {
+	public static void launchPyFile(String fileName) {
 		PyInterpreter.execPyFile(fileName);
 	}
 }

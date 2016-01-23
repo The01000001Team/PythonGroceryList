@@ -1,0 +1,4179 @@
+Roman-Style Chicken Recipe : Giada De Laurentiis : Food Network
+    
+    
+    
+    	
+    
+
+    
+   	
+   	
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+             
+
+
+
+
+
+
+    
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;op;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r
+
+    
+    
+
+
+
+
+
+	
+	
+
+
+
+
+
+	 
+
+
+
+    
+    
+
+
+
+    if (typeof AUT === "undefined") { AUT = {}; AUT.jserrors = []; }
+    window.onerror = function(message, url, linenumber){
+        AUT.jserrors.push({ 'message': message, 'url': url, 'linenumber': linenumber });
+    };
+
+
+
+    
+
+  
+
+    
+        var crtg_nid = '3261';
+        var crtg_cookiename = 'crtg_scripps';
+        var crtg_varname = 'crtg_content';
+        function crtg_getCookie(c_name){ var i,x,y,ARRCookies=document.cookie.split(";");for(i=0;i0)document.getElementsByTagName("head")[0].appendChild(crtg_script);
+        else if(document.getElementsByTagName("body").length>0)document.getElementsByTagName("body")[0].appendChild(crtg_script);
+        })();
+    
+    
+
+
+    
+    	
+    	
+
+    
+    
+
+
+	
+
+
+        
+        
+        
+            
+
+            
+
+
+
+
+            
+            
+
+        
+        
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+SNI.Food.printTarget = "&#x2f;content&#x2f;food&#x2f;recipes&#x2f;giada-de-laurentiis&#x2f;r&#x2f;ro&#x2f;rom&#x2f;roma&#x2f;roman-style-chicken-recipe.print.html";
+
+
+	
+	
+		window._taboola = window._taboola || [];
+		_taboola.push({
+			article: 'auto',tracking:'ic1=tbla'
+		});
+		! function (e, f, u) {
+			e.async = 1;
+			e.src = u;
+			f.parentNode.insertBefore(e, f);
+		}(document.createElement('script'), document.getElementsByTagName('script')[0], 'http://cdn.taboola.com/libtrc/foodnetwork/loader.js');
+	
+
+
+	
+  
+  
+	
+    
+
+
+
+    
+    
+    
+    
+	
+	  
+		
+	
+    
+    
+
+
+    if (typeof MetaDataManager != "undefined") {
+    	var mdManager = new MetaDataManager();
+        var mdProps = {"Cuisine":"prosciutto;chicken breast;chicken thighs;red bell pepper;yellow bell pepper;cloves garlic;chicken stock;flat-leaf parsley leaves;","OrigPubDate":"2015-07-22T10:15:22.809-04:00|2016-01-05T19:16:15.031-05:00","talentName":"giada de laurentiis","Url":"/recipes/giada-de-laurentiis/roman-style-chicken-recipe.html","CrosslinkTerms":";prosciutto,;chicken breast,;chicken thighs,;red bell pepper,;yellow bell pepper,;cloves garlic,;chicken stock,;flat-leaf parsley leaves","ContentTag1":"chicken","HubSponsor":"healthyeveryweek_mains","SctnDspName":"recipes &amp; how-tos","Nutrition":"low-fat,diabetic,low-calorie","Title":"roman-style chicken","PackageName":"healthy weeknight dinners","Delivery_Channel":"web","HubID":"90a37e62-ceb0-42a6-8d83-804bb524d1af","FastFwdID":"33365","Type":"recipe","CategoryDspName":"recipes &amp; how-tos","DetailId":"90a37e62-ceb0-42a6-8d83-804bb524d1af","PageNumber":"1","MealType":"dinner","Restricted":"false","Ingredients":"prosciutto;chicken breast;chicken thighs;red bell pepper;yellow bell pepper;cloves garlic;chicken stock;flat-leaf parsley leaves;","HubPath":"/content/food/recipes/giada-de-laurentiis/r/ro/rom/roma/roman-style-chicken-recipe","MainIngredient":"prosciutto;chicken breast;chicken thighs;red bell pepper;yellow bell pepper;cloves garlic;chicken stock;flat-leaf parsley leaves;","Site":"food","Dish":"prosciutto;chicken breast;chicken thighs;red bell pepper;yellow bell pepper;cloves garlic;chicken stock;flat-leaf parsley leaves;","MealPart":"dinner,lunch,main-dish","ImgURL":"http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2011/11/23/0/FN_roman-chicken-011_s4x3.jpg","Section":"recipes","AllTags":"easy,european,diabetic,low-calorie,make-ahead,healthy,american,prosciutto,main-dish,dinner,low-fat,simmer,for-a-family,chicken,italian","CanonicalUrl":"http://www.foodnetwork.com/recipes/giada-de-laurentiis/roman-style-chicken-recipe.html","Source":"cooking","Technique":"simmer","HubType":"recipe","UniqueID":"food|recipe|90a37e62-ceb0-42a6-8d83-804bb524d1af|1","Classification":"recipes, food","AdKey1":"healthy","Difficulty":"easy","ContentTag2":"italian","Sponsorship":"HEALTHYEVERYWEEK_MAINS","PrepTime":"20"};
+    	for (var key in mdProps) {
+            mdManager.addAttribute(key, mdProps[key]);
+    	}
+    }
+
+
+
+
+
+
+
+
+    if (typeof mdManager != "undefined") {
+        mdManager.addParameter('UserId', typeof userIdCookieUserId != "undefined" ? userIdCookieUserId : '');
+        mdManager.addParameter('UserIdEmail', typeof userIdEmail != "undefined" ? userIdEmail : '');
+        mdManager.addParameter('UserIdCreateDt', typeof userIdCookieCreateDt != "undefined" ? userIdCookieCreateDt : '');
+        mdManager.addParameter('UserIdVersion',  typeof userIdCookieVersion != "undefined" ? userIdCookieVersion : '');
+    }
+
+
+
+    if (typeof AdManager != "undefined") {
+		var adManager = new AdManager();
+        initAdManager(adManager, mdManager);
+    }
+
+    
+
+
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+	// SNI add custom initializations
+	if( CQ_Analytics && CQ_Analytics.PageDataMgr) {
+    CQ_Analytics.PageDataMgr.loadInitProperties({
+  "hits": 0,
+  "title": "Roman-Style Chicken",
+  "path": "/content/food/recipes/giada-de-laurentiis/r/ro/rom/roma/roman-style-chicken-recipe",
+  "navTitle": "Roman-Style Chicken",
+  "tags": "",
+  "description": "",
+  "sitesection": "recipes",
+  "subsection": "giada-de-laurentiis",
+  "random": "0.48"
+}, true);
+}
+
+    
+if( CQ_Analytics && CQ_Analytics.PageDataMgr && mdManager) {
+var mapping = [{"p":"url","m":"Url"},{"p":"title","m":"Title"},{"p":"siteName","m":"Site"},{"p":"sectionDisplayName","m":"SctnDspName"},{"p":"categoryDisplayName","m":"CategoryDspName"},{"p":"classification","m":"Classification"},{"p":"detailId","m":"DetailId"},{"p":"uniqueId","m":"UniqueId"},{"p":"pageNumber","m":"PageNumber"},{"p":"type","m":"Type"},{"p":"hubId","m":"HubId"},{"p":"hubPath","m":"hubPath"},{"p":"hubType","m":"HubType"},{"p":"hubSponsor","m":"HubSponsor"},{"p":"adkey1","m":"AdKey1"},{"p":"adkey2","m":"AdKey2"},{"p":"contentTag1","m":"ContentTag1"},{"p":"contentTag2","m":"ContentTag2"},{"p":"sponsorship","m":"Sponsorship"},{"p":"deliveryFormat","m":"DelvFrmt"},{"p":"showAbbreviation","m":"Show_Abbr"},{"p":"talentName","m":"TalentName"},{"p":"userId","m":"UserID"},{"p":"source","m":"Source"},{"p":"deliveryChannel","m":"Delivery_Channel"},{"p":"packageName","m":"PackageName"},{"p":"searchFilter","m":"Filter"},{"p":"searchKeywords","m":"Keywords"},{"p":"searchTerms","m":"SearchTerms"},{"p":"keyterm","m":"keyterm"},{"p":"dimensions","m":"dimensions"},{"p":"dimensionValues","m":"dimensionValues"},{"p":"searchSort","m":"Sort"},{"p":"noSearchResults","m":"NoSearchResults"},{"p":"didYouMeanTerm","m":"dymterm"},{"p":"spotlight1","m":"Spotlight_1"},{"p":"spotlight2","m":"Spotlight_2"},{"p":"dish","m":"Dish"},{"p":"mealType","m":"MealType"},{"p":"nutrition","m":"Nutrition"},{"p":"difficulty","m":"Difficulty"},{"p":"cuisine","m":"Cuisine"},{"p":"mainIngredeient","m":"MainIngredient"},{"p":"occasions","m":"Occasions"},{"p":"courses","m":"Courses"},{"p":"technique","m":"Technique"},{"p":"taste","m":"Taste"},{"p":"internalSearchType","m":"internalSearchType"},{"p":"restricted ","m":"Restricted"},{"p":"origPubDate","m":"OrigPubDate"},{"p":"ingredients","m":"Ingredients"},{"p":"sniGuid","m":"SniGuid"}];
+    $CQ.each(mapping, function(index, value) {
+       CQ_Analytics.PageDataMgr.setProperty(value.p, mdManager.getParameterString(value.m));
+    });
+}
+
+    
+if (typeof localStorage !== "undefined") {
+    if (localStorage.getItem('clicktracking.originalUrl') != null) {
+        if (typeof CQ_Analytics !== "undefined" && CQ_Analytics.EventDataMgr) {
+            CQ_Analytics.EventDataMgr.setProperty('componentName', localStorage.getItem('clicktracking.moduleName'));
+            CQ_Analytics.EventDataMgr.setProperty('linkTitle', localStorage.getItem('clicktracking.linkTitle'));
+            CQ_Analytics.EventDataMgr.setProperty('linkPosition', localStorage.getItem('clicktracking.linkPosition'));
+            CQ_Analytics.EventDataMgr.setProperty('targetUrl', localStorage.getItem('clicktracking.targetUrl'));
+            CQ_Analytics.EventDataMgr.setProperty('originUrl', localStorage.getItem('clicktracking.originalUrl'));
+
+            localStorage.removeItem('clicktracking.moduleName');
+            localStorage.removeItem('clicktracking.linkTitle');
+            localStorage.removeItem('clicktracking.linkPosition');
+            localStorage.removeItem('clicktracking.targetUrl');
+            localStorage.removeItem('clicktracking.originalUrl');
+        }
+    }
+}
+
+    // SNI end custom initializations
+
+    $CQ(function() {
+        CQ_Analytics.SegmentMgr.loadSegments("/etc/segmentation");
+        CQ_Analytics.ClientContextUtils.init("/etc/clientcontext/default","/content/food/recipes/giada-de-laurentiis/r/ro/rom/roma/roman-style-chicken-recipe");
+
+        
+    });
+
+
+
+    
+
+
+
+
+
+
+options 
+ * object is provided only variables matching the options.componentPath are set.
+ *
+ * @param {Object} options Parameter object from CQ_Analytics.record() call. Optional.
+ */
+CQ_Analytics.Sitecatalyst.updateEvars = function(options) {
+    this.frameworkMappings = [];
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/secondary-2-image-plus-link-list-full"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/secondary-2-image-plus-link-list-full"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/secondary-2-image-plus-link-list-full"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/secondary-2-image-plus-link-list-full"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/secondary-2-image-plus-link-list-full"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/pagetypes/recipe/components/save-recipe"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/pagetypes/recipe/components/save-recipe"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/pagetypes/recipe/components/save-recipe"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/pagetypes/recipe/components/save-recipe"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/pagetypes/recipe/components/save-recipe"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/banner-custom"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/banner-custom"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/banner-custom"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/banner-custom"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/banner-custom"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/a-to-z/otr-hosts-a-z"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/a-to-z/otr-hosts-a-z"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/a-to-z/otr-hosts-a-z"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/a-to-z/otr-hosts-a-z"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/a-to-z/otr-hosts-a-z"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/pagetypes/video-center/components/stacked-module"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/pagetypes/video-center/components/stacked-module"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/pagetypes/video-center/components/stacked-module"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/pagetypes/video-center/components/stacked-module"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/pagetypes/video-center/components/stacked-module"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/carousel-photo-gallery-promo"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/carousel-photo-gallery-promo"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/carousel-photo-gallery-promo"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/carousel-photo-gallery-promo"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/carousel-photo-gallery-promo"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/restaurant-browse"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/restaurant-browse"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/restaurant-browse"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/restaurant-browse"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/restaurant-browse"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/pagetypes/video-center/components/lead-carousel-module"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/pagetypes/video-center/components/lead-carousel-module"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/pagetypes/video-center/components/lead-carousel-module"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/pagetypes/video-center/components/lead-carousel-module"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/pagetypes/video-center/components/lead-carousel-module"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/pagetypes/topic/components/more-topics"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/pagetypes/topic/components/more-topics"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/pagetypes/topic/components/more-topics"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/pagetypes/topic/components/more-topics"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/pagetypes/topic/components/more-topics"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/secondary-3-image-across"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/secondary-3-image-across"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/secondary-3-image-across"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/secondary-3-image-across"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/secondary-3-image-across"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/modules/recirculation-module"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/modules/recirculation-module"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/modules/recirculation-module"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/modules/recirculation-module"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/modules/recirculation-module"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/list-recipe-enhanced"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/list-recipe-enhanced"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/list-recipe-enhanced"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/list-recipe-enhanced"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/list-recipe-enhanced"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/list-recipe-text"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/list-recipe-text"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/list-recipe-text"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/list-recipe-text"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/list-recipe-text"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/talent-about"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/talent-about"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/talent-about"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/talent-about"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/talent-about"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/list-selected-shows"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/list-selected-shows"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/list-selected-shows"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/list-selected-shows"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/list-selected-shows"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/pagetypes/search-results/components/search-upcoming-episodes"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/pagetypes/search-results/components/search-upcoming-episodes"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/pagetypes/search-results/components/search-upcoming-episodes"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/pagetypes/search-results/components/search-upcoming-episodes"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/pagetypes/search-results/components/search-upcoming-episodes"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/util/header/shows-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/util/header/shows-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/util/header/shows-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/util/header/shows-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/util/header/shows-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/free-form-text"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/free-form-text"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/free-form-text"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/free-form-text"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/free-form-text"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/pagetypes/recipe/components/categories-popover"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/pagetypes/recipe/components/categories-popover"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/pagetypes/recipe/components/categories-popover"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/pagetypes/recipe/components/categories-popover"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/pagetypes/recipe/components/categories-popover"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/util/header/videos-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/util/header/videos-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/util/header/videos-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/util/header/videos-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/util/header/videos-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/generic-1-image"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/generic-1-image"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/generic-1-image"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/generic-1-image"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/generic-1-image"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/util/mobile-header"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/util/mobile-header"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/util/mobile-header"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/util/mobile-header"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/util/mobile-header"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/pagetypes/recipe/components/fixed-promo"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/pagetypes/recipe/components/fixed-promo"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/pagetypes/recipe/components/fixed-promo"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/pagetypes/recipe/components/fixed-promo"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/pagetypes/recipe/components/fixed-promo"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/carousel-circle-display"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/carousel-circle-display"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/carousel-circle-display"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/carousel-circle-display"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/carousel-circle-display"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/pagetypes/video-center/components/big-thumb-two-row-module"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/pagetypes/video-center/components/big-thumb-two-row-module"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/pagetypes/video-center/components/big-thumb-two-row-module"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/pagetypes/video-center/components/big-thumb-two-row-module"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/pagetypes/video-center/components/big-thumb-two-row-module"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/modules/map"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/modules/map"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/modules/map"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/modules/map"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/modules/map"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/lead-enhanced"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/lead-enhanced"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/lead-enhanced"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/lead-enhanced"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/lead-enhanced"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/lead-3-image"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/lead-3-image"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/lead-3-image"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/lead-3-image"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/lead-3-image"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/schedule-full-width"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/schedule-full-width"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/schedule-full-width"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/schedule-full-width"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/schedule-full-width"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/show-host-about"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/show-host-about"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/show-host-about"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/show-host-about"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/show-host-about"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/newsletter-dropdown"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/newsletter-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/newsletter-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/newsletter-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/newsletter-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/newsletter-content-well-top"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/newsletter-content-well-top"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/newsletter-content-well-top"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/newsletter-content-well-top"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/newsletter-content-well-top"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/breadcrumb"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/breadcrumb"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/breadcrumb"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/breadcrumb"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/breadcrumb"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/carousel-video-promo"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/carousel-video-promo"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/carousel-video-promo"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/carousel-video-promo"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/carousel-video-promo"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/a-to-z/otr-shows-a-z"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/a-to-z/otr-shows-a-z"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/a-to-z/otr-shows-a-z"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/a-to-z/otr-shows-a-z"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/a-to-z/otr-shows-a-z"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/secondary-grid-hover"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/secondary-grid-hover"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/secondary-grid-hover"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/secondary-grid-hover"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/carousel-cross-content"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/carousel-cross-content"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/carousel-cross-content"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/carousel-cross-content"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/carousel-cross-content"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/util/sub-navigation"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/util/sub-navigation"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/util/sub-navigation"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/util/sub-navigation"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/util/sub-navigation"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/util/header/recipes-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/util/header/recipes-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/util/header/recipes-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/util/header/recipes-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/util/header/recipes-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/secondary-grid"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/secondary-grid"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/secondary-grid"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/secondary-grid"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/secondary-grid"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/modules/calendar"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/modules/calendar"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/modules/calendar"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/modules/calendar"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/modules/calendar"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/nav-jump-dropdown"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/nav-jump-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/nav-jump-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/nav-jump-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/nav-jump-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/a-to-z/shows-a-z"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/a-to-z/shows-a-z"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/a-to-z/shows-a-z"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/a-to-z/shows-a-z"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/a-to-z/shows-a-z"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/lead-3-image-recipe"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/lead-3-image-recipe"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/lead-3-image-recipe"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/lead-3-image-recipe"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/lead-3-image-recipe"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/util/header/restaurants-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/util/header/restaurants-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/util/header/restaurants-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/util/header/restaurants-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/util/header/restaurants-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/secondary-bottom-promo"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/secondary-bottom-promo"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/secondary-bottom-promo"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/secondary-bottom-promo"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/secondary-bottom-promo"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/util/hub-navigation"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/util/hub-navigation"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/util/hub-navigation"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/util/hub-navigation"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/util/hub-navigation"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/a-to-z/restaurants-a-z"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/a-to-z/restaurants-a-z"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/a-to-z/restaurants-a-z"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/a-to-z/restaurants-a-z"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/a-to-z/restaurants-a-z"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/pagetypes/recipe/components/recipe-direction-carousel"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/pagetypes/recipe/components/recipe-direction-carousel"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/pagetypes/recipe/components/recipe-direction-carousel"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/pagetypes/recipe/components/recipe-direction-carousel"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/pagetypes/recipe/components/recipe-direction-carousel"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/right-rail-2-image-side-by-side"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/right-rail-2-image-side-by-side"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/right-rail-2-image-side-by-side"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/right-rail-2-image-side-by-side"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/right-rail-2-image-side-by-side"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/global-toolbar"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/global-toolbar"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/global-toolbar"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/global-toolbar"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/global-toolbar"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/lead-1-image-scroll-with-stack"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/lead-1-image-scroll-with-stack"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/lead-1-image-scroll-with-stack"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/lead-1-image-scroll-with-stack"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/lead-1-image-scroll-with-stack"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/right-rail-schedule"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/right-rail-schedule"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/right-rail-schedule"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/right-rail-schedule"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/right-rail-schedule"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/util/mobile-footer/mobile-food-footer-links"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/util/mobile-footer/mobile-food-footer-links"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/util/mobile-footer/mobile-food-footer-links"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/util/mobile-footer/mobile-food-footer-links"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/util/mobile-footer/mobile-food-footer-links"});
+	this.frameworkMappings.push({scVar:"eVar4",cqVar:"pagedata.searchTerms",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"eVar5",cqVar:"pagedata.dimensions",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"event14",cqVar:"pagedata.searchTerms",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"eVar9",cqVar:"pagedata.searchSort",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"eVar6",cqVar:"pagedata.dimensionValues",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"eVar7",cqVar:"pagedata.noSearchResults",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop60",cqVar:"pagedata.deliveryChannel",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop12",cqVar:"pagedata.talentName",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop10",cqVar:"pagedata.type",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop53",cqVar:"pagedata.siteName",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"event1",cqVar:"eventdata.events.pageView",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop27",cqVar:"pagedata.noSearchResults",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop23",cqVar:"pagedata.dimensions",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop24",cqVar:"pagedata.dimensionValues",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop25",cqVar:"pagedata.searchFilter",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop21",cqVar:"pagedata.searchTerms",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop22",cqVar:"pagedata.keyterm",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop65",cqVar:"pagedata.internalSearchType",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop5",cqVar:"pagedata.sectionDisplayName",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop6",cqVar:"pagedata.title",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop9",cqVar:"pagedata.uniqueId",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop7",cqVar:"pagedata.sponsorship",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop8",cqVar:"pagedata.classification",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop40",cqVar:"pagedata.adkey1",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop32",cqVar:"pagedata.userId",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop74",cqVar:"pagedata.searchSort",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop39",cqVar:"pagedata.deliveryFormat",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"pageName",cqVar:"pagedata.url",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"eVar10",cqVar:"pagedata.userId",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop44",cqVar:"pagedata.showAbbreviation",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop43",cqVar:"pagedata.adkey2",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop42",cqVar:"pagedata.contentTag2",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop41",cqVar:"pagedata.contentTag1",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"prop46",cqVar:"pagedata.source",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"channel",cqVar:"pagedata.categoryDisplayName",resourceType:"sni-core/components/util/page"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/modules/pagination-simple"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/modules/pagination-simple"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/modules/pagination-simple"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/modules/pagination-simple"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/modules/pagination-simple"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/pagetypes/recipe/components/photo-video"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/pagetypes/recipe/components/photo-video"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/pagetypes/recipe/components/photo-video"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/pagetypes/recipe/components/photo-video"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/pagetypes/recipe/components/photo-video"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/spotlight-1-image-1-list"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/spotlight-1-image-1-list"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/spotlight-1-image-1-list"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/spotlight-1-image-1-list"});
+	this.frameworkMappings.push({scVar:"eVar41",cqVar:"eventdata.spotlightName",resourceType:"sni-core/components/modules/spotlight-1-image-1-list"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/spotlight-1-image-1-list"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/util/mobile-footer/mobile-food-footer-sociallinks"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/util/mobile-footer/mobile-food-footer-sociallinks"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/util/mobile-footer/mobile-food-footer-sociallinks"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/util/mobile-footer/mobile-food-footer-sociallinks"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/util/mobile-footer/mobile-food-footer-sociallinks"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/secondary-grid-hover-row"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/secondary-grid-hover-row"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/secondary-grid-hover-row"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/secondary-grid-hover-row"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/secondary-grid-hover-row"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/right-rail-store"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/right-rail-store"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/right-rail-store"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/right-rail-store"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/right-rail-store"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/carousel-superlead"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/carousel-superlead"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/carousel-superlead"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/carousel-superlead"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/carousel-superlead"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/right-rail-blog-feed"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/right-rail-blog-feed"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/right-rail-blog-feed"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/right-rail-blog-feed"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/right-rail-blog-feed"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/right-rail-list-selected-shows"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/right-rail-list-selected-shows"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/right-rail-list-selected-shows"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/right-rail-list-selected-shows"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/right-rail-list-selected-shows"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/spotlight-2-images-2-lists"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/spotlight-2-images-2-lists"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/spotlight-2-images-2-lists"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/spotlight-2-images-2-lists"});
+	this.frameworkMappings.push({scVar:"eVar41",cqVar:"eventdata.spotlightName",resourceType:"sni-core/components/modules/spotlight-2-images-2-lists"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/spotlight-2-images-2-lists"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/carousel-mixed-content-promo"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/carousel-mixed-content-promo"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/carousel-mixed-content-promo"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/carousel-mixed-content-promo"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/carousel-mixed-content-promo"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/list-text"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/list-text"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/list-text"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/list-text"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/list-text"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/a-to-z/chefs-hosts-a-z"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/a-to-z/chefs-hosts-a-z"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/a-to-z/chefs-hosts-a-z"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/a-to-z/chefs-hosts-a-z"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/a-to-z/chefs-hosts-a-z"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/right-rail-restaurants-nearby"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/right-rail-restaurants-nearby"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/right-rail-restaurants-nearby"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/right-rail-restaurants-nearby"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/right-rail-restaurants-nearby"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/carousel-generic-promo"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/carousel-generic-promo"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/carousel-generic-promo"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/carousel-generic-promo"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/carousel-generic-promo"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/video-player"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/video-player"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/video-player"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/video-player"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/video-player"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/right-rail-store-feed"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/right-rail-store-feed"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/right-rail-store-feed"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/right-rail-store-feed"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/right-rail-store-feed"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/banner-simple"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/banner-simple"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/banner-simple"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/banner-simple"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/banner-simple"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/util/footer/more-from-food-network"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/util/footer/more-from-food-network"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/util/footer/more-from-food-network"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/util/footer/more-from-food-network"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/util/footer/more-from-food-network"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/schedule"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/schedule"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/schedule"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/schedule"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/schedule"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/pagetypes/recipe/components/next-recipe"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/pagetypes/recipe/components/next-recipe"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/pagetypes/recipe/components/next-recipe"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/pagetypes/recipe/components/next-recipe"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/pagetypes/recipe/components/next-recipe"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/util/skinny-header"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/util/skinny-header"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/util/skinny-header"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/util/skinny-header"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/util/skinny-header"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/a-to-z/recipes-a-z"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/a-to-z/recipes-a-z"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/a-to-z/recipes-a-z"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/a-to-z/recipes-a-z"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/a-to-z/recipes-a-z"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/spotlight-1-image-2-lists"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/spotlight-1-image-2-lists"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/spotlight-1-image-2-lists"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/spotlight-1-image-2-lists"});
+	this.frameworkMappings.push({scVar:"eVar41",cqVar:"eventdata.spotlightName",resourceType:"sni-core/components/modules/spotlight-1-image-2-lists"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/spotlight-1-image-2-lists"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/pagetypes/video-center/components/two-across-module"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/pagetypes/video-center/components/two-across-module"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/pagetypes/video-center/components/two-across-module"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/pagetypes/video-center/components/two-across-module"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/pagetypes/video-center/components/two-across-module"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/util/footer"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/util/footer"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/util/footer"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/util/footer"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/util/footer"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/a-to-z/topics-a-z"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/a-to-z/topics-a-z"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/a-to-z/topics-a-z"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/a-to-z/topics-a-z"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/a-to-z/topics-a-z"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/right-rail-1-or-2-image"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/right-rail-1-or-2-image"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/right-rail-1-or-2-image"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/right-rail-1-or-2-image"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/right-rail-1-or-2-image"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/util/header"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/util/header"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/util/header"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/util/header"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/util/header"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/util/header/chefs-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/util/header/chefs-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/util/header/chefs-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/util/header/chefs-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/util/header/chefs-mega-dropdown"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/pagetypes/recipe/components/categories"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/pagetypes/recipe/components/categories"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/pagetypes/recipe/components/categories"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/pagetypes/recipe/components/categories"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/pagetypes/recipe/components/categories"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/generic-1-image-plus-link-list"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/generic-1-image-plus-link-list"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/generic-1-image-plus-link-list"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/generic-1-image-plus-link-list"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/generic-1-image-plus-link-list"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/feed-blog"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/feed-blog"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/feed-blog"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/feed-blog"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/feed-blog"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/util/footer/food-network-family"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/util/footer/food-network-family"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/util/footer/food-network-family"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/util/footer/food-network-family"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/util/footer/food-network-family"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/more-recipe-ideas"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/more-recipe-ideas"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/more-recipe-ideas"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/more-recipe-ideas"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/more-recipe-ideas"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/feed-episodes"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/feed-episodes"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/feed-episodes"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/feed-episodes"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/feed-episodes"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/pagetypes/recipe/components/single-photo-recipe"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/pagetypes/recipe/components/single-photo-recipe"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/pagetypes/recipe/components/single-photo-recipe"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/pagetypes/recipe/components/single-photo-recipe"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/pagetypes/recipe/components/single-photo-recipe"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-food/components/modules/header-stack"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-food/components/modules/header-stack"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-food/components/modules/header-stack"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-food/components/modules/header-stack"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-food/components/modules/header-stack"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/restaurant-search"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/restaurant-search"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/restaurant-search"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/restaurant-search"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/restaurant-search"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/a-to-z/cities-a-z"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/a-to-z/cities-a-z"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/a-to-z/cities-a-z"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/a-to-z/cities-a-z"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/a-to-z/cities-a-z"});
+	this.frameworkMappings.push({scVar:"eVar16",cqVar:"eventdata.componentName",resourceType:"sni-core/components/modules/video-grid"});
+	this.frameworkMappings.push({scVar:"prop18",cqVar:"eventdata.originUrl",resourceType:"sni-core/components/modules/video-grid"});
+	this.frameworkMappings.push({scVar:"eVar17",cqVar:"eventdata.linkPosition",resourceType:"sni-core/components/modules/video-grid"});
+	this.frameworkMappings.push({scVar:"eVar18",cqVar:"eventdata.linkTitle",resourceType:"sni-core/components/modules/video-grid"});
+	this.frameworkMappings.push({scVar:"eVar19",cqVar:"eventdata.targetUrl",resourceType:"sni-core/components/modules/video-grid"});
+    for (var i=0; i
+
+
+
+
+
+
+      
+    
+		
+    
+
+    
+
+
+	
+		
+			
+		
+			
+			
+				Shows
+					
+
+				
+				
+				Chefs
+					
+
+				
+				
+				Recipes
+					
+
+				
+				
+				Restaurants
+					
+
+				
+				
+				Videos
+					
+
+				
+				
+					
+	
+		
+		
+		
+		Search
+		
+	
+
+
+
+			
+		
+		
+
+
+	
+
+
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+			
+		
+		
+		
+			
+		
+		
+		
+			
+				
+			
+			
+			
+		
+		
+			
+				
+					
+						
+					
+						
+						
+					
+						
+					
+				
+			
+		
+		
+		
+	
+		
+		
+		
+		
+		
+			
+		
+		
+		
+			
+		
+		
+		
+			
+			
+				
+			
+			
+		
+		
+			
+				
+					
+						
+					
+						
+						
+					
+						
+					
+				
+			
+		
+		
+		
+	
+		
+		
+		
+		
+		
+			
+		
+		
+		
+			
+		
+		
+		
+			
+			
+			
+				
+			
+		
+		
+			
+				
+					
+						
+					
+						
+						
+					
+						
+					
+				
+			
+		
+		
+			
+				
+					
+				
+				
+		
+		
+	
+		
+		
+		
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+		
+			
+			
+			
+		
+		
+			
+				
+					
+						
+						
+							Google+
+						
+					
+				
+			
+		
+		
+		
+	
+		
+		
+		
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+		
+			
+			
+			
+		
+		
+			
+				
+					
+						
+						
+							Instagram
+						
+					
+				
+			
+		
+		
+		
+	
+		
+		
+		
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+		
+			
+			
+			
+		
+		
+			
+				
+					
+						
+						
+							Tumblr
+						
+					
+				
+			
+		
+		
+		
+			
+			
+				FN Dish Blog
+			
+				Healthy Eats Blog
+			
+				Newsletter Sign-Up
+			
+				
+			
+		
+	
+
+	
+		
+		
+
+
+
+
+	
+	
+	
+		
+		
+		
+		
+		
+		
+			
+				Blog
+			
+		
+	
+
+	
+		
+		
+
+
+
+
+	
+	
+		
+		
+		
+		
+		
+		
+			
+				Magazine
+				
+					
+						Subscribe Now
+					
+						This Month's Issue
+					
+				
+			
+		
+	
+	
+
+	
+		
+		
+
+
+
+
+	
+	
+	
+		
+		
+		
+		
+		
+		
+			
+				Sweeps
+			
+		
+	
+
+	
+	
+
+
+	
+		
+		
+		Shop
+
+		
+			
+			
+				
+					
+				
+	
+        
+	Gifts for Everyone!
+	
+We’ve got the perfect gift for everyone on your list!
+Shop Now &gt;&gt;
+
+	
+        Shop Departments 
+
+		Cookware
+		Cookbooks
+		Appliances
+		Knives
+		Best-Sellers
+		
+Shop All 
+
+	
+        Shop Gift Guides 
+
+		For Her
+		For Him
+		Under $50
+		Under $100
+		For the FN Fan
+		
+Shop All Gift Guides 
+
+	
+        Exclusively FN 
+
+		entwine wine by FN
+		FN at the Airport
+		FN Housewares
+		FN Candles
+		
+
+	
+        
+        FN Magazine 
+        
+Subscribe to Food Network Magazine and get a FREE gift!
+
+		Subscribe Now
+		
+
+
+
+	SHOP GIFT GUIDES! 
+	
+		
+				Find a gift for everyone on your list!&nbsp;
+		
+	SHOP FOOD NETWORK STORE
+					
+			
+		
+	
+
+
+
+
+    
+
+
+  
+  
+  
+  
+    
+      
+        {{#thumbnailURL}}{{/thumbnailURL}}
+        {{#nicknameDisplay}}{{nicknameDisplay}}{{/nicknameDisplay}}
+        
+      
+      
+        Account Settings
+        
+          Log Out
+        
+      
+    
+  
+
+  
+    
+      Log In
+    
+  
+
+
+  
+    Recipe Box
+    
+      Recipes
+      Grocery List
+    
+  
+
+
+
+
+
+	
+	
+SNI.Food.NavCtrl.setServerDomain("www.foodnetwork.com");
+SNI.Food.NavCtrl.setDDLoad();
+
+
+
+
+    
+      
+		  
+      
+      
+      
+        
+        
+        
+        
+          
+        
+      
+    
+
+    
+    	 
+    	 
+    
+    
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+	
+	
+		
+			New on FoodNetwork.com
+			        
+				
+				
+					
+						
+					
+					
+
+
+
+
+	
+		
+			
+			
+				
+					
+					
+						
+					
+				
+			
+		
+		
+	
+    
+		They Get Your Vote
+		
+			50 Fan-Favorite Recipes
+		
+	
+
+
+
+					
+				
+					
+					
+
+
+
+
+	
+		
+			
+			
+				
+					
+					
+						
+					
+				
+			
+		
+		
+	
+    
+		Easiest-Ever Comforts
+		
+			Our Best One-Pot Meals
+		
+	
+
+
+
+					
+				
+					
+					
+
+
+
+
+	
+		
+			
+			
+				
+					
+					
+						
+					
+				
+			
+		
+		
+	
+    
+		Plan the Menu Now
+		
+			65+ Snacks for the Big Game
+		
+	
+
+
+
+					
+						
+					
+				
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+      
+        
+
+
+
+
+  
+
+  
+    
+    
+      
+      
+        
+          Prev Recipe
+        
+      
+      
+      
+    
+
+    
+    
+      
+      
+        
+          Next Recipe
+        
+      
+      
+      
+    
+  
+
+  
+  
+
+
+      
+      
+    
+    
+
+        
+        
+        
+            
+            
+                
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+    
+		
+    
+
+
+ 
+    
+    
+        
+            
+                Home
+        
+    
+        
+            
+                Recipes &amp; How-Tos
+        
+    
+        
+            
+                Roman-Style Chicken
+        
+    
+    
+
+
+
+
+
+
+
+	Roman-Style Chicken
+	
+		
+		
+			
+		
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+            
+                
+                    
+                        
+                    
+                
+                
+            
+        
+        
+        
+	        
+	            
+	                
+	                    Recipe courtesy of Giada De Laurentiis
+	                
+	                
+	            
+	        
+	        
+        
+        
+            
+                
+                    SHOW:
+                    
+                        
+                            
+                                
+                                    Everyday Italian
+                                
+                            
+                            
+                        
+                    
+                
+                
+                    EPISODE:
+                    
+                        
+                            
+                                
+                                    
+                                        Day Ahead Dishes
+                                    
+                                
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+
+
+
+
+
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        Print
+    Email
+
+
+
+ 
+
+
+
+
+
+// Click tracking for Toolbar Pinterest
+if (!SNI.globalToolbarPinterestTracked) {
+	$(function(){
+		$("body").on('click', ".global-toolbar .st-item.pinit a[data-pin-href]",
+		              function(e){
+		                // parse query parms back out
+		                var parms = /(.*)\?.*url=(.*)&media=(.*)&description=(.*)/.exec(decodeURIComponent($(e.target).attr("data-pin-href")));
+		                SNI.Analytics.moduleTrackLS(this,{
+		                    ModuleName: "global-toolbar", 
+		                    LinkTitle: "Pinterest: " + parms[4].substr(0,30) + "...",  
+		                    LocUrl: parms[2],
+		                    LinkPosition: "2",
+		                    TargetUrl: parms[1]
+		                });
+		              });
+	});	
+	SNI.globalToolbarPinterestTracked = true;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+          
+
+	
+    	
+    
+    
+    	
+    
+    
+    	
+    
+    
+    	
+	
+
+
+
+            
+              
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+            
+                
+                
+                    
+                    
+                        
+                         
+                            
+                        
+                    
+                
+            
+
+            
+            
+
+                
+					
+					    
+                            
+                                
+                                    
+                                
+                                
+                            
+                            
+                        
+                        4 videos | Roman-Style Chicken (06:11)
+                    
+                
+		
+        
+	
+
+
+
+
+
+                
+                
+                    
+                        
+
+
+
+    
+        
+            Total Time:1 hr
+        
+        
+            Prep:20 min
+        
+        
+        
+            Cook:40 min
+        
+    
+
+
+                    
+                    
+                        
+                        
+
+
+
+	
+		
+			Yield:
+			6 servings
+		
+	
+	
+		
+			Level:
+			Easy
+		
+	
+
+
+                    
+                    
+                        
+                        
+
+
+
+    
+        NUTRITION INFO 
+        
+
+
+
+	
+		
+            Nutritional Analysis
+            Per Serving
+	        
+                Calories
+                266
+			
+                Total Fat  
+                13 g
+			
+                Saturated Fat
+                2 g
+			
+                Protein
+                28 g 
+			
+                Total Carbohydrates
+                8 g
+			
+                Sugar
+                4 g
+			
+                Fiber 
+                1.5 g
+			
+                Cholesterol 
+                76 mg
+			
+                Sodium
+                1,307 mg
+			
+		
+	
+
+    
+
+                    
+                    
+                        
+                        
+
+
+	
+		Healthy
+	
+    
+
+
+	
+        This recipe has been chosen by culinary and nutrition experts to meet a set of nutrition standards designed for a healthy lifestyle.
+    
+    
+
+                     
+                
+            
+            
+                
+                    
+                
+                
+            
+
+            
+                
+            
+
+            
+                
+                    
+                        
+
+
+
+    
+        
+            Total Time:1 hr
+        
+        
+            Prep:20 min
+        
+        
+        
+            Cook:40 min
+        
+    
+
+
+                    
+                
+                
+                    
+                        
+                    
+                    
+                        
+
+
+
+	
+		
+			Yield:
+			6 servings
+		
+	
+	
+		
+			Level:
+			Easy
+		
+	
+
+
+                    
+                
+                
+                    
+                        
+                    
+                    
+                        
+
+
+
+    
+        NUTRITION INFO 
+        
+
+
+
+	
+		
+            Nutritional Analysis
+            Per Serving
+	        
+                Calories
+                266
+			
+                Total Fat  
+                13 g
+			
+                Saturated Fat
+                2 g
+			
+                Protein
+                28 g 
+			
+                Total Carbohydrates
+                8 g
+			
+                Sugar
+                4 g
+			
+                Fiber 
+                1.5 g
+			
+                Cholesterol 
+                76 mg
+			
+                Sodium
+                1,307 mg
+			
+		
+	
+
+    
+
+                    
+                
+      
+            
+            
+              
+                
+              
+              
+            
+            
+        
+    
+
+
+
+
+
+
+
+    
+        
+        
+            Roman-Style Chicken
+        
+      
+
+
+
+
+
+
+
+$("head").append('');
+
+
+ 
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+      
+      
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+          
+          
+        
+        
+        
+        
+        
+    
+
+
+
+
+  
+    
+  
+  
+    
+      
+      
+      
+      
+      
+          
+              Roman-Style Chicken
+              (06:11)
+          
+          Make this dish ahead of time and heat it up when you're ready to serve it.
+      
+    
+  
+
+
+
+  if ((!CQ) || (CQ && !CQ.WCM) || (CQ && CQ.WCM && (!(CQ.WCM.isEditMode())))) {
+    var pdkRecipeInline;
+  
+    
+      pdkRecipeInline = SNI.Food.Video.RecipeInlinePlayer (
+          $.extend(true, {}, { player: { autoplay: false, containerId: 'player-channel' }},
+                          
+                            
+                             
+                              { alternateEndframe: { frameId: "nextEndframe-player-channel" } },
+                            
+                          
+                              { freewheel: { adContainerId: "obtwHQXTODWC" } },
+                              {"channels": [{
+  "title": "Roman-Style Chicken Top 100",
+  "start": 0,
+  "end": 3,
+  "total": 4,
+  "videos": [
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/A3HVNwwNqoAs?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/276764739918",
+      "title": "Roman-Style Chicken",
+      "description": "Make this dish ahead of time and heat it up when you're ready to serve it.",
+      "length_hhmmss": "06:11",
+      "length": 371,
+      "length_sss": 371,
+      "nlvid": "0124791",
+      "scrid": "590432",
+      "cmsid": "39c08cc4-8889-45b1-9c9b-6b50b8cae0d7",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/giada-de-laurentiis/roman-style-chicken-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/776/435/0124791_92x69.jpg",
+      "videoFormat": "SD",
+      "showName": "Everyday Italian",
+      "showUrl": "/content/food/shows/e/everyday-italian.html",
+      "hostName": "Giada De Laurentiis",
+      "hostUrl": "/content/food/chefs/giada-de-laurentiis.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/roman-style-chicken-0124791.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/XkfWGRx8PWVx?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/276316227665",
+      "title": "How to Julienne and Dice",
+      "description": "Step up your knife skills with our tutorial on three classic cuts.",
+      "length_hhmmss": "01:57",
+      "length": 117,
+      "length_sss": 117,
+      "nlvid": "0154931",
+      "scrid": "1116822",
+      "cmsid": "7df4438d-f51a-460d-942c-13e9ea44b191",
+      "relatedText": "Step-by-step photos",
+      "relatedUrl": "/how-to/how-to-julienne-dice-and-more/pictures/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/348/707/0154931_92x69.jpg",
+      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/348/707/0154931_126x71.jpg",
+      "videoFormat": "HD",
+      "showName": "",
+      "showUrl": "",
+      "hostName": "",
+      "hostUrl": "",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/how-to-julienne-and-dice-0154931.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/nWbIpHck9YlV?format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/275951171717",
+      "title": "How to Crush, Slice and Mince Garlic",
+      "description": "Throw out the jarred garlic and see how easy it is to mince like a pro.",
+      "length_hhmmss": "02:02",
+      "length": 122,
+      "length_sss": 122,
+      "nlvid": "0154943",
+      "scrid": "1116834",
+      "cmsid": "2222cee5-6e9a-4576-b206-af1c025c446b",
+      "relatedText": "Step-by-step photos",
+      "relatedUrl": "/how-to/packages/help-around-the-kitchen/photos/how-to-crush-slice-and-mince-garlic.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/1024/559/0154943_92x69.jpg",
+      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/1024/559/0154943_126x71.jpg",
+      "videoFormat": "HD",
+      "showName": "",
+      "showUrl": "",
+      "hostName": "",
+      "hostUrl": "",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/how-to-mince-garlic-0154943.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/qmIhMJZFjuAU?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/276323395586",
+      "title": "Washing & Chopping Leafy Herbs",
+      "description": "Avoid bruising with our tips for washing and chopping herbs.",
+      "length_hhmmss": "01:35",
+      "length": 95,
+      "length_sss": 95,
+      "nlvid": "0154934",
+      "scrid": "1116825",
+      "cmsid": "edf36ec2-97de-4a9b-82f9-058b7e42f5e8",
+      "relatedText": "Step-by-step photos",
+      "relatedUrl": "/how-to/how-to-wash-and-chop-herbs/pictures/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/355/539/0154934_92x69.jpg",
+      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/355/539/0154934_126x71.jpg",
+      "videoFormat": "HD",
+      "showName": "",
+      "showUrl": "",
+      "hostName": "",
+      "hostUrl": "",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/washing-and-chopping-leafy-herbs-0154934.embed.html"
+    }
+  ]
+}]},
+                              {"extras": { "selectedId": "", 
+                                          "isModule": true,
+                                          "crslContainer": ".channel-component",
+                                          "crslPromo": "#hub-video-crsl",
+                                          "initCrsl": true } } )
+        );
+    
+    
+  
+  } 
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+  
+
+  
+    
+    Ingredients
+
+    
+      
+
+      
+        
+
+        
+          
+          4 skinless chicken breast halves, with ribs
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          2 skinless chicken thighs, with bones
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          1/2 teaspoon salt, plus 1 teaspoon
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          1/2 teaspoon freshly ground black pepper, plus 1 teaspoon
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          1/4 cup olive oil
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          1 red bell pepper, sliced
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          1 yellow bell pepper, sliced
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          3 ounces prosciutto, chopped
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          2 cloves garlic, chopped
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          1 (15-ounce) can diced tomatoes
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          1/2 cup white wine
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          1 tablespoon fresh thyme leaves
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          1 teaspoon fresh oregano leaves
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          1/2 cup chicken stock
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          2 tablespoons capers
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          1/4 cup chopped fresh flat-leaf parsley leaves
+        
+      
+
+      
+    
+    
+  
+
+  
+
+  
+
+
+    
+
+
+
+
+
+  
+    
+  
+  
+
+
+
+
+    
+    
+	    Directions
+        
+            Watch how to make this recipe.
+        
+        
+            
+            Season the chicken with 1/2 teaspoon salt and 1/2 teaspoon pepper. In a heavy, large skillet, heat the olive oil over medium heat. When the oil is hot, cook the chicken until browned on both sides. Remove from the pan and set aside.Keeping the same pan over medium heat, add the peppers and prosciutto and cook until the peppers have browned and the prosciutto is crisp, about 5 minutes. Add the garlic and cook for 1 minute. Add the tomatoes, wine, and herbs. Using a wooden spoon, scrape the browned bits off the bottom of the pan. Return the chicken to the pan, add the stock, and bring the mixture to a boil. Reduce the heat and simmer, covered, until the chicken is cooked through, about 20 to 30 minutes.If serving immediately, add the capers and the parsley. Stir to combine and serve. If making ahead of time, transfer the chicken and sauce to a storage container, cool, and refrigerate. The next day, reheat the chicken to a simmer over medium heat. Stir in the capers and the parsley and serve.
+        
+    
+    
+    
+    
+
+
+
+
+
+
+    
+    
+        Recipe courtesy of Giada De Laurentiis
+    
+    
+
+
+
+    
+     
+        CATEGORIES: 
+        
+
+		
+            
+                
+                
+                    
+                        
+                        
+                        
+                        
+                            
+                                Chicken
+                            
+                            
+                        
+                    
+                
+            
+                
+                
+                    
+                        
+                        
+                        
+                        
+                            
+                                Dinner
+                            
+                            
+                        
+                    
+                
+            
+                
+                    
+                
+                
+                    
+                        
+                        
+                        
+                        
+                            
+                                Simmer
+                            
+                            
+                        
+                    
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                    
+                
+                
+            
+
+
+
+
+        View All 
+        
+
+
+
+	
+	        
+                
+                    Main Ingredient
+                    
+                        
+                            
+                            
+                                
+                                
+									
+								
+							
+                            
+                                
+                                    Chicken 
+								
+                                
+							
+						
+                        
+                            
+                            
+                                
+									
+								
+                                
+							
+                            
+                                
+                                    Vegetables 
+								
+                                
+							
+						
+				
+			
+                
+                    Course
+                    
+                        
+                            
+                            
+                                
+                                
+									
+								
+							
+                            
+                                
+                                    Dinner 
+								
+                                
+							
+						
+                        
+                            
+                            
+                                
+									
+								
+                                
+							
+                            
+                                
+                                    Main Dish 
+								
+                                
+							
+						
+				
+			
+                
+                    Technique
+                    
+                        
+                            
+                            
+                                
+									
+								
+                                
+							
+                            
+                                
+                                    Simmer 
+								
+                                
+							
+						
+				
+			
+                
+                    Cuisine
+                    
+                        
+                            
+                            
+                                
+									
+								
+                                
+							
+                            
+                                
+                                    Italian 
+								
+                                
+							
+						
+				
+			
+                
+                    Cooking Style
+                    
+                        
+                            
+                            
+                                
+                                
+									
+								
+							
+                            
+                                
+                                    Easy 
+								
+                                
+							
+						
+                        
+                            
+                            
+                                
+									
+								
+                                
+							
+                            
+                                
+                                    Make Ahead 
+								
+                                
+							
+						
+				
+			
+                
+                    Nutrition
+                    
+                        
+                            
+                            
+                                
+                                
+									
+								
+							
+                            
+                                
+                                    Diabetic 
+								
+                                
+							
+						
+                        
+                            
+                            
+                                
+                                
+									
+								
+							
+                            
+                                
+                                    Low Calorie 
+								
+                                
+							
+						
+                        
+                            
+                            
+                                
+									
+								
+                                
+							
+                            
+                                
+                                    Low Fat 
+								
+                                
+							
+						
+				
+			
+                
+                    Season
+                    
+                        
+                            
+                            
+                                
+									
+								
+                                
+							
+                            
+                                
+                                    Fall 
+								
+                                
+							
+						
+				
+			
+	
+
+
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+            
+            
+            
+            
+            
+            
+        
+        
+    
+    
+
+
+ 
+
+    Pairs Well With
+
+
+    
+        
+            
+            
+        
+    
+    
+        
+        
+    
+        
+    
+        
+            Sangiovese
+            Bright, fruity Italian red wine
+            
+                
+                
+                    
+                        Find easy pairings for your favorite recipes, Bobby's perfect picks and party ideas.
+                    
+                
+                    
+                        Wine 101: Get All the Basics
+                    
+                
+                
+            
+        
+    
+    
+
+
+
+ 
+
+
+
+	
+
+ 
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+  Cooking Tips
+  
+        More Cooking Tips
+  
+
+
+
+
+  
+    
+      
+      
+    
+      
+  
+    
+  
+    var pdkplayerSecInlIframe = SNI.Food.Video.SecondaryInline($.extend(true, {}, 
+                                                                    { player: { autoplay: false, containerId: "playerSecInlIframe" }}, 
+                                                                    { alternateEndframe: { frameId: "nextEndframe-playerSecInlIframe" } },
+                                                                    { freewheel: { adContainerId: "obtwHQXTODWC" } },
+                                                                    {"channels": [{
+  "title": "Healthy Dessert Recipes and How-Tos",
+  "start": 0,
+  "end": 21,
+  "total": 22,
+  "videos": [
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/Baf5eLHtdXrU?MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/279766083855",
+      "title": "Velvety Banana Cream Pie",
+      "description": "Make this banana cream pie that is rich and creamy yet low in fat.",
+      "length_hhmmss": "06:47",
+      "length": 407,
+      "length_sss": 407,
+      "nlvid": "65552",
+      "scrid": "276171",
+      "cmsid": "734e4b8a-9268-4dc0-a5ef-ab969cd5c827",
+      "relatedText": "Get the Recipe",
+      "relatedUrl": "/food/recipes/recipe/0,,FOOD_9936_33591,00.html?rsrc=search",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/566/747/65552_92x69.jpg",
+      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/566/747/65552_126x71.jpg",
+      "videoFormat": "SD",
+      "showName": "Healthy Appetite with Ellie Krieger",
+      "showUrl": "/content/food/shows/h/healthy-appetite-with-ellie-krieger.html",
+      "hostName": "Ellie Krieger",
+      "hostUrl": "/content/food/chefs/ellie-krieger.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/velvety-banana-cream-pie-65552.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/8FGrQNtLQKQA?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/276414019604",
+      "title": "Chocolate-Orange Cheesecakes",
+      "description": "These mini cheesecakes are so yummy, you may want to eat them all yourself.",
+      "length_hhmmss": "03:04",
+      "length": 184,
+      "length_sss": 184,
+      "nlvid": "0149328",
+      "scrid": "1058695",
+      "cmsid": "4211878b-e459-4a0b-a334-6fbcf08e9276",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/giada-de-laurentiis/individual-orange-and-chocolate-cheesecakes-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/441/975/0149328_92x69.jpg",
+      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/441/975/0149328_126x71.jpg",
+      "videoFormat": "HD",
+      "showName": "Everyday Italian",
+      "showUrl": "/content/food/shows/e/everyday-italian.html",
+      "hostName": "Giada De Laurentiis",
+      "hostUrl": "/content/food/chefs/giada-de-laurentiis.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/chocolate-orange-cheesecakes-0149328.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/dnwjnOvI4kvv?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/279163971605",
+      "title": "Strawberry-Glazed Cupcakes",
+      "description": "Learn timesaving shortcuts for making these delicious treats.",
+      "length_hhmmss": "05:13",
+      "length": 313,
+      "length_sss": 313,
+      "nlvid": "77936",
+      "scrid": "289462",
+      "cmsid": "a9ecca2e-be61-4653-86d1-bd3713924838",
+      "relatedText": "Get the Recipe",
+      "relatedUrl": "/recipes/giada-de-laurentiis/mascarpone-mini-cupcakes-with-strawberry-glaze-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/1016/523/77936_92x69.jpg",
+      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/1016/523/77936_126x71.jpg",
+      "videoFormat": "SD",
+      "showName": "Everyday Italian",
+      "showUrl": "/content/food/shows/e/everyday-italian.html",
+      "hostName": "Giada De Laurentiis",
+      "hostUrl": "/content/food/chefs/giada-de-laurentiis.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/strawberry-glazed-cupcakes-77936.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/pB0NC1z7Q0BL",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/292004931793",
+      "title": "Bananas With Tangy Sweet Cream",
+      "description": "Melissa sautees bananas in orange juice and tops them with a tangy cream.",
+      "length_hhmmss": "02:57",
+      "length": 177,
+      "length_sss": 177,
+      "nlvid": "0136195",
+      "scrid": "748021",
+      "cmsid": "214c641f-fc01-4898-b680-0011b8e7161f",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/melissa-darabian/sauteed-bananas-with-tangy-sweet-cream-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/974/619/0136195_92x69.jpg",
+      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/974/619/0136195_126x71.jpg",
+      "videoFormat": "SD",
+      "showName": "Ten Dollar Dinners",
+      "showUrl": "/content/food/shows/t/ten-dollar-dinners-with-melissa-darabian.html",
+      "hostName": "Melissa d'Arabian",
+      "hostUrl": "/content/food/chefs/melissa-darabian.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/bananas-with-tangy-sweet-cream-0136195.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/TY_2I60cEK_x?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/275205187893",
+      "title": "Lemon Icebox Bars",
+      "description": "Ellie gives an American classic, Lemon Icebox Bars, a healthy makeover.",
+      "length_hhmmss": "03:37",
+      "length": 217,
+      "length_sss": 217,
+      "nlvid": "0178097",
+      "scrid": "1439885",
+      "cmsid": "b9c931e1-de0f-4a2a-9648-edfc2c9f0d31",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/ellie-krieger/lemon-icebox-bars-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/313/123/0178097_92x69.jpg",
+      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/313/123/0178097_126x71.jpg",
+      "videoFormat": "SD",
+      "showName": "Healthy Appetite with Ellie Krieger",
+      "showUrl": "/content/food/shows/h/healthy-appetite-with-ellie-krieger.html",
+      "hostName": "Ellie Krieger",
+      "hostUrl": "/content/food/chefs/ellie-krieger.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/lemon-icebox-bars-0178097.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/RcJYxB1oFWUH?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/275147331659",
+      "title": "Healthy Devil's Food Cupcake",
+      "description": "Think devil's food cupcakes can't be healthy? You're in for a big surprise!",
+      "length_hhmmss": "03:37",
+      "length": 217,
+      "length_sss": 217,
+      "nlvid": "0192983",
+      "scrid": "1701414",
+      "cmsid": "1cbe1c9c-227b-4734-8c5d-0c9b81b2b85a",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/devils-food-cupcakes-with-chocolate-icing-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/257/967/0192983_92x69.jpg",
+      "videoFormat": "SD",
+      "showName": "",
+      "showUrl": "",
+      "hostName": "",
+      "hostUrl": "",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/healthy-devils-food-cupcake-0192983.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/QCyXtOymCtjj?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/322808387727",
+      "title": "Ree's Frozen Fruit Pops",
+      "description": "Frozen fruit pops are Ree's go-to healthy snack for kids and adults alike.",
+      "length_hhmmss": "01:30",
+      "length": 90,
+      "length_sss": 90,
+      "nlvid": "0219827",
+      "scrid": "2327998",
+      "cmsid": "6891e568-5232-493e-9b6a-1ff869407374",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/ree-drummond/fruit-pops.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/655/71/0219827_92x69.jpg",
+      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/655/71/0219827_126x71.jpg",
+      "videoFormat": "HD",
+      "showName": "The Pioneer Woman",
+      "showUrl": "/content/food/shows/t/the-pioneer-woman.html",
+      "hostName": "Ree Drummond",
+      "hostUrl": "/content/food/chefs/ree-drummond.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/rees-frozen-fruit-pops-0219827.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/4tZFyQ_laJUm",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/384402499599",
+      "title": "Alton's Orange Sherbet",
+      "description": "Alton's refreshing Orange Sherbet is a cool treat for a hot summer day.",
+      "length_hhmmss": "02:33",
+      "length": 153,
+      "length_sss": 153,
+      "nlvid": "0231408",
+      "scrid": "2676068",
+      "cmsid": "2f791d4b-024f-491e-9209-fa2a60798f6f",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/alton-brown/orange-sherbet-recipe.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/3/811/0231408_92x69.jpg",
+      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/3/811/0231408_126x71.jpg",
+      "videoFormat": "HD",
+      "showName": "Good Eats",
+      "showUrl": "/content/food/shows/g/good-eats.html",
+      "hostName": "Alton Brown",
+      "hostUrl": "/content/food/chefs/alton-brown.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/altons-orange-sherbet-0231408.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/DFORJ9MSvv3r?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/276765763871",
+      "title": "Blueberry Coffee Cake",
+      "description": "Fresh blueberries and nuts combine in a coffee cake that's full of goodness.",
+      "length_hhmmss": "04:20",
+      "length": 260,
+      "length_sss": 260,
+      "nlvid": "0124779",
+      "scrid": "590420",
+      "cmsid": "450c68f4-7905-461e-8fa6-82638490e341",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/ellie-krieger/blueberry-coffee-cake-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/777/411/0124779_92x69.jpg",
+      "videoFormat": "SD",
+      "showName": "Healthy Appetite with Ellie Krieger",
+      "showUrl": "/content/food/shows/h/healthy-appetite-with-ellie-krieger.html",
+      "hostName": "Ellie Krieger",
+      "hostUrl": "/content/food/chefs/ellie-krieger.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/blueberry-coffee-cake-0124779.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/Gq_WuZIMJhLo?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/276757571605",
+      "title": "Recipe Makeover: Lemon Cake",
+      "description": "Executive chef Rob Bleifer transforms a fatty cake into a healthy cake.",
+      "length_hhmmss": "03:59",
+      "length": 239,
+      "length_sss": 239,
+      "nlvid": "0128626",
+      "scrid": "624400",
+      "cmsid": "444c5802-e844-4f14-8e21-875fc1674be9",
+      "relatedText": "Get this recipe",
+      "relatedUrl": "/recipes/lemon-cake-with-lemon-meringue-buttercream-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/769/603/0128626_92x69.jpg",
+      "videoFormat": "SD",
+      "showName": "",
+      "showUrl": "",
+      "hostName": "",
+      "hostUrl": "",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/recipe-makeover-lemon-cake-0128626.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/gHAkfU4TbSRz?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/275746883905",
+      "title": "Alton's Angel Food Cake",
+      "description": "Alton's Angel Food Cake: the Halloween dessert that keeps the goblins away.",
+      "length_hhmmss": "04:36",
+      "length": 276,
+      "length_sss": 276,
+      "nlvid": "0168637",
+      "scrid": "1293163",
+      "cmsid": "afeee6e4-34a5-4c51-87e5-b31c9a19eb0b",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/alton-brown/angel-food-cake-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/829/739/0168637_92x69.jpg",
+      "videoFormat": "SD",
+      "showName": "Good Eats",
+      "showUrl": "/content/food/shows/g/good-eats.html",
+      "hostName": "Alton Brown",
+      "hostUrl": "/content/food/chefs/alton-brown.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/altons-angel-food-cake-0168637.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/LHrWaqYdp5g7?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/276638275920",
+      "title": "Giada's Lemon-Thyme Bars",
+      "description": "Giada's Lemon-Thyme Bars are an easy dessert that everyone will love.",
+      "length_hhmmss": "03:27",
+      "length": 207,
+      "length_sss": 207,
+      "nlvid": "0136037",
+      "scrid": "745693",
+      "cmsid": "bce07de5-fc34-43f8-a3ec-cff5230df71b",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/giada-de-laurentiis/lemon-thyme-bars-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/655/839/0136037_92x69.jpg",
+      "videoFormat": "SD",
+      "showName": "Giada at Home",
+      "showUrl": "/content/food/shows/g/giada-at-home.html",
+      "hostName": "Giada De Laurentiis",
+      "hostUrl": "/content/food/chefs/giada-de-laurentiis.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/giadas-lemon-thyme-bars-0136037.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/DyD0f1lrwMhK?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/279764547817",
+      "title": "Delectable Carrot Cupcakes",
+      "description": "Satisfy your sweet tooth, with delightful carrot cupcakes.",
+      "length_hhmmss": "05:26",
+      "length": 326,
+      "length_sss": 326,
+      "nlvid": "65545",
+      "scrid": "276178",
+      "cmsid": "09303e4f-2e7a-4393-9903-01cf9c907d8e",
+      "relatedText": "Get the Recipe",
+      "relatedUrl": "/food/recipes/recipe/0,,FOOD_9936_33708,00.html?rsrc=search",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/565/271/65545_92x69.jpg",
+      "videoFormat": "SD",
+      "showName": "Healthy Appetite with Ellie Krieger",
+      "showUrl": "/content/food/shows/h/healthy-appetite-with-ellie-krieger.html",
+      "hostName": "Ellie Krieger",
+      "hostUrl": "/content/food/chefs/ellie-krieger.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/delectable-carrot-cupcakes-65545.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/QZXMWO2HTuik?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/291972163820",
+      "title": "Ice Cream Sandwich Bites",
+      "description": "Ellie's two-bite ice cream sandwiches are lighter versions of a cool treat.",
+      "length_hhmmss": "02:23",
+      "length": 143,
+      "length_sss": 143,
+      "nlvid": "0135366",
+      "scrid": "727761",
+      "cmsid": "fc450ad4-1167-4993-9aff-016d8a6f5743",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/ellie-krieger/mini-ice-cream-sandwiches-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/943/363/0135366_92x69.jpg",
+      "videoFormat": "SD",
+      "showName": "",
+      "showUrl": "",
+      "hostName": "",
+      "hostUrl": "",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/ice-cream-sandwich-bites-0135366.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/rp9KiRUiMw1N?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/291971139998",
+      "title": "Healthy Pumpkin Rice Pudding",
+      "description": "Ellie's Healthy Pumpkin Rice Pudding lets you enjoy dessert without guilt.",
+      "length_hhmmss": "02:49",
+      "length": 169,
+      "length_sss": 169,
+      "nlvid": "0135368",
+      "scrid": "727763",
+      "cmsid": "d1f2f1c4-d93b-4291-8330-0448d7461f15",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/ellie-krieger/pumpkin-rice-pudding-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/942/387/0135368_92x69.jpg",
+      "videoFormat": "SD",
+      "showName": "",
+      "showUrl": "",
+      "hostName": "",
+      "hostUrl": "",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/pumpkin-rice-pudding-0135368.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/Ladn2pT7X4mU?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/276668483638",
+      "title": "Strawberries & Ricotta Cream",
+      "description": "Berries, basil, balsamic vinegar and ricotta: a surprisingly yummy treat!",
+      "length_hhmmss": "03:15",
+      "length": 195,
+      "length_sss": 195,
+      "nlvid": "0135748",
+      "scrid": "730745",
+      "cmsid": "8f203a4b-3168-4ca4-8928-d645bcaddfdc",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/ellie-krieger/balsamic-strawberries-with-ricotta-cream-recipe2/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/684/643/0135748_92x69.jpg",
+      "videoFormat": "SD",
+      "showName": "Healthy Appetite with Ellie Krieger",
+      "showUrl": "/content/food/shows/h/healthy-appetite-with-ellie-krieger.html",
+      "hostName": "Ellie Krieger",
+      "hostUrl": "/content/food/chefs/ellie-krieger.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/strawberries-and-ricotta-cream-0135748.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/sakc1Blq9GeL?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/314452547911",
+      "title": "Chef Anne's Angel Food Cake",
+      "description": "Anne's citrus-kissed angel food cake is light, fluffy and fat free!",
+      "length_hhmmss": "03:25",
+      "length": 205,
+      "length_sss": 205,
+      "nlvid": "0145202",
+      "scrid": "913176",
+      "cmsid": "65d5684a-a864-4e7d-8595-14da20206a18",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/anne-burrell/angel-food-cake-with-tropical-fruit-compote-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/878/327/0145202_92x69.jpg",
+      "videoFormat": "SD",
+      "showName": "Secrets of a Restaurant Chef",
+      "showUrl": "/content/food/shows/s/secrets-of-a-restaurant-chef.html",
+      "hostName": "Anne Burrell",
+      "hostUrl": "/content/food/chefs/anne-burrell.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/chef-annes-angel-food-cake-0145202.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/iN8XAgVz1vWc?&format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/292005956000",
+      "title": "Parsnip Muffins",
+      "description": "Alton sneaks veggies -- parsnips -- into a batch of breakfast muffins.",
+      "length_hhmmss": "02:56",
+      "length": 176,
+      "length_sss": 176,
+      "nlvid": "0136201",
+      "scrid": "748027",
+      "cmsid": "0680ec10-8cd6-477b-807e-a43d3d83c0bf",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/alton-brown/parsnip-muffins-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/975/595/0136201_92x69.jpg",
+      "videoFormat": "SD",
+      "showName": "Good Eats",
+      "showUrl": "/content/food/shows/g/good-eats.html",
+      "hostName": "Alton Brown",
+      "hostUrl": "/content/food/chefs/alton-brown.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/parsnip-muffins-0136201.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/ZpCF7s6Ppczc?format=SMIL&MBR=true",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/275190851624",
+      "title": "Lavender and Lemon Cookies",
+      "description": "Aromatic lemons and lavender give these egg-free cookies wonderful flavor.",
+      "length_hhmmss": "03:33",
+      "length": 213,
+      "length_sss": 213,
+      "nlvid": "0182131",
+      "scrid": "1485876",
+      "cmsid": "f3acd110-c0ec-4568-867e-2c9f42afd5f7",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/giada-de-laurentiis/lavender-and-lemon-cookies-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/299/459/0182131_92x69.jpg",
+      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/299/459/0182131_126x71.jpg",
+      "videoFormat": "HD",
+      "showName": "Giada at Home",
+      "showUrl": "/content/food/shows/g/giada-at-home.html",
+      "hostName": "Giada De Laurentiis",
+      "hostUrl": "/content/food/chefs/giada-de-laurentiis.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/lavender-and-lemon-cookies-0182131.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/3N16AqlZjxrQ",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/276759107808",
+      "title": "Rustic Apple Dried Cherry Pie",
+      "description": "This dessert recipe gives a whole new meaning to \"easy as pie.\"",
+      "length_hhmmss": "03:18",
+      "length": 198,
+      "length_sss": 198,
+      "nlvid": "0125823",
+      "scrid": "599458",
+      "cmsid": "1b052a80-5cd9-4790-a4e7-168c188d1c60",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/ellie-krieger/rustic-apple-pie-with-dried-cherries-recipe/index.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/771/55/0125823_92x69.jpg",
+      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/771/55/0125823_126x71.jpg",
+      "videoFormat": "SD",
+      "showName": "",
+      "showUrl": "",
+      "hostName": "",
+      "hostUrl": "",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/rustic-apple-dried-cherry-pie-0125823.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/Ot71erfmXKr7",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/384956483620",
+      "title": "Giada's Carrot-Apple Cupcakes",
+      "description": "A rich cream cheese frosting tops these moist miniature cupcakes.",
+      "length_hhmmss": "04:25",
+      "length": 265,
+      "length_sss": 265,
+      "nlvid": "0231443",
+      "scrid": "2676103",
+      "cmsid": "8f5d8ae2-ed68-483d-97e4-7e2559e4bdfd",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/giada-de-laurentiis/mini-carrot-apple-cupcakes-recipe.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/532/115/0231443_92x69.jpg",
+      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/532/115/0231443_126x71.jpg",
+      "videoFormat": "HD",
+      "showName": "Giada at Home",
+      "showUrl": "/content/food/shows/g/giada-at-home.html",
+      "hostName": "Giada De Laurentiis",
+      "hostUrl": "/content/food/chefs/giada-de-laurentiis.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/giadas-carrot-apple-cupcakes-0231443.embed.html"
+    },
+    {
+      "releaseUrl": "http://link.theplatform.com/s/ip77QC/Z_4KunOFA6l4",
+      "mpxId": "http://data.media.theplatform.com/media/data/Media/385518147805",
+      "title": "Ellie's Plum Tart",
+      "description": "Ellie wows with her elegant Plum Tart with an almond pastry crust.",
+      "length_hhmmss": "04:39",
+      "length": 279,
+      "length_sss": 279,
+      "nlvid": "0231452",
+      "scrid": "2676112",
+      "cmsid": "88b7574c-9d4f-40cc-8e10-5a1d6e10e0de",
+      "relatedText": "Get the recipe",
+      "relatedUrl": "/recipes/ellie-krieger/plum-tart-with-almond-pastry-crust-recipe.html",
+      "thumbnailUrl": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/43/775/0231452_92x69.jpg",
+      "thumbnailUrl16x9": "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/43/775/0231452_126x71.jpg",
+      "videoFormat": "HD",
+      "showName": "Healthy Appetite with Ellie Krieger",
+      "showUrl": "/content/food/shows/h/healthy-appetite-with-ellie-krieger.html",
+      "hostName": "Ellie Krieger",
+      "hostUrl": "/content/food/chefs/ellie-krieger.html",
+      "hasSponsorship": false,
+      "embedUrl": "http://www.foodnetwork.com/videos/ellies-plum-tart-0231452.embed.html"
+    }
+  ]
+}]} ));
+  
+
+
+
+
+
+
+
+        More Recipes and Ideas
+    
+    
+        
+            
+                    Healthy Broccoli Roman Style
+                    Recipe courtesy of Food Network Kitchen
+                    
+            
+                    Chicken Florentine Style
+                    Recipe courtesy of Giada De Laurentiis
+                    
+            
+                    Spanish Style Chicken and Dumplings
+                    Recipe courtesy of Rachael Ray
+                    
+            
+        
+                    Also Try:
+                    
+                        Chicken Piccata Recipes
+                        Chicken Cacciatore Recipes
+                        Italian Recipes
+                        Zabaglione Recipes
+                        Ravioli Recipes
+                        Spaghetti Recipes
+                        
+            
+        
+
+
+
+
+
+
+	YOU MIGHT ALSO LIKE
+
+
+	
+	
+		
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+	
+	
+	    
+	    
+            
+                
+                    
+                        
+                    
+                
+                
+                    
+                        BROWSE REVIEWS BY KEYWORD
+                    
+                    
+                
+                
+            
+        
+        
+            {{name}} {{count}}
+        
+        
+            
+                
+                    {{rating}}
+                
+                By {{displayName}} {{location}}
+                {{reviewDate}}
+            
+            
+                
+                    {{body}}
+                
+            
+            
+                
+                    
+                        {{current}} of {{total}} reviews for "{{name}}"
+                    
+                    
+                        Previous
+                        Next
+                    
+                
+            
+        
+        
+            Filter reviews by keyword by clicking on the keywords above,or try these popular keywords: 
+            
+                
+                    
+                
+            
+        
+		
+		    
+                Reviews
+				
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+			
+		
+	
+
+
+
+
+            
+        
+    
+
+    
+        
+
+
+
+
+
+
+
+
+    On TV
+	Full TV Schedule
+
+
+    
+        
+        On Air
+        
+        
+        
+             
+        		
+        		
+                    
+                    
+	        		
+                        Watch Live TV
+	        		
+        		
+        	
+        
+    
+    
+        
+        On Tonight
+        
+        
+            
+        
+    
+    
+        What's Hot
+        
+            
+            
+            
+                
+                
+            Kids Baking Championship
+            Culinary Wunderkinds
+                Mondays 8|7c
+            
+            
+    
+
+
+    SNI.ProgramGuide.getOnTvNow();
+
+
+
+
+
+	
+
+
+  
+
+Advertisement
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+	
+
+if ((!CQ) || (CQ && !CQ.WCM) || (CQ && CQ.WCM && (!(CQ.WCM.isEditMode() || CQ.WCM.isPreviewMode())))) {
+  window._taboola = window._taboola || [];
+_taboola.push({mode:'top-big-thumbs-2r', container:'taboola-right-rail-3r', placement:'right rail recipes', target_type:'video'});
+}
+
+
+
+
+
+
+
+    window._taboola = window._taboola || [];
+    _taboola.push({
+        flush: true
+    });
+
+
+
+	
+(function(d, s, id) {
+  var js, pjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//cdn.pubexchange.com/modules/partner/food_network";
+  pjs.parentNode.insertBefore(js, pjs);
+}(document, "script", "pubexchange-jssdk"));
+powered by PubExchange
+
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+
+
+
+ 
+
+
+    
+        
+            
+                
+                    
+                        Newest Blog Posts
+                    
+                    
+                
+                
+                    Go to Blog
+                
+            
+            
+            
+                
+                    
+                    
+                        {{#items}}
+                            
+                                {{#image-path}}
+                                    
+                                        
+                                    
+                                {{/image-path}}
+                                {{^image-path}}
+                                    
+                                        
+                                    
+                                {{/image-path}}
+                                {{title}}
+                                {{published-date}}
+                            
+                        {{/items}}
+                    
+                
+                
+                
+                
+            
+        
+
+		
+	
+		
+		
+
+		
+		
+            var rightRailBlogType = ''.slice(1).replace(/\//g,"$");
+			$(function(){
+				var feedUrl = '/services/fnrblogs/rightRailRssfeed/data'+ '.2.' + rightRailBlogType + '.prod.blogfeed.json';
+				SNI.Food.FeedBlogs({
+					feedUrl:feedUrl,
+					templateId:'template-right-rail-feed-blog-success',
+					divId:'right-rail-feed-blog',
+					divFailId:'right-rail-feed-blog-fail'
+				});
+			});
+		
+	
+	
+
+
+
+
+        $CQ(function() {
+            initializeTeaserLoader([{"path":"/content/campaigns/food/sponsored-pod-topregion/master-your-kitchen","name":"master-your-kitchen","title":"Master Your Kitchen","campainName":"sponsored-pod-topregion","thumbnail":"/content/campaigns/food/sponsored-pod-topregion/master-your-kitchen.thumb.png","id":"sponsored-pod-topregion_master-your-kitchen","segments":["/etc/segmentation/fn_everythingspring"],"tags":[]},{"path":"/content/campaigns/food/sponsored-pod-topregion/FC_CC_2015BigGame","name":"FC_CC_2015BigGame","title":"FC/CC 2015 Big Game","campainName":"sponsored-pod-topregion","thumbnail":"/content/campaigns/food/sponsored-pod-topregion/FC_CC_2015BigGame.thumb.png","id":"sponsored-pod-topregion_FC_CC_2015BigGame","segments":["/etc/segmentation/fn_sb_mainlanding","/etc/segmentation/fn_sb_apps","/etc/segmentation/fn_sb_parties","/etc/segmentation/fn_sb_sweets","/etc/segmentation/fn_sb_cocktails","/etc/segmentation/fn_sb_mains","/etc/segmentation/fn_sb_menuslanding-","/etc/segmentation/fn_sb_ontheroad"],"tags":[]},{"path":"/content/campaigns/food/sponsored-pod-topregion/cc-fc-easter","name":"cc-fc-easter","title":"CC/FC Easter","campainName":"sponsored-pod-topregion","thumbnail":"/content/campaigns/food/sponsored-pod-topregion/cc-fc-easter.thumb.png","id":"sponsored-pod-topregion_cc-fc-easter","segments":["/etc/segmentation/fn_easter"],"tags":[]},{"path":"/content/campaigns/food/sponsored-pod-topregion/newsletter-sign-up","name":"newsletter-sign-up","title":"Newsletter Sign Up","campainName":"sponsored-pod-topregion","thumbnail":"/content/campaigns/food/sponsored-pod-topregion/newsletter-sign-up.thumb.png","id":"sponsored-pod-topregion_newsletter-sign-up","segments":["/etc/segmentation/shows-hub","/etc/segmentation/chefs-hub","/etc/segmentation/recipes-hub","/etc/segmentation/all-recipe-pages","/etc/segmentation/videos"],"tags":[]},{"path":"/content/campaigns/food/sponsored-pod-topregion/bake-a-difference","name":"bake-a-difference","title":"Bake a difference","campainName":"sponsored-pod-topregion","thumbnail":"/content/campaigns/food/sponsored-pod-topregion/bake-a-difference.thumb.png","id":"sponsored-pod-topregion_bake-a-difference","segments":["/etc/segmentation/bundle_duff","/etc/segmentation/FN_FAMILYMAINLANDING","/etc/segmentation/fn_hc_baking"],"tags":[]},{"path":"/content/campaigns/food/sponsored-pod-topregion/HGTVPartyPlanner","name":"HGTVPartyPlanner","title":"HGTVPartyPlanner","campainName":"sponsored-pod-topregion","thumbnail":"/content/campaigns/food/sponsored-pod-topregion/HGTVPartyPlanner.thumb.png","id":"sponsored-pod-topregion_HGTVPartyPlanner","segments":["/etc/segmentation/fn_hc_entertaining"],"tags":[]},{"path":"/content/campaigns/food/sponsored-pod-topregion/HGTVKitchenGallery","name":"HGTVKitchenGallery","title":"HGTV Kitchen Gallery","campainName":"sponsored-pod-topregion","thumbnail":"/content/campaigns/food/sponsored-pod-topregion/HGTVKitchenGallery.thumb.png","id":"sponsored-pod-topregion_HGTVKitchenGallery","segments":["/etc/segmentation/fn11_helparoundthekitchen"],"tags":[]},{"path":"/content/campaigns/food/sponsored-pod-topregion/HGTVBathMakeover","name":"HGTVBathMakeover","title":"HGTV BathMakeover","campainName":"sponsored-pod-topregion","thumbnail":"/content/campaigns/food/sponsored-pod-topregion/HGTVBathMakeover.thumb.png","id":"sponsored-pod-topregion_HGTVBathMakeover","segments":["/etc/segmentation/healthyeveryweekmain","/etc/segmentation/fn11_helparoundthekitchen"],"tags":[]},{"path":"/content/campaigns/food/sponsored-pod-topregion/FNStoreRachaelBaking","name":"FNStoreRachaelBaking","title":"FNStoreRachaelBaking","campainName":"sponsored-pod-topregion","thumbnail":"/content/campaigns/food/sponsored-pod-topregion/FNStoreRachaelBaking.thumb.png","id":"sponsored-pod-topregion_FNStoreRachaelBaking","segments":["/etc/segmentation/fn_hc_baking","/etc/segmentation/bundle_rachaelray"],"tags":[]},{"path":"/content/campaigns/food/sponsored-pod-topregion/WhattoCookToday","name":"WhattoCookToday","title":"WhattoCookToday","campainName":"sponsored-pod-topregion","thumbnail":"/content/campaigns/food/sponsored-pod-topregion/WhattoCookToday.thumb.png","id":"sponsored-pod-topregion_WhattoCookToday","segments":["/etc/segmentation/fn_familybacktoschool","/etc/segmentation/fn_familyweeknights","/etc/segmentation/fn_familyweekends"],"tags":[]},{"path":"/content/campaigns/food/sponsored-pod-topregion/50states50pizzas","name":"50states50pizzas","title":"50States50Pizzas","campainName":"sponsored-pod-topregion","thumbnail":"/content/campaigns/food/sponsored-pod-topregion/50states50pizzas.thumb.png","id":"sponsored-pod-topregion_50states50pizzas","segments":["/etc/segmentation/fn_familycookingwithkids","/etc/segmentation/fn_rvgkids","/etc/segmentation/fn_sb_ontheroad","/etc/segmentation/fn_gr_ontheroad","/etc/segmentation/fn_sb_parties"],"tags":[]},{"path":"/content/campaigns/food/sponsored-pod-topregion/HealthyMustHaves","name":"HealthyMustHaves","title":"Healthy Must Haves","campainName":"sponsored-pod-topregion","thumbnail":"/content/campaigns/food/sponsored-pod-topregion/HealthyMustHaves.thumb.png","id":"sponsored-pod-topregion_HealthyMustHaves","segments":["/etc/segmentation/healthyeveryweekmain","/etc/segmentation/healthyeveryweekappetizers","/etc/segmentation/healthyeveryweekmains","/etc/segmentation/healthyeveryweektips","/etc/segmentation/healthyeveryweekquickandsimple","/etc/segmentation/healthyeveryweekmakeovers","/etc/segmentation/healthyeveryweeksides","/etc/segmentation/healthyeveryweekmenus","/etc/segmentation/healthyeveryweekinternational-"],"tags":[]},{"path":"/content/campaigns/food/sponsored-pod-topregion/EasyAppetizers0","name":"EasyAppetizers0","title":"Easy Appetizers","campainName":"sponsored-pod-topregion","thumbnail":"/content/campaigns/food/sponsored-pod-topregion/EasyAppetizers0.thumb.png","id":"sponsored-pod-topregion_EasyAppetizers0","segments":["/etc/segmentation/fn12_everydaycelebrations","/etc/segmentation/fn12_everydaycelebrationsfamily","/etc/segmentation/fn12_everydaycelebrationsoccasions","/etc/segmentation/restaurants-hub","/etc/segmentation/recipes-hub","/etc/segmentation/shows-hub","/etc/segmentation/chefs-hub"],"tags":[]},{"path":"/content/campaigns/food/sponsored-pod-topregion/SOBE16","name":"SOBE16","title":"SOBE 16","campainName":"sponsored-pod-topregion","thumbnail":"/content/campaigns/food/sponsored-pod-topregion/SOBE16.thumb.png","id":"sponsored-pod-topregion_SOBE16","segments":["/etc/segmentation/bundle_duff","/etc/segmentation/BUNDLE_GUY","/etc/segmentation/BUNDLE_GIADADELAURENTIS","/etc/segmentation/bundle_trisha","/etc/segmentation/ggg","/etc/segmentation/fn-chopped","/etc/segmentation/fn_chopped_afterhours","/etc/segmentation/fn_thekitchen","/etc/segmentation/FN_KIDSBAKINGCHAMPIONSHIP","/etc/segmentation/fn_star","/etc/segmentation/worstcooks","/etc/segmentation/fn_foodtrucks","/etc/segmentation/RESTAURANTS_EXPERTS_BUNDLE","/etc/segmentation/FN11_NIC","/etc/segmentation/TYLERFLORENCE","/etc/segmentation/bundle-bobby-flay","/etc/segmentation/bundle_anneburrell","/etc/segmentation/SUNNYANDERSON","/etc/segmentation/bundle_robertirvine","/etc/segmentation/curtis_stone"],"tags":[]}], "first", "_content_food_regions_recipe_right-rail_default_jcr_content_right-rail_teaser", "true", "http://localhost:4502/libs/wcm/stats/tracker", "/content/food/regions/recipe/right-rail/default/jcr:content/right-rail/teaser");
+        });
+        
+         
+
+
+
+
+	
+	
+	Shop by Chefs &amp; Hosts
+	Shop Now
+
+
+	
+		
+			
+		
+		Shop products from your favorite Food Network chefs &amp; hosts!
+		
+	
+	
+
+
+
+
+
+
+
+
+
+$(window).load(function(){ StickyBigboxAd(); });
+
+	
+	
+
+Advertisement
+
+
+
+    
+
+
+
+ 
+
+
+
+
+
+
+
+    
+    
+        
+            
+                
+                    
+                    
+                    
+                
+                
+                    
+                        This recipe is featured in:
+                        Healthy Weeknight Dinners
+                    
+                    
+                
+            
+        
+    
+
+
+
+
+    
+
+    
+
+
+    
+
+    
+        
+            
+
+
+
+
+            More From FN
+            
+				
+                    Newsletters
+                
+                    Sweepstakes and Contests
+                
+                    Amazon, iTunes and Apps
+                
+                    No Kid Hungry
+                
+                    Recipes A-Z
+                
+                    Topics A-Z
+                
+                    Shop Food Network Store
+                
+                    Get FN: Provider Finder
+                
+            
+
+
+
+
+
+
+            Food Network Family
+
+            
+                Food.com
+
+		
+        	           
+                    
+                        
+                            
+                                
+							    
+                                  
+							    40 Dinners Under 400 Calories
+                        
+                    
+            
+        
+
+
+
+            
+            
+                Travel Channel
+                
+				
+                    Win a $100,000 Trip to the Caribbean!
+                
+                    Plan your ultimate travel bucket list!
+                
+                    The most romantic places to say “I do” in the winter.
+                
+            	                
+            
+            
+                Cooking Channel
+                
+				
+                    7 Mistakes Dieters Make
+                
+                    Healthy Italian Food
+                
+                    The Breakfast Bowl Trend
+                
+            	                
+            
+			
+                HGTV
+                
+				
+                    HGTV Dream Home: Enter Now
+                
+                    Our Fave Fixer Upper Baths
+                
+                    15 Smart Toy Storage Tips
+                
+            	                
+            
+
+
+       
+
+	
+	International Editions 
+	See All Scripps Networks Digital 
+
+	
+		Site Map
+		Terms of Use
+		Privacy Policy
+		AdChoices
+		Infringements
+		About
+		Advertise With Us
+		Help
+		Contact Us
+	
+
+	&copy; 2016 Television Food Network G.P. All Rights Reserved.
+Food Network Sites
+
+
+  (function() {
+    var ev = document.createElement('script'); ev.type = 'text/javascript'; ev.async = true; ev.setAttribute('data-ev-tag-pid', 1212); ev.setAttribute('data-ev-tag-ocid', 814); 
+    ev.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'c.betrad.com/pub/tag.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ev, s);
+  })();
+
+
+	
+			International Editions
+	  		
+	  			United States
+	  			Asia
+                                Brazil
+                                Canada
+	  			Europe, Middle East & Africa
+	  			United Kingdom
+	  		
+	
+
+
+	
+			Scripps Networks Digital
+	  		
+	  		Cooking Channel
+		       	Food.com
+		       	HGTV 
+		       	DIY Network 
+		       	HGTVRemodels.com 
+		       	HGTVGardens.com 
+		       	Travel Channel 
+		       	GAC 
+		       	uLive.com
+	  		
+	
+
+.teaser .cq-texthint-placeholder { display: none; }
+
+
+
+
+
+
+
+
+
+//$.getScript("http://images.foodnetwork.com/webfood/images/footer/emailCollection.js");
+
+
+
+
+
+
+	
+	
+
+	
+window.NREUM||(NREUM={});NREUM.info={"applicationID":"4176188","applicationTime":1096,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"ca450cca9d","transactionName":"ZAYGMhNQDUQCAEILWl1MNgMQRAZEFyJCFkdaARESBB4QWQpOUA1aV0wHCQxBDFkGDUIRGkMCAwMVSBNSEExEB1ZaEwE=","agent":"js-agent.newrelic.com\/nr-768.min.js","errorBeacon":"bam.nr-data.net"}
+
+    
+
+    
+    
+
+
+
+    
+if (typeof _satellite !== "undefined") { _satellite.pageBottom(); }

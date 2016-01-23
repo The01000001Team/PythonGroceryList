@@ -2,6 +2,7 @@ package main.python;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 
 import org.python.antlr.ast.List;
 import org.python.core.*;
@@ -36,7 +37,7 @@ public class PyInterpreter
     * @param opts
     * @return
     */
-   PyInstance createClass( final String className, final String opts )
+   private PyInstance createClass( final String className, final String opts )
    {
       return (PyInstance) this.interpreter.eval(className + "(" + opts + ")");
    }
@@ -49,9 +50,13 @@ public class PyInterpreter
    {
       PyInterpreter ie = new PyInterpreter();
       ie.execfile("Python/" + fileName + ".py");
-      PyInstance hello = ie.createClass("Hello", "None");
-      hello.invoke("run");
+
+      ArrayList array = new ArrayList(Arrays.asList((Object[])ie.interpreter.get("list", Object[].class)));
+      Iterator itr = array.iterator();
+      while(itr.hasNext()){
+    	  System.out.println(itr);
+      }
       
-      ArrayList array = new ArrayList(Arrays.asList((Object[])ie.interpreter.get("a", Object[].class)));
    }
+   
 }
