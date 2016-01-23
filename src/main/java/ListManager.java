@@ -12,7 +12,7 @@ public class ListManager {
 		recipeModel = new DefaultListModel();
 	}
 	
-	public void addUrl(String url, JTextArea areaToBeCleared){
+	public void addUrl(String url){
 		String[] recipe = PyInterpreter.execPyFile("Scrapper", url);
 		
 		/***
@@ -24,6 +24,7 @@ public class ListManager {
 		 * the recipeModel is not typed, so you can add whatever type of objects you want and it will display
 		 * their toString() method in the list. It would be best to ONLY add Item objects, however
 		 */
+
 		Item[] items = Item.toItemArray(recipe);
 		
 		for(int i=0; i<items.length; i++) {
@@ -32,8 +33,7 @@ public class ListManager {
 			}
 			else recipeModel.addElement(items[i]);
 		}
-		
-		areaToBeCleared.setText("");
+
 	}
 	
 	public DefaultListModel getListModel(){
