@@ -42,6 +42,8 @@ public class HomeFrame extends JFrame {
 	private JTextArea textArea_Url;
 	DefaultListModel recipeModel;
 	private JButton btnPaste;
+	private JLabel lblStatus;
+	private JTextArea textAreaStatus;
 
 	/**
 	 * Create the frame.
@@ -54,9 +56,9 @@ public class HomeFrame extends JFrame {
 		setContentPane(contentPane);
 		GridBagLayout gbl_contentPane = new GridBagLayout();
 		gbl_contentPane.columnWidths = new int[]{100, 180, 180, 0};
-		gbl_contentPane.rowHeights = new int[]{0, 0, 0, 0, 0};
+		gbl_contentPane.rowHeights = new int[]{0, 0, 0, -19, 69, 0, 0};
 		gbl_contentPane.columnWeights = new double[]{1.0, 0.0, 0.0, Double.MIN_VALUE};
-		gbl_contentPane.rowWeights = new double[]{0.0, 0.0, 1.0, 0.0, Double.MIN_VALUE};
+		gbl_contentPane.rowWeights = new double[]{0.0, 0.0, 1.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
 		contentPane.setLayout(gbl_contentPane);
 
 		JLabel lblInstructions = new JLabel("Instructions:");
@@ -89,7 +91,7 @@ public class HomeFrame extends JFrame {
 		GridBagConstraints gbc_list_recipe = new GridBagConstraints();
 		gbc_list_recipe.gridwidth = 2;
 		gbc_list_recipe.insets = new Insets(0, 0, 5, 0);
-		gbc_list_recipe.gridheight = 2;
+		gbc_list_recipe.gridheight = 4;
 		gbc_list_recipe.fill = GridBagConstraints.BOTH;
 		gbc_list_recipe.gridx = 1;
 		gbc_list_recipe.gridy = 1;
@@ -103,12 +105,30 @@ public class HomeFrame extends JFrame {
 		gbc_textArea_Url.gridx = 0;
 		gbc_textArea_Url.gridy = 2;
 		contentPane.add(textArea_Url, gbc_textArea_Url);
+		
+		lblStatus = new JLabel("Status:");
+		GridBagConstraints gbc_lblStatus = new GridBagConstraints();
+		gbc_lblStatus.anchor = GridBagConstraints.WEST;
+		gbc_lblStatus.insets = new Insets(0, 0, 5, 5);
+		gbc_lblStatus.gridx = 0;
+		gbc_lblStatus.gridy = 3;
+		contentPane.add(lblStatus, gbc_lblStatus);
+		
+		textAreaStatus = new JTextArea();
+		textAreaStatus.setEditable(false);
+		textArea_Url.setLineWrap(true);
+		GridBagConstraints gbc_textAreaStatus = new GridBagConstraints();
+		gbc_textAreaStatus.insets = new Insets(0, 0, 5, 5);
+		gbc_textAreaStatus.fill = GridBagConstraints.BOTH;
+		gbc_textAreaStatus.gridx = 0;
+		gbc_textAreaStatus.gridy = 4;
+		contentPane.add(textAreaStatus, gbc_textAreaStatus);
 
 		btnPaste = new JButton("Paste");
 		GridBagConstraints gbc_btnPaste = new GridBagConstraints();
 		gbc_btnPaste.insets = new Insets(0, 0, 0, 5);
 		gbc_btnPaste.gridx = 0;
-		gbc_btnPaste.gridy = 3;
+		gbc_btnPaste.gridy = 5;
 		contentPane.add(btnPaste, gbc_btnPaste);
 
 		btnEdit = new JButton("Edit...");
@@ -116,14 +136,14 @@ public class HomeFrame extends JFrame {
 		GridBagConstraints gbc_btnEdit = new GridBagConstraints();
 		gbc_btnEdit.insets = new Insets(0, 0, 0, 5);
 		gbc_btnEdit.gridx = 1;
-		gbc_btnEdit.gridy = 3;
+		gbc_btnEdit.gridy = 5;
 		contentPane.add(btnEdit, gbc_btnEdit);
 
 		btnDelete = new JButton("Delete...");
 		btnDelete.setEnabled(false);
 		GridBagConstraints gbc_btnDelete = new GridBagConstraints();
 		gbc_btnDelete.gridx = 2;
-		gbc_btnDelete.gridy = 3;
+		gbc_btnDelete.gridy = 5;
 		contentPane.add(btnDelete, gbc_btnDelete);
 
 		/**************************************************************
@@ -193,8 +213,13 @@ public class HomeFrame extends JFrame {
 				if(isRunning){return;}
 
 				//error check if textarea is empty
+				//Set statusField if in addURL the string[] returned is null
+				//set status field while the addURL operation is occuring
+				//then set again after the addURL is done.
 				isRunning = true;
+				textAreaStatus.setText("Adding URL... This may take a moment...");
 				recipeManager.addUrl(textArea_Url.getText());
+				textAreaStatus.setText("Added!");
 				
 
 				SwingUtilities.invokeLater(new Runnable() 
