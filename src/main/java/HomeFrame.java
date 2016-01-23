@@ -28,6 +28,8 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.io.IOException;
 import java.awt.event.ActionEvent;
+import javax.swing.JScrollPane;
+import javax.swing.ScrollPaneConstants;
 
 public class HomeFrame extends JFrame {
 
@@ -41,6 +43,7 @@ public class HomeFrame extends JFrame {
 	private JButton btnPaste;
 	private JLabel lblStatus;
 	private JTextArea textAreaStatus;
+	private JScrollPane scrollPaneList;
 
 	/**
 	 * Create the frame.
@@ -54,7 +57,7 @@ public class HomeFrame extends JFrame {
 		GridBagLayout gbl_contentPane = new GridBagLayout();
 		gbl_contentPane.columnWidths = new int[]{100, 180, 180, 0};
 		gbl_contentPane.rowHeights = new int[]{0, 0, 0, -19, 69, 0, 0};
-		gbl_contentPane.columnWeights = new double[]{1.0, 0.0, 0.0, Double.MIN_VALUE};
+		gbl_contentPane.columnWeights = new double[]{1.0, 1.0, 0.0, Double.MIN_VALUE};
 		gbl_contentPane.rowWeights = new double[]{0.0, 0.0, 1.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
 		contentPane.setLayout(gbl_contentPane);
 
@@ -82,17 +85,36 @@ public class HomeFrame extends JFrame {
 		contentPane.add(lblPasteUrlsInto, gbc_lblPasteUrlsInto);
 
 		recipeModel = recipeManager.getListModel();
+		
+		scrollPaneList = new JScrollPane();
+		scrollPaneList.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+		GridBagConstraints gbc_scrollPaneList = new GridBagConstraints();
+		gbc_scrollPaneList.gridheight = 4;
+		gbc_scrollPaneList.gridwidth = 2;
+		gbc_scrollPaneList.insets = new Insets(0, 0, 5, 0);
+		gbc_scrollPaneList.fill = GridBagConstraints.BOTH;
+		gbc_scrollPaneList.gridx = 1;
+		gbc_scrollPaneList.gridy = 1;
+		contentPane.add(scrollPaneList, gbc_scrollPaneList);
 		list_recipe = new JList(recipeModel);
+		scrollPaneList.setViewportView(list_recipe);
 		list_recipe.setSelectionMode(ListSelectionModel.SINGLE_INTERVAL_SELECTION);
 		list_recipe.setLayoutOrientation(JList.VERTICAL);
-		GridBagConstraints gbc_list_recipe = new GridBagConstraints();
-		gbc_list_recipe.gridwidth = 2;
-		gbc_list_recipe.insets = new Insets(0, 0, 5, 0);
-		gbc_list_recipe.gridheight = 4;
-		gbc_list_recipe.fill = GridBagConstraints.BOTH;
-		gbc_list_recipe.gridx = 1;
-		gbc_list_recipe.gridy = 1;
-		contentPane.add(list_recipe, gbc_list_recipe);
+		
+		
+		list_recipe.addListSelectionListener(new ListSelectionListener() {
+			public void valueChanged(ListSelectionEvent e) {
+				if (e.getValueIsAdjusting() == false) {
+					if (list_recipe.getSelectedIndex() == -1) {
+						btnDelete.setEnabled(false);
+						btnEdit.setEnabled(false);
+					} else {
+						btnDelete.setEnabled(true);
+						btnEdit.setEnabled(true);
+					}
+				}
+			}
+		});
 
 		textArea_Url = new JTextArea();
 		textArea_Url.setLineWrap(true);
@@ -211,9 +233,10 @@ public class HomeFrame extends JFrame {
 					}else{
 						textAreaStatus.setText("Adding URL... This may take a moment...");
 						int returned = recipeManager.addUrl(textArea_Url.getText());
-						if(returned == 1) {textAreaStatus.setText("Added!");}
+						if(returned == 0) {textAreaStatus.setText("Added!");}
 						else{ textAreaStatus.setText("The entered URL was not valid");}
-						textArea_Url.setText("");
+						textArea_Url.setText(null);
+						textArea_Url.setCaretPosition(0);
 					}
 				}else{
 					textAreaStatus.setText("Press Enter to Submit!");
@@ -221,21 +244,6 @@ public class HomeFrame extends JFrame {
 			} 
 		}
 		textArea_Url.addKeyListener(new EnterListener());
-		
-		
-		list_recipe.addListSelectionListener(new ListSelectionListener() {
-			public void valueChanged(ListSelectionEvent e) {
-				if (e.getValueIsAdjusting() == false) {
-					if (list_recipe.getSelectedIndex() == -1) {
-						btnDelete.setEnabled(false);
-						btnEdit.setEnabled(false);
-					} else {
-						btnDelete.setEnabled(true);
-						btnEdit.setEnabled(true);
-					}
-				}
-			}
-		});
 	}
 
 }
