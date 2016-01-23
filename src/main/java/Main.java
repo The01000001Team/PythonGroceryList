@@ -8,13 +8,14 @@ import main.python.PyInterpreter;
 
 
 public class Main {
-	static DefaultListModel recipeModel = new DefaultListModel();
+	
 	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					HomeFrame frame = new HomeFrame(recipeModel);
+					ListManager listManager = new ListManager();
+					HomeFrame frame = new HomeFrame(listManager.getListModel());
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();

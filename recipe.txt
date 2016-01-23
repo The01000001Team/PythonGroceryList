@@ -176,7 +176,7 @@ SNI.Food.printTarget = "&#x2f;content&#x2f;food&#x2f;recipes&#x2f;food-network-k
 
     if (typeof MetaDataManager != "undefined") {
     	var mdManager = new MetaDataManager();
-        var mdProps = {"CategoryDspName":"recipes &amp; how-tos","FastFwdID":"660304","ContentTag1":"pasta-dishes","HubSponsor":"","Url":"/recipes/food-network-kitchens/spaghetti-with-quick-turkey-chili-recipe.html","Section":"recipes","Type":"recipe","AllTags":"pasta-dishes,turkey","MainIngredient":"tomato paste;chili powder;chicken broth;extra-virgin olive oil;cloves garlic;pinto beans;cheddar cheese;sour cream;","DetailId":"e21e21d3-735c-44c8-9b33-09b165a9f951","HubPath":"unknown","Sponsorship":"FN_WINTERWEEKNIGHTDINNERS","Ingredients":"tomato paste;chili powder;chicken broth;extra-virgin olive oil;cloves garlic;pinto beans;cheddar cheese;sour cream;","SctnDspName":"recipes &amp; how-tos","UniqueID":"food|recipe|e21e21d3-735c-44c8-9b33-09b165a9f951|1","Classification":"recipes, food","Site":"food","Title":"spaghetti with quick turkey chili","PackageName":"weeknight dinners: winter","Source":"fnmagazine","Delivery_Channel":"web","AdKey1":"tv","talentName":"food network kitchen","ContentTag2":"turkey","CrosslinkTerms":";tomato paste,;chili powder,;chicken broth,;extra-virgin olive oil,;cloves garlic,;pinto beans,;cheddar cheese,;sour cream","Difficulty":"easy","PrepTime":"15","CanonicalUrl":"http://www.foodnetwork.com/recipes/food-network-kitchens/spaghetti-with-quick-turkey-chili-recipe.html","PageNumber":"1","Cuisine":"tomato paste;chili powder;chicken broth;extra-virgin olive oil;cloves garlic;pinto beans;cheddar cheese;sour cream;","Restricted":"false","OrigPubDate":"2015-06-07T09:15:49.259-04:00|2016-01-05T18:23:44.808-05:00","ImgURL":"http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2012/10/2/2/FNM_110112-Spaghetti-With-Quick-Turkey-Chili-Recipe_s4x3.jpg","Dish":"tomato paste;chili powder;chicken broth;extra-virgin olive oil;cloves garlic;pinto beans;cheddar cheese;sour cream;","HubID":"0fc13670-2f9a-477d-a3da-84a0e7838bb3"};
+        var mdProps = {"AdKey1":"tv","MainIngredient":"tomato paste;chili powder;chicken broth;extra-virgin olive oil;cloves garlic;pinto beans;cheddar cheese;sour cream;","CategoryDspName":"recipes &amp; how-tos","FastFwdID":"660304","ImgURL":"http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2012/10/2/2/FNM_110112-Spaghetti-With-Quick-Turkey-Chili-Recipe_s4x3.jpg","AllTags":"pasta-dishes,turkey","Url":"/recipes/food-network-kitchens/spaghetti-with-quick-turkey-chili-recipe.html","HubSponsor":"","Delivery_Channel":"web","DetailId":"e21e21d3-735c-44c8-9b33-09b165a9f951","ContentTag1":"pasta-dishes","Sponsorship":"FN_WINTERWEEKNIGHTDINNERS","UniqueID":"food|recipe|e21e21d3-735c-44c8-9b33-09b165a9f951|1","PrepTime":"15","Source":"fnmagazine","Cuisine":"tomato paste;chili powder;chicken broth;extra-virgin olive oil;cloves garlic;pinto beans;cheddar cheese;sour cream;","Restricted":"false","HubID":"0fc13670-2f9a-477d-a3da-84a0e7838bb3","HubPath":"unknown","Difficulty":"easy","Ingredients":"tomato paste;chili powder;chicken broth;extra-virgin olive oil;cloves garlic;pinto beans;cheddar cheese;sour cream;","ContentTag2":"turkey","Title":"spaghetti with quick turkey chili","talentName":"food network kitchen","PackageName":"weeknight dinners: winter","Classification":"recipes, food","PageNumber":"1","Site":"food","CanonicalUrl":"http://www.foodnetwork.com/recipes/food-network-kitchens/spaghetti-with-quick-turkey-chili-recipe.html","CrosslinkTerms":";tomato paste,;chili powder,;chicken broth,;extra-virgin olive oil,;cloves garlic,;pinto beans,;cheddar cheese,;sour cream","OrigPubDate":"2015-06-07T09:15:49.259-04:00|2016-01-05T18:23:44.808-05:00","Type":"recipe","SctnDspName":"recipes &amp; how-tos","Dish":"tomato paste;chili powder;chicken broth;extra-virgin olive oil;cloves garlic;pinto beans;cheddar cheese;sour cream;","Section":"recipes"};
     	for (var key in mdProps) {
             mdManager.addAttribute(key, mdProps[key]);
     	}
@@ -236,7 +236,7 @@ SNI.Food.printTarget = "&#x2f;content&#x2f;food&#x2f;recipes&#x2f;food-network-k
   "description": "",
   "sitesection": "recipes",
   "subsection": "food-network-kitchens",
-  "random": "0.79"
+  "random": "0.34"
 }, true);
 }
 
@@ -3580,7 +3580,7 @@ Food Network Sites
 	
 
 	
-window.NREUM||(NREUM={});NREUM.info={"applicationID":"4176188","applicationTime":1075,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"ca450cca9d","transactionName":"ZAYGMhNQDUQCAEILWl1MNgMQRAZEFyJCFkdaARESBB4QWQpOUA1aV0wHCQxBDFkGDUIRGkMCAwMVSBNSEExEB1ZaEwE=","agent":"js-agent.newrelic.com\/nr-768.min.js","errorBeacon":"bam.nr-data.net"}
+window.NREUM||(NREUM={});NREUM.info={"applicationID":"2623209","applicationTime":2345,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"ca450cca9d","transactionName":"ZAYGMhNQDUQCAEILWl1MNgMQRAZEFyJCFkdaARESBB4QWQpOUA1aV0wHCQxBDFkGDUIRGkMCAwMVSBNSEExEB1ZaEwE=","agent":"js-agent.newrelic.com\/nr-768.min.js","errorBeacon":"bam.nr-data.net"}
 
     
 
