@@ -4,9 +4,15 @@ import main.java.UnitConversion.Unit;
 
 public class Pound extends Unit {
 
+private final static String name = "tbsp";
+	
 	public Pound(double quantity) {
-		super(quantity, "lb");
+		super(quantity, name);
 		// TODO Auto-generated constructor stub
+	}
+	
+	public String getName() {
+		return name;
 	}
 
 }

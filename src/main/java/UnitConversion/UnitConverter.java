@@ -1,8 +1,13 @@
 package main.java.UnitConversion;
 
-import java.util.HashMap;
-
+import main.java.UnitConversion.LiquidUnits.Cup;
+import main.java.UnitConversion.LiquidUnits.Drops;
+import main.java.UnitConversion.LiquidUnits.FluidOunce;
 import main.java.UnitConversion.LiquidUnits.Gallon;
+import main.java.UnitConversion.LiquidUnits.Pint;
+import main.java.UnitConversion.LiquidUnits.Quart;
+import main.java.UnitConversion.SolidUnits.Ounce;
+import main.java.UnitConversion.SolidUnits.Pound;
 
 public class UnitConverter {
 
@@ -12,16 +17,20 @@ public class UnitConverter {
 	 * @return Returns the proper Unit object that corresponds to the string
 	 */
 	public static Unit getUnitFromString(String unitName, double quantity) {
-		HashMap<String, Unit> unitMap = populateMap();
-		unitName = unitName.toLowerCase();
+		unitName = updateUnitName(unitName.toLowerCase());
 		
+		Unit result = getCorrectUnitFromString(unitName, quantity);
+		return result;
+	}
+	
+	public static String updateUnitName(String unitName) {
 		switch(unitName) {
 		case "teaspoon": unitName = "tsp";
-						break;
+		break;
 		case "teaspoons": unitName = "tsp";
-						break;
+		break;
 		case "tablespoon": unitName = "tbsp";
-						break;
+		break;
 		case "tablespoons": unitName = "tbsp";
 		break;
 		case "cups": unitName = "cup";
@@ -40,16 +49,59 @@ public class UnitConverter {
 		break;
 		case "gallons": unitName = "gal";
 		break;
+		case "fluid ounce": unitName = "fl oz";
+		break;
+		case "fluid ounces": unitName = "fl oz";
+		break;
+		case "fl. oz.": unitName = "fl oz";
+		break;
+		case "fl. oz": unitName = "fl oz";
+		break;
+		case "pint": unitName = "pt";
+		break;
+		case "pints": unitName = "pt";
+		break;
+		case "quart": unitName = "qt";
+		break;
+		case "quarts": unitName = "qt";
+		break;
+		case "sticks": unitName = "stick";
+		break;
 		}
 		
-		return null;
+		System.out.println("Converted Unit Name: " + unitName);
+		return unitName;
 	}
 	
-	public static HashMap<String, Unit> populateMap() {
-		HashMap<String, Unit> map = new HashMap<String, Unit>();
-		map.put("gal", new Gallon(0));
+	public static Unit getCorrectUnitFromString(String unitName, double quantity) {
+		Unit result = null;
 		
-		return map;
+		switch(unitName) {
+		case "stick": result = new Stick(quantity);
+		break;
+		case "fl oz": result = new FluidOunce(quantity);
+		break;
+		case "pt": result = new Pint(quantity);
+		break;
+		case "qt": result = new Quart(quantity);
+		break;
+		case "cup": result = new Cup(quantity);
+		break;
+		case "drop": result = new Drops(quantity);
+		break;
+		case "gal": result = new Gallon(quantity);
+		break;
+		case "oz": result = new Ounce(quantity);
+		break;
+		case "lb": result = new Pound(quantity);
+		break;
+		case "tbsp": result = new TableSpoon(quantity);
+		break;
+		case "tsp": result = new TeaSpoon(quantity);
+		break;
+		}
+		
+		return result != null ? result : new Unit(quantity, unitName);
 	}
 	
 }
