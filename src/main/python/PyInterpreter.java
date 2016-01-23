@@ -1,7 +1,12 @@
 package main.python;
 
-import org.python.core.PyInstance;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import org.python.antlr.ast.List;
+import org.python.core.*;
 import org.python.util.PythonInterpreter;
+
 
 
 public class PyInterpreter
@@ -13,7 +18,6 @@ public class PyInterpreter
    public PyInterpreter()
    {
       PythonInterpreter.initialize(System.getProperties(), System.getProperties(), new String[0]);
- 
       this.interpreter = new PythonInterpreter();
    }
  
@@ -44,11 +48,10 @@ public class PyInterpreter
    public static void execPyFile(String fileName)
    {
       PyInterpreter ie = new PyInterpreter();
- 
       ie.execfile("Python/" + fileName + ".py");
- 
       PyInstance hello = ie.createClass("Hello", "None");
- 
       hello.invoke("run");
+      
+      ArrayList array = new ArrayList(Arrays.asList((Object[])ie.interpreter.get("a", Object[].class)));
    }
 }

@@ -22,13 +22,18 @@ f.write(remove_tags(recipe.encode('utf-8')).strip()) #Puts the text into a text 
 #Have to parse through and find the first Ingredients (with the space)
 f.close()
 
+list = []
+i = 0
+
 f = open ("recipe.txt", "r")
 for line in f:
 	if "Ingredients" in line and not "Ingredients\"" in line: #Does the list of ingredients start?
 		while not "Directions" in line: #Print until directions
 			if not line.isspace(): #Avoid empty lines 
-				print line
+				list.append(line)
 			line = next(f)	#Proceed to the next line in the file 
 
 f.close() #Close the text file 
 
+for e in list:
+	print e 
