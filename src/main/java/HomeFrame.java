@@ -193,24 +193,24 @@ public class HomeFrame extends JFrame {
 				if(isRunning){return;}
 
 				isRunning = true;
-				recipeManager.addUrl(textArea_Url.getText());
+				recipeManager.addUrl(textArea_Url.getText(), textArea_Url);
 				
 
-				SwingUtilities.invokeLater(new Runnable() 
-				{
-					public void run()
-					{
-						textArea_Url.setText("");
-						reset();
-					}
-				});
+//				SwingUtilities.invokeLater(new Runnable() 
+//				{
+//					public void run()
+//					{
+//						textArea_Url.setText("");
+//						reset();
+//					}
+//				});
 
 
 			}
-			protected void reset() {
-				isRunning = false;
-
-			}
+//			protected void reset() {
+//				isRunning = false;
+//
+//			}
 		}
 
 		UrlListener urlListener = new UrlListener();
