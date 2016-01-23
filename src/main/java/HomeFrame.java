@@ -3,12 +3,8 @@ package main.java;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
-
-import main.python.PyInterpreter;
 
 import java.awt.GridBagLayout;
 import javax.swing.JLabel;
@@ -26,9 +22,10 @@ import javax.swing.DefaultListModel;
 import javax.swing.JButton;
 import javax.swing.JTextArea;
 import javax.swing.ListSelectionModel;
-import javax.swing.SwingUtilities;
 
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.io.IOException;
 import java.awt.event.ActionEvent;
 
@@ -76,7 +73,7 @@ public class HomeFrame extends JFrame {
 		gbc_lblYourGroceryList.gridy = 0;
 		contentPane.add(lblYourGroceryList, gbc_lblYourGroceryList);
 
-		JLabel lblPasteUrlsInto = new JLabel("Paste URLs into the box below");
+		JLabel lblPasteUrlsInto = new JLabel("Paste URLs Into the Box Below");
 		GridBagConstraints gbc_lblPasteUrlsInto = new GridBagConstraints();
 		gbc_lblPasteUrlsInto.anchor = GridBagConstraints.WEST;
 		gbc_lblPasteUrlsInto.insets = new Insets(0, 0, 5, 5);
@@ -105,7 +102,7 @@ public class HomeFrame extends JFrame {
 		gbc_textArea_Url.gridx = 0;
 		gbc_textArea_Url.gridy = 2;
 		contentPane.add(textArea_Url, gbc_textArea_Url);
-		
+
 		lblStatus = new JLabel("Status:");
 		GridBagConstraints gbc_lblStatus = new GridBagConstraints();
 		gbc_lblStatus.anchor = GridBagConstraints.WEST;
@@ -113,7 +110,7 @@ public class HomeFrame extends JFrame {
 		gbc_lblStatus.gridx = 0;
 		gbc_lblStatus.gridy = 3;
 		contentPane.add(lblStatus, gbc_lblStatus);
-		
+
 		textAreaStatus = new JTextArea();
 		textAreaStatus.setEditable(false);
 		textArea_Url.setLineWrap(true);
@@ -202,46 +199,29 @@ public class HomeFrame extends JFrame {
 			}
 		});
 
-		class UrlListener implements DocumentListener{
-
-			private boolean isRunning;
-
-			public void changedUpdate(DocumentEvent e){check();}
-			public void removeUpdate(DocumentEvent e) {check();}
-			public void insertUpdate(DocumentEvent e) {check();}
-			private void check(){
-				if(isRunning){return;}
-
-				//error check if textarea is empty
-				//Set statusField if in addURL the string[] returned is null
-				//set status field while the addURL operation is occuring
-				//then set again after the addURL is done.
-				isRunning = true;
-				textAreaStatus.setText("Adding URL... This may take a moment...");
-				recipeManager.addUrl(textArea_Url.getText());
-				textAreaStatus.setText("Added!");
-				
-
-				SwingUtilities.invokeLater(new Runnable() 
-				{
-					public void run()
-					{
+	
+		class EnterListener implements KeyListener{
+			public void keyTyped(KeyEvent e) {}
+			public void keyReleased(KeyEvent e) {}  
+			public void keyPressed(KeyEvent e) {
+				if(e.getKeyCode() == KeyEvent.VK_ENTER){
+					if(textArea_Url.getText().length() <= 10){
+						textAreaStatus.setText("Entered too short of a url...");
 						textArea_Url.setText("");
-						reset();
+					}else{
+						textAreaStatus.setText("Adding URL... This may take a moment...");
+						recipeManager.addUrl(textArea_Url.getText());
+						textAreaStatus.setText("Added!");
+						textArea_Url.setText("");
 					}
-				});
-
-
-			}
-			protected void reset() {
-				isRunning = false;
-
-			}
+				}else{
+					textAreaStatus.setText("Press Enter to Submit!");
+				}
+			} 
 		}
-
-		UrlListener urlListener = new UrlListener();
-		textArea_Url.getDocument().addDocumentListener(urlListener);
-
+		textArea_Url.addKeyListener(new EnterListener());
+		
+		
 		list_recipe.addListSelectionListener(new ListSelectionListener() {
 			public void valueChanged(ListSelectionEvent e) {
 				if (e.getValueIsAdjusting() == false) {
