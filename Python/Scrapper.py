@@ -1,7 +1,8 @@
 import requests
 import re
-import jarray
-import 
+
+from java.lang import String
+from jarray import array
 
 TAG_RE = re.compile(r'<[^>]+>')
 
@@ -31,9 +32,10 @@ for line in f:
 	if "Ingredients" in line and not "Ingredients\"" in line: #Does the list of ingredients start?
 		while not "Directions" in line: #Print until directions
 			if not line.isspace(): #Avoid empty lines
-				list.append(line)
+				list.append(str(line))
 			line = next(f)	#Proceed to the next line in the file
 
+jythonArray = array(list, String)
 f.close() #Close the text file
 
 for e in list:

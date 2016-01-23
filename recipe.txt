@@ -1,4 +1,4 @@
-Iceberg BLTs Recipe : Food Network Kitchen : Food Network
+Spaghetti With Quick Turkey Chili Recipe : Food Network Kitchen : Food Network
     
     
     
@@ -137,7 +137,7 @@ window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){va
 
 
 
-SNI.Food.printTarget = "&#x2f;content&#x2f;food&#x2f;recipes&#x2f;food-network-kitchens&#x2f;i&#x2f;ic&#x2f;ice&#x2f;iceb&#x2f;iceberg-blts.print.html";
+SNI.Food.printTarget = "&#x2f;content&#x2f;food&#x2f;recipes&#x2f;food-network-kitchens&#x2f;s&#x2f;sp&#x2f;spa&#x2f;spag&#x2f;spaghetti-with-quick-turkey-chili-recipe.print.html";
 
 
 	
@@ -176,7 +176,7 @@ SNI.Food.printTarget = "&#x2f;content&#x2f;food&#x2f;recipes&#x2f;food-network-k
 
     if (typeof MetaDataManager != "undefined") {
     	var mdManager = new MetaDataManager();
-        var mdProps = {"AdKey1":"healthy","ImgURL":"http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2014/6/17/1/FN_Iceberg-BLT_s4x3.jpg","CategoryDspName":"recipes &amp; how-tos","HubPath":"unknown","CanonicalUrl":"http://www.foodnetwork.com/recipes/food-network-kitchens/iceberg-blts.html","OrigPubDate":"2014-12-16T07:14:16.670-05:00|2016-01-05T17:59:54.789-05:00","Section":"recipes","HubSponsor":"","Url":"/recipes/food-network-kitchens/iceberg-blts.html","Source":"manual","Classification":"recipes, food","PublishTime":"2014-07-25T06:03:09Z","Site":"food","Difficulty":"easy","AllTags":"bacon,lettuce,low-carbohydrate,low-cholesterol,low-calorie,diabetic,tomato,healthy,blt,gluten-free","PackageName":"comfort foods, lightened up","talentName":"food network kitchen","SctnDspName":"recipes &amp; how-tos","PageNumber":"1","Restricted":"false","Nutrition":"gluten-free,diabetic,low-carbohydrate,low-cholesterol,low-calorie","Cuisine":"whisk;lemon juice;sauce;tomato;iceberg lettuce;yogurt;mayonnaise;chives;lemon zest;","ContentTag2":"gluten-free","Type":"recipe","Delivery_Channel":"web","CrosslinkTerms":";whisk,;lemon juice,;sauce,;tomato,;iceberg lettuce,;yogurt,;mayonnaise,;chives,;lemon zest","PrepTime":"10","Title":"iceberg blts","Ingredients":"whisk;lemon juice;sauce;tomato;iceberg lettuce;yogurt;mayonnaise;chives;lemon zest;","Dish":"whisk;lemon juice;sauce;tomato;iceberg lettuce;yogurt;mayonnaise;chives;lemon zest;","HubID":"9d3224d8-c372-42ac-82f8-eb1395c0dcd4","ContentTag1":"blt","MainIngredient":"whisk;lemon juice;sauce;tomato;iceberg lettuce;yogurt;mayonnaise;chives;lemon zest;","DetailId":"b13e0700-83d4-47fd-9893-f4ec39fbd9e4","Sponsorship":"HEALTHYEVERYWEEK_MAKEOVERS","FastFwdID":"737066","UniqueID":"food|recipe|b13e0700-83d4-47fd-9893-f4ec39fbd9e4|1"};
+        var mdProps = {"CategoryDspName":"recipes &amp; how-tos","FastFwdID":"660304","ContentTag1":"pasta-dishes","HubSponsor":"","Url":"/recipes/food-network-kitchens/spaghetti-with-quick-turkey-chili-recipe.html","Section":"recipes","Type":"recipe","AllTags":"pasta-dishes,turkey","MainIngredient":"tomato paste;chili powder;chicken broth;extra-virgin olive oil;cloves garlic;pinto beans;cheddar cheese;sour cream;","DetailId":"e21e21d3-735c-44c8-9b33-09b165a9f951","HubPath":"unknown","Sponsorship":"FN_WINTERWEEKNIGHTDINNERS","Ingredients":"tomato paste;chili powder;chicken broth;extra-virgin olive oil;cloves garlic;pinto beans;cheddar cheese;sour cream;","SctnDspName":"recipes &amp; how-tos","UniqueID":"food|recipe|e21e21d3-735c-44c8-9b33-09b165a9f951|1","Classification":"recipes, food","Site":"food","Title":"spaghetti with quick turkey chili","PackageName":"weeknight dinners: winter","Source":"fnmagazine","Delivery_Channel":"web","AdKey1":"tv","talentName":"food network kitchen","ContentTag2":"turkey","CrosslinkTerms":";tomato paste,;chili powder,;chicken broth,;extra-virgin olive oil,;cloves garlic,;pinto beans,;cheddar cheese,;sour cream","Difficulty":"easy","PrepTime":"15","CanonicalUrl":"http://www.foodnetwork.com/recipes/food-network-kitchens/spaghetti-with-quick-turkey-chili-recipe.html","PageNumber":"1","Cuisine":"tomato paste;chili powder;chicken broth;extra-virgin olive oil;cloves garlic;pinto beans;cheddar cheese;sour cream;","Restricted":"false","OrigPubDate":"2015-06-07T09:15:49.259-04:00|2016-01-05T18:23:44.808-05:00","ImgURL":"http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2012/10/2/2/FNM_110112-Spaghetti-With-Quick-Turkey-Chili-Recipe_s4x3.jpg","Dish":"tomato paste;chili powder;chicken broth;extra-virgin olive oil;cloves garlic;pinto beans;cheddar cheese;sour cream;","HubID":"0fc13670-2f9a-477d-a3da-84a0e7838bb3"};
     	for (var key in mdProps) {
             mdManager.addAttribute(key, mdProps[key]);
     	}
@@ -229,9 +229,9 @@ SNI.Food.printTarget = "&#x2f;content&#x2f;food&#x2f;recipes&#x2f;food-network-k
 	if( CQ_Analytics && CQ_Analytics.PageDataMgr) {
     CQ_Analytics.PageDataMgr.loadInitProperties({
   "hits": 0,
-  "title": "Iceberg BLTs",
-  "path": "/content/food/recipes/food-network-kitchens/i/ic/ice/iceb/iceberg-blts",
-  "navTitle": "Iceberg BLTs",
+  "title": "Spaghetti With Quick Turkey Chili",
+  "path": "/content/food/recipes/food-network-kitchens/s/sp/spa/spag/spaghetti-with-quick-turkey-chili-recipe",
+  "navTitle": "Spaghetti With Quick Turkey Chili",
   "tags": "",
   "description": "",
   "sitesection": "recipes",
@@ -271,7 +271,7 @@ if (typeof localStorage !== "undefined") {
 
     $CQ(function() {
         CQ_Analytics.SegmentMgr.loadSegments("/etc/segmentation");
-        CQ_Analytics.ClientContextUtils.init("/etc/clientcontext/default","/content/food/recipes/food-network-kitchens/i/ic/ice/iceb/iceberg-blts");
+        CQ_Analytics.ClientContextUtils.init("/etc/clientcontext/default","/content/food/recipes/food-network-kitchens/s/sp/spa/spag/spaghetti-with-quick-turkey-chili-recipe");
 
         
     });
@@ -1535,8 +1535,10 @@ SNI.Food.NavCtrl.setDDLoad();
 
 
     
+        
+            
+        
     
-		
     
 
 
@@ -1555,7 +1557,7 @@ SNI.Food.NavCtrl.setDDLoad();
     
         
             
-                Iceberg BLTs
+                Spaghetti With Quick Turkey Chili
         
     
     
@@ -1566,7 +1568,7 @@ SNI.Food.NavCtrl.setDDLoad();
 
 
 
-	Iceberg BLTs
+	Spaghetti With Quick Turkey Chili
 	
 		
 		
@@ -1574,8 +1576,6 @@ SNI.Food.NavCtrl.setDDLoad();
 		
 	
 	
-	
-		
 	
 
 
@@ -1704,12 +1704,6 @@ SNI.Food.NavCtrl.setDDLoad();
 
 
 
-	
-	    
-	        This bread-free BLT is made for bacon lovers. Creamy, cool, refreshing, and packed with crispy bacon and still healthy. It's like a summer[ salad you can enjoy on the go.]
-	    
-	
-
 
         
         
@@ -1822,7 +1816,7 @@ if (!SNI.globalToolbarPinterestTracked) {
 	
 	
 
-Iceberg BLTs
+Spaghetti With Quick Turkey Chili
 
         
 	
@@ -1840,10 +1834,10 @@ Iceberg BLTs
 
     
         
-            Total Time:30 min
+            Total Time:35 min
         
         
-            Prep:10 min
+            Prep:15 min
         
         
         
@@ -1862,7 +1856,7 @@ Iceberg BLTs
 	
 		
 			Yield:
-			2 servings
+			4 servings
 		
 	
 	
@@ -1880,66 +1874,7 @@ Iceberg BLTs
 
 
 
-    
-        NUTRITION INFO 
-        
-
-
-
-	
-		
-            Nutritional Analysis
-            Per Serving
-	        
-                Calories
-                230
-			
-                Fat
-                17 g
-			
-                (Saturated
-                4.5 g
-			
-                Cholesterol
-                30 mg
-			
-                Sodium
-                870 mg
-			
-                Carbohydrate
-                10 g
-			
-                Fiber
-                3 g
-			
-                Protein
-                12 g
-			
-                Sugar
-                6 g
-			
-		
-	
-
-    
-
                     
-                    
-                        
-                        
-
-
-	
-		Healthy
-	
-    
-
-
-	
-        This recipe has been chosen by culinary and nutrition experts to meet a set of nutrition standards designed for a healthy lifestyle.
-    
-    
-
                      
                 
             
@@ -1961,10 +1896,10 @@ Iceberg BLTs
 
     
         
-            Total Time:30 min
+            Total Time:35 min
         
         
-            Prep:10 min
+            Prep:15 min
         
         
         
@@ -1987,7 +1922,7 @@ Iceberg BLTs
 	
 		
 			Yield:
-			2 servings
+			4 servings
 		
 	
 	
@@ -2008,49 +1943,6 @@ Iceberg BLTs
                         
 
 
-
-    
-        NUTRITION INFO 
-        
-
-
-
-	
-		
-            Nutritional Analysis
-            Per Serving
-	        
-                Calories
-                230
-			
-                Fat
-                17 g
-			
-                (Saturated
-                4.5 g
-			
-                Cholesterol
-                30 mg
-			
-                Sodium
-                870 mg
-			
-                Carbohydrate
-                10 g
-			
-                Fiber
-                3 g
-			
-                Protein
-                12 g
-			
-                Sugar
-                6 g
-			
-		
-	
-
-    
 
                     
                 
@@ -2075,7 +1967,7 @@ Iceberg BLTs
     
         
         
-            Iceberg BLTs
+            Spaghetti With Quick Turkey Chili
         
       
 
@@ -2112,7 +2004,7 @@ Iceberg BLTs
 
         
           
-          6 slices bacon (about 6 ounces)
+           Kosher salt
         
       
 
@@ -2123,7 +2015,7 @@ Iceberg BLTs
 
         
           
-          1 head iceberg lettuce (2 to 2 1/2 pounds)
+          2 tablespoons extra-virgin olive oil
         
       
 
@@ -2134,7 +2026,7 @@ Iceberg BLTs
 
         
           
-          2 tablespoons 2-percent Greek yogurt
+          4 scallions, sliced, white and green parts separated
         
       
 
@@ -2145,7 +2037,7 @@ Iceberg BLTs
 
         
           
-          1 tablespoon mayonnaise
+          2 large cloves garlic, finely chopped
         
       
 
@@ -2156,7 +2048,7 @@ Iceberg BLTs
 
         
           
-          1 tablespoon finely chopped fresh chives
+          2 tablespoons tomato paste
         
       
 
@@ -2167,7 +2059,7 @@ Iceberg BLTs
 
         
           
-          1 teaspoon lemon juice
+          2 tablespoons chili powder
         
       
 
@@ -2178,7 +2070,7 @@ Iceberg BLTs
 
         
           
-          1/2 teaspoon lemon zest
+          1 pound ground turkey
         
       
 
@@ -2189,7 +2081,7 @@ Iceberg BLTs
 
         
           
-           Kosher salt and freshly ground black pepper
+          2 cups low-sodium chicken broth
         
       
 
@@ -2200,7 +2092,51 @@ Iceberg BLTs
 
         
           
-          1 small tomato, cut into 4 slices
+          1 14 -ounce can pinto beans, drained and rinsed
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          3 tablespoons ketchup
+        
+      
+
+      
+
+      
+        
+
+        
+          
+           Hot sauce, to taste
+        
+      
+
+      
+
+      
+        
+
+        
+          
+          8 ounces spaghetti
+        
+      
+
+      
+
+      
+        
+
+        
+          
+           Shredded cheddar cheese and sour cream, for topping (optional)
         
       
 
@@ -2234,7 +2170,7 @@ Iceberg BLTs
         
         
             
-            Special equipment: parchment paperPosition a rack in the top third of the oven and preheat to 375 degrees F. Line a baking sheet with parchment paper, then arrange the bacon slices in a single layer on top.  Bake until the bacon is golden brown and crispy, 15 to 20 minutes, flipping once halfway through. Transfer the bacon to a paper-towel-lined plate to absorb any excess fat, cool and then cut each slice in half making 12 smaller strips.Meanwhile, from the top and 3 sides of the lettuce, slice 4 round "cheeks" 4 to 5 inches across to make 2 "buns".Whisk the yogurt, mayonnaise, chives, lemon juice and zest, and 1/4 teaspoon each salt and pepper together in a small bowl.Assemble the sandwiches: On a work surface, lay the lettuce "buns" cut side up and spread 1 tablespoon lemon-pepper sauce on each side. Lay six strips of bacon on each bottom bun and top with two slices of tomato. Season with a pinch of salt and pepper and sandwich with remaining lettuce buns.Copyright 2014 Television Food Network, G.P. All rights reserved.
+            Bring a large pot of salted water to a boil. Meanwhile, heat the olive oil in a large nonstick skillet over medium heat. Add the scallion whites and garlic and cook, stirring, until soft, 1 to 2 minutes. Add the tomato paste and chili powder and cook, stirring frequently, until the mixture is brick red, 2 to 3 minutes. Add the turkey and stir, breaking up the meat, until almost cooked through, about 4 minutes. Add the chicken broth, beans and ketchup; bring to a simmer and cook until the chili is slightly thickened but still soupy, 12 to 15 minutes. Stir in the scallion greens and hot sauce.Meanwhile, add the pasta to the boiling water and cook as the label directs, then drain. Divide among bowls and top with the chili, cheese and sour cream.Per serving: Calories 542; Fat 17 g (Saturated 4 g); Cholesterol 78 mg; Sodium 451 mg; Carbohydrate 61 g; Fiber 8 g; Protein 38 gPhotograph by Christopher Testani
         
     
     
@@ -2248,7 +2184,7 @@ Iceberg BLTs
 
     
     
-        From Food Network Kitchen
+        Recipe courtesy of Food Network Magazine
     
     
 
@@ -2269,22 +2205,7 @@ Iceberg BLTs
                         
                         
                             
-                                Bacon
-                            
-                            
-                        
-                    
-                
-            
-                
-                
-                    
-                        
-                        
-                        
-                        
-                            
-                                Healthy
+                                Turkey
                             
                             
                         
@@ -2301,7 +2222,7 @@ Iceberg BLTs
                         
                         
                             
-                                Diabetic
+                                Pasta Dishes
                             
                             
                         
@@ -2326,43 +2247,13 @@ Iceberg BLTs
                             
                             
                                 
-                                
-									
-								
-							
-                            
-                                
-                                    Bacon 
-								
-                                
-							
-						
-                        
-                            
-                            
-                                
-                                
-									
-								
-							
-                            
-                                
-                                    Lettuce 
-								
-                                
-							
-						
-                        
-                            
-                            
-                                
 									
 								
                                 
 							
                             
                                 
-                                    Tomato 
+                                    Turkey 
 								
                                 
 							
@@ -2370,7 +2261,7 @@ Iceberg BLTs
 				
 			
                 
-                    Cooking Style
+                    Dish
                     
                         
                             
@@ -2382,87 +2273,7 @@ Iceberg BLTs
 							
                             
                                 
-                                    Healthy 
-								
-                                
-							
-						
-				
-			
-                
-                    Nutrition
-                    
-                        
-                            
-                            
-                                
-                                
-									
-								
-							
-                            
-                                
-                                    Diabetic 
-								
-                                
-							
-						
-                        
-                            
-                            
-                                
-                                
-									
-								
-							
-                            
-                                
-                                    Gluten Free 
-								
-                                
-							
-						
-                        
-                            
-                            
-                                
-                                
-									
-								
-							
-                            
-                                
-                                    Low Calorie 
-								
-                                
-							
-						
-                        
-                            
-                            
-                                
-                                
-									
-								
-							
-                            
-                                
-                                    Low Carbohydrate 
-								
-                                
-							
-						
-                        
-                            
-                            
-                                
-									
-								
-                                
-							
-                            
-                                
-                                    Low Cholesterol 
+                                    Pasta Dishes 
 								
                                 
 							
@@ -3094,22 +2905,27 @@ Iceberg BLTs
     
         
             
-                    GZ's Ultimate BLT
-                    Recipe courtesy of Geoffrey Zakarian
+                    Spaghetti Western
+                    Recipe courtesy of Serena Palumbo
                     
             
-                    Open-Faced Roasted Tomato BLTs
+                    Spaghetti With Spicy Tuna Marinara Sauce
                     Recipe courtesy of Food Network Kitchen
                     
             
-                    BLT - Braised Bacon, Collards and Tomato Jam
-                    Recipe courtesy of Robert Irvine
+                    Spaghetti With Snap Peas and Prosciutto
+                    Recipe courtesy of Food Network Kitchen
                     
             
         
                     Also Try:
                     
-                        Gluten-Free Recipes
+                        Turkey Recipes
+                        Thanksgiving Turkey
+                        Turkey Gravy Recipes
+                        Turkey Chili Recipes
+                        Easy Pasta Recipes
+                        Stuffed Shell Recipes
                         
             
         
@@ -3145,6 +2961,38 @@ Iceberg BLTs
 
 
 
+
+    
+        
+
+        
+
+        
+            
+                
+                
+                    Subscribe Now
+                    Give a Gift
+                    Magazine Customer Service
+                
+            
+        
+
+        
+
+
+        
+
+        
+
+        
+
+        
+
+
+
+		    
+	    
 
 
 
@@ -3333,6 +3181,33 @@ Advertisement
 
 
 
+    
+        
+
+        
+
+        
+
+        
+
+
+        
+
+        
+
+        
+            
+                
+            
+        
+
+        
+
+
+
+		    
+	    
+
 
 
 
@@ -3516,7 +3391,7 @@ Advertisement
                 
                     
                         This recipe is featured in:
-                        Comfort Foods, Lightened Up
+                        Weeknight Dinners: Winter
                     
                     
                 
@@ -3705,7 +3580,7 @@ Food Network Sites
 	
 
 	
-window.NREUM||(NREUM={});NREUM.info={"applicationID":"2623209","applicationTime":926,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"ca450cca9d","transactionName":"ZAYGMhNQDUQCAEILWl1MNgMQRAZEFyJCFkdaARESBB4QWQpOUA1aV0wHCQxBDFkGDUIRGkMCAwMVSBNSEExEB1ZaEwE=","agent":"js-agent.newrelic.com\/nr-768.min.js","errorBeacon":"bam.nr-data.net"}
+window.NREUM||(NREUM={});NREUM.info={"applicationID":"4176188","applicationTime":1075,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"ca450cca9d","transactionName":"ZAYGMhNQDUQCAEILWl1MNgMQRAZEFyJCFkdaARESBB4QWQpOUA1aV0wHCQxBDFkGDUIRGkMCAwMVSBNSEExEB1ZaEwE=","agent":"js-agent.newrelic.com\/nr-768.min.js","errorBeacon":"bam.nr-data.net"}
 
     
 
