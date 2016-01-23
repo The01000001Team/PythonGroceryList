@@ -1,5 +1,5 @@
 package main.java;
 
-public class main {
+public class Main {
 	//java stuff
 }
