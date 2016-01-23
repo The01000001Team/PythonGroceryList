@@ -17,6 +17,10 @@ public class UnitConverter {
 	 * @return Returns the proper Unit object that corresponds to the string
 	 */
 	public static Unit getUnitFromString(String unitName, double quantity) {
+		if(unitName == "" || quantity == 0.0) {
+			return new Unit(quantity, unitName);
+		}
+		
 		unitName = updateUnitName(unitName.toLowerCase());
 		
 		Unit result = getCorrectUnitFromString(unitName, quantity);

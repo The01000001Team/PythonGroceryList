@@ -1,7 +1,6 @@
 package main.java;
 
 import javax.swing.DefaultListModel;
-import javax.swing.JTextArea;
 
 import main.python.PyInterpreter;
 
@@ -14,6 +13,9 @@ public class ListManager {
 	
 	public void addUrl(String url){
 		String[] recipe = PyInterpreter.execPyFile("Scrapper", url);
+		if(recipe == null) {
+			throw new NullPointerException();
+		}
 		
 		/***
 		 * This method should now take the string array and convert to item array

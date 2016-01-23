@@ -41,17 +41,63 @@ public class Item {
 	}
 	
 	public String toString() {
-		return (new DoubleToFraction(unit.getQuantity()).toString() + " " + unit.getName() + " -- " + displayName + " -- "
-				+ price == null ? "Price Unavailable" : ("$" + price));
+		if(this.unit.getQuantity() != 0.0) {
+			return (new DoubleToFraction(unit.getQuantity()).toString() + " " + unit.getName() + " -- " + displayName + " -- "
+					+ price == null ? "Price Unavailable" : ("$" + price));
+		}
+		return (displayName + " -- " + price == null ? "Price Unavailable" : ("$" + price));
 	}
 
 	public static Item[] toItemArray(String[] recipe) {
-		Item[] result = null;
+		Item[] result = new Item[recipe.length-1];
 		
-		for(String str: recipe) {
-			System.out.println(str);
+		for(int x = 1; x<recipe.length; x++) {
+			String[] srtArray = recipe[x].split(" ");
+			String itemName = "";
+			String itemUnit = "";
+			double itemQuantity = 0.0;
+			for(int i=0; i<srtArray.length; i++) {
+				if(i == 0) {
+					if(isDouble(srtArray[i])) {
+						itemQuantity = Double.parseDouble(srtArray[i]);
+						continue;
+					}
+					else {
+						itemName = addArrToString(srtArray);
+						break;
+					}
+				}
+				if(i == 1) {
+					itemUnit = srtArray[i];
+					continue;
+				}
+				if(i == 2) {
+					itemName = srtArray[i];
+					continue;
+				}
+				itemName = itemName + " " + srtArray[i];
+				
+			}
+			result[1] = new Item(itemName, itemQuantity, itemUnit);
 		}
 		
 		return result;
 	}
+	
+	private static String addArrToString(String[] srtArray) {
+		String result = srtArray[0];
+		for(int i=1; i<srtArray.length; i++) {
+			result = result + " " + srtArray[i];
+		}
+		return result;
+	}
+
+	private static boolean isDouble(String str) {
+        try {
+            Double.parseDouble(str);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
+    }
 }
