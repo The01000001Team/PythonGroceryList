@@ -38,10 +38,9 @@ for line in f:
 		while not "Directions" in line: #Print until directions
 			if not line.isspace(): #Avoid empty lines
 				list.append(unicodedata.normalize('NFKD',(line.strip(' \t\n\r'))).encode('ascii','ignore'))
-		line = next(f)	#Proceed to the next line in the file
+			line = next(f)	#Proceed to the next line in the file
 
 			
 jythonArray = array(list, String)
 f.close() #Close the text file
 os.remove(f.name) #removes the file from memory 
-print hello 
