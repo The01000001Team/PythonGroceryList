@@ -15,10 +15,10 @@ public class PyInterpreter
    PythonInterpreter interpreter = null;
  
  
-   public PyInterpreter()
+   public PyInterpreter(PySystemState state)
    {
-      PythonInterpreter.initialize(System.getProperties(), System.getProperties(), new String[0]);
-      this.interpreter = new PythonInterpreter();
+     // PythonInterpreter.initialize(System.getProperties(), System.getProperties(), new String[0]);
+      this.interpreter = new PythonInterpreter(null, state);
    }
  
    /** Executes the .py file. Do not call this, only call execPyFile()
@@ -45,10 +45,16 @@ public class PyInterpreter
     * 
     * @param fileName A String for the file name. Omit the ".py" extension
     */
-   public static String[] execPyFile(String fileName)
+   public static String[] execPyFile(String fileName, String url)
    {
-      PyInterpreter ie = new PyInterpreter();
+	  PySystemState state = new PySystemState();
+	  state.argv.clear();
+	  state.argv.append (new PyString (fileName));      
+	  state.argv.append (new PyString (url));
+
+      PyInterpreter ie = new PyInterpreter(state);
       ie.execfile("Python/" + fileName + ".py");
+      
 
       String[] array = ie.interpreter.get("jythonArray", String[].class);
       return array;    

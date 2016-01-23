@@ -2,6 +2,7 @@ import requests
 import re
 import unicodedata
 
+from sys import argv
 from java.lang import String
 from jarray import array
 
@@ -11,8 +12,9 @@ def remove_tags(text): #Remove HTML Tags (I know.. the post.. but very specific 
     return TAG_RE.sub('', text)
 
 
-x = raw_input("Enter the website for the recipe from FoodNetwork: ") #Prompts user for website to scrape\
+#x = raw_input("Enter the website for the recipe from FoodNetwork: ") #Prompts user for website to scrape\
 #Will only work for Food Network for now
+script, x = argv
 r = requests.get(x)
 code = r.status_code
 
