@@ -14,5 +14,9 @@ private final static String name = "oz";
 	public String getName() {
 		return name;
 	}
+	
+	public double convertToCup() {
+		return (double) 8.34544;
+	}
 
 }

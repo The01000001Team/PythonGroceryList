@@ -12,4 +12,8 @@ public class Stick extends Unit {
 		return name;
 	}
 	
+	public double convertToCup() {
+		return (double) 0.5;
+	}
+	
 }

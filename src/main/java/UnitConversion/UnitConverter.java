@@ -11,7 +11,7 @@ import main.java.UnitConversion.SolidUnits.Pound;
 
 public class UnitConverter {
 
-	/** Gets the proper Unit given the unit as a string. (i.e. "tbsp" returns a TableSpoon object)
+	/** Gets the proper Unit given the unit as a string. (i.e. "tbs" returns a TableSpoon object)
 	 * 
 	 * @param unitName
 	 * @return Returns the proper Unit object that corresponds to the string
@@ -29,9 +29,9 @@ public class UnitConverter {
 		break;
 		case "teaspoons": unitName = "tsp";
 		break;
-		case "tablespoon": unitName = "tbsp";
+		case "tablespoon": unitName = "tbs";
 		break;
-		case "tablespoons": unitName = "tbsp";
+		case "tablespoons": unitName = "tbs";
 		break;
 		case "cups": unitName = "cup";
 		break;
@@ -95,13 +95,31 @@ public class UnitConverter {
 		break;
 		case "lb": result = new Pound(quantity);
 		break;
-		case "tbsp": result = new TableSpoon(quantity);
+		case "tbs": result = new TableSpoon(quantity);
 		break;
 		case "tsp": result = new TeaSpoon(quantity);
 		break;
 		}
 		
 		return result != null ? result : new Unit(quantity, unitName);
+	}
+	
+	public Unit convertToExistingUnit(Unit unit1, Unit unit2) {
+		double factor = findConversionAmount(unit1, unit2);
+		unit1.increaseQuantity(factor);
+		
+		return null;
+	}
+
+	private double findConversionAmount(Unit unit1, Unit unit2) {
+		double factor1 = unit1.convertToCup();
+		double factor2 = unit2.convertToCup();
+		System.out.println(factor1);
+		System.out.println(factor2);
+		
+		double quantity2 = unit2.getQuantity()*factor2;
+		return quantity2/factor1;
+		
 	}
 	
 }

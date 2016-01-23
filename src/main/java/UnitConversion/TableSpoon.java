@@ -2,7 +2,7 @@ package main.java.UnitConversion;
 
 public class TableSpoon extends Unit {
 
-	private final static String name = "tbsp";
+	private final static String name = "tbs";
 	
 	public TableSpoon(double quantity) {
 		super(quantity, name);
@@ -11,6 +11,10 @@ public class TableSpoon extends Unit {
 	
 	public String getName() {
 		return name;
+	}
+	
+	public double convertToCup() {
+		return (double) 16;
 	}
 
 }

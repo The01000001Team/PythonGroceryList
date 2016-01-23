@@ -18,4 +18,16 @@ public class Unit {
 		return this.quantity;
 	}
 	
+	public void increaseQuantity(double amount) {
+		this.quantity = this.quantity + amount;
+	}
+	
+	public void decreaseQuantity(double amount) {
+		this.quantity = this.quantity + amount;
+	}
+	
+	public double convertToCup() {
+		return (double) 1;
+	}
+	
 }
