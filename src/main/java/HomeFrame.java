@@ -46,7 +46,7 @@ public class HomeFrame extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public HomeFrame(DefaultListModel passedModel) {
+	public HomeFrame(ListManager recipeManager) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 600, 500);
 		contentPane = new JPanel();
@@ -82,7 +82,7 @@ public class HomeFrame extends JFrame {
 		gbc_lblPasteUrlsInto.gridy = 1;
 		contentPane.add(lblPasteUrlsInto, gbc_lblPasteUrlsInto);
 
-		recipeModel = passedModel;
+		recipeModel = recipeManager.getListModel();
 		list_recipe = new JList(recipeModel);
 		list_recipe.setSelectionMode(ListSelectionModel.SINGLE_INTERVAL_SELECTION);
 		list_recipe.setLayoutOrientation(JList.VERTICAL);
