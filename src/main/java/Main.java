@@ -5,7 +5,7 @@ import java.awt.EventQueue;
 import main.python.PyInterpreter;
 
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
