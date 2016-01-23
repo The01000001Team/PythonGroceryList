@@ -1,10 +1,8 @@
 package main.python;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-
-import org.python.core.*;
+import org.python.core.PyInstance;
+import org.python.core.PyString;
+import org.python.core.PySystemState;
 import org.python.util.PythonInterpreter;
 
 

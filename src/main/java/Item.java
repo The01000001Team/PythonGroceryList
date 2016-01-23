@@ -36,4 +36,9 @@ public class Item {
 		return (new DoubleToFraction(unit.getQuantity()).toString() + " " + unit.getName() + " -- " + displayName + " -- "
 				+ price == null ? "Price Unavailable" : ("$" + price));
 	}
+
+	public static Item[] toItemArray(String[] recipe) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
