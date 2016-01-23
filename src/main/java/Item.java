@@ -14,7 +14,7 @@ public class Item {
 		this.displayName = itemName;
 		this.itemName = itemName;
 		this.unit = UnitConverter.getUnitFromString(unit, quantity);
-		this.price = (Double) null;
+		this.price = 0.0;
 	}
 	
 	public Item(String itemName, double quantity, String unit, double price) {
@@ -42,8 +42,7 @@ public class Item {
 	
 	public String toString() {
 		if(this.unit.getQuantity() != 0.0) {
-			return (new DoubleToFraction(unit.getQuantity()).toString() + " " + unit.getName() + " -- " + displayName + " -- "
-					+ price == null ? "Price Unavailable" : ("$" + price));
+			return (new DoubleToFraction(unit.getQuantity()).toString() + " " + unit.getName() + " -- " + displayName + " -- ") + ((price == 0.0) ? "Price Unavailable" : ("$" + String.valueOf(price)));
 		}
 		return (displayName + " -- " + price == null ? "Price Unavailable" : ("$" + price));
 	}
@@ -60,6 +59,7 @@ public class Item {
 				if(i == 0) {
 					if(isDouble(srtArray[i])) {
 						itemQuantity = Double.parseDouble(srtArray[i]);
+						System.out.println("Item Quantity: " + String.valueOf(itemQuantity));
 						continue;
 					}
 					else {
@@ -69,6 +69,7 @@ public class Item {
 				}
 				if(i == 1) {
 					itemUnit = srtArray[i];
+					System.out.println("Unit Type: " + itemUnit);
 					continue;
 				}
 				if(i == 2) {
@@ -78,6 +79,7 @@ public class Item {
 				itemName = itemName + " " + srtArray[i];
 				
 			}
+			System.out.println("Item Name: " + itemName);
 			result[1] = new Item(itemName, itemQuantity, itemUnit);
 		}
 		

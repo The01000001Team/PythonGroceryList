@@ -30,10 +30,13 @@ public class ListManager {
 		Item[] items = Item.toItemArray(recipe);
 		
 		for(int i=0; i<items.length; i++) {
+			/*
 			if(checkIfExistingItem(items[i])) {
-				items[i] = null;
+				continue;
 			}
 			else recipeModel.addElement(items[i]);
+			*/
+			recipeModel.addElement(items[i]);
 		}
 
 	}
