@@ -44,7 +44,9 @@ public class Item {
 		if(this.unit.getQuantity() != 0.0) {
 			return (new DoubleToFraction(unit.getQuantity()).toString() + " " + unit.getName() + " -- " + displayName + " -- ") + ((price == 0.0) ? "Price Unavailable" : ("$" + String.valueOf(price)));
 		}
-		return (displayName + " -- ") + ((price == 0.0) ? "Price Unavailable" : ("$" + String.valueOf(price)));
+		else {
+			return (displayName + " -- ") + ((price == 0.0) ? "Price Unavailable" : ("$" + String.valueOf(price)));
+		}
 	}
 
 	public static Item[] toItemArray(String[] recipe) {
@@ -56,6 +58,9 @@ public class Item {
 			String itemUnit = "";
 			double itemQuantity = 0.0;
 			for(int i=0; i<arrayStr.length; i++) {
+				if(arrayStr[i].substring(0,1).equals("-")) {
+					arrayStr[i] = arrayStr[i].substring(1);
+				}
 				if(i == 0) {
 					if(isDouble(arrayStr[i])) {
 						itemQuantity = Double.parseDouble(arrayStr[i]);
@@ -73,7 +78,7 @@ public class Item {
 					continue;
 				}
 				if(i == 2) {
-					if(instanceOfUnitName(arrayStr[i]) && isDouble(arrayStr[i-1])) {
+					if(instanceOfUnitName(arrayStr[i].toLowerCase()) && isDouble(arrayStr[i-1])) {
 						itemUnit = arrayStr[i];
 						System.out.println("Unit Type: " + itemUnit);
 						itemQuantity = Double.parseDouble(arrayStr[i-1]);
