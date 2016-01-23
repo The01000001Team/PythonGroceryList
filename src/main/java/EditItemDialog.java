@@ -7,6 +7,9 @@ import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+
 import java.awt.GridBagLayout;
 import javax.swing.JLabel;
 import java.awt.GridBagConstraints;
@@ -17,8 +20,8 @@ import javax.swing.JComboBox;
 public class EditItemDialog extends JDialog {
 
 	private final JPanel contentPanel = new JPanel();
-	private JTextField textField;
-	private JTextField textField_1;
+	private JTextField textField_Quantity;
+	private JTextField textField_Name;
 
 	/*
 		try {
@@ -27,7 +30,7 @@ public class EditItemDialog extends JDialog {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	*/
+	 */
 
 	public EditItemDialog() {
 		setBounds(100, 100, 307, 158);
@@ -41,75 +44,89 @@ public class EditItemDialog extends JDialog {
 		gbl_contentPanel.columnWeights = new double[]{0.0, 1.0, 1.0, Double.MIN_VALUE};
 		gbl_contentPanel.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE};
 		contentPanel.setLayout(gbl_contentPanel);
-		{
-			JLabel lblQuantity = new JLabel("Quantity:");
-			GridBagConstraints gbc_lblQuantity = new GridBagConstraints();
-			gbc_lblQuantity.anchor = GridBagConstraints.EAST;
-			gbc_lblQuantity.insets = new Insets(0, 0, 5, 5);
-			gbc_lblQuantity.gridx = 0;
-			gbc_lblQuantity.gridy = 0;
-			contentPanel.add(lblQuantity, gbc_lblQuantity);
+		JLabel lblQuantity = new JLabel("Quantity:");
+		GridBagConstraints gbc_lblQuantity = new GridBagConstraints();
+		gbc_lblQuantity.anchor = GridBagConstraints.EAST;
+		gbc_lblQuantity.insets = new Insets(0, 0, 5, 5);
+		gbc_lblQuantity.gridx = 0;
+		gbc_lblQuantity.gridy = 0;
+		contentPanel.add(lblQuantity, gbc_lblQuantity);
+
+		textField_Quantity = new JTextField();
+		GridBagConstraints gbc_textField_Quantity = new GridBagConstraints();
+		gbc_textField_Quantity.insets = new Insets(0, 0, 5, 5);
+		gbc_textField_Quantity.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textField_Quantity.gridx = 1;
+		gbc_textField_Quantity.gridy = 0;
+		contentPanel.add(textField_Quantity, gbc_textField_Quantity);
+		textField_Quantity.setColumns(10);
+
+		JLabel lblName = new JLabel("Name:");
+		GridBagConstraints gbc_lblName = new GridBagConstraints();
+		gbc_lblName.insets = new Insets(0, 0, 5, 5);
+		gbc_lblName.anchor = GridBagConstraints.EAST;
+		gbc_lblName.gridx = 0;
+		gbc_lblName.gridy = 1;
+		contentPanel.add(lblName, gbc_lblName);
+
+		textField_Name = new JTextField();
+		GridBagConstraints gbc_textField_Name = new GridBagConstraints();
+		gbc_textField_Name.gridwidth = 2;
+		gbc_textField_Name.insets = new Insets(0, 0, 5, 5);
+		gbc_textField_Name.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textField_Name.gridx = 1;
+		gbc_textField_Name.gridy = 1;
+		contentPanel.add(textField_Name, gbc_textField_Name);
+		textField_Name.setColumns(10);
+
+		JLabel lblType = new JLabel("Type:");
+		GridBagConstraints gbc_lblType = new GridBagConstraints();
+		gbc_lblType.anchor = GridBagConstraints.EAST;
+		gbc_lblType.insets = new Insets(0, 0, 5, 5);
+		gbc_lblType.gridx = 0;
+		gbc_lblType.gridy = 2;
+		contentPanel.add(lblType, gbc_lblType);
+
+		JComboBox comboBox_Type = new JComboBox();
+		GridBagConstraints gbc_comboBox_Type = new GridBagConstraints();
+		gbc_comboBox_Type.gridwidth = 2;
+		gbc_comboBox_Type.insets = new Insets(0, 0, 5, 5);
+		gbc_comboBox_Type.fill = GridBagConstraints.HORIZONTAL;
+		gbc_comboBox_Type.gridx = 1;
+		gbc_comboBox_Type.gridy = 2;
+		contentPanel.add(comboBox_Type, gbc_comboBox_Type);
+
+		final JButton btnSubmit = new JButton("Submit");
+		btnSubmit.setEnabled(false);
+		GridBagConstraints gbc_btnSubmit = new GridBagConstraints();
+		gbc_btnSubmit.gridwidth = 2;
+		gbc_btnSubmit.insets = new Insets(0, 0, 0, 5);
+		gbc_btnSubmit.anchor = GridBagConstraints.EAST;
+		gbc_btnSubmit.gridx = 1;
+		gbc_btnSubmit.gridy = 3;
+		contentPanel.add(btnSubmit, gbc_btnSubmit);
+		
+		class EntryListener implements DocumentListener{
+			public void changedUpdate(DocumentEvent e){check();}
+			public void removeUpdate(DocumentEvent e) {check();}
+			public void insertUpdate(DocumentEvent e) {check();}
+			private void check(){
+				try {
+					Double.parseDouble(textField_Quantity.getText());
+					if(textField_Name.getText().trim().equals("")){ 
+						btnSubmit.setEnabled(false);
+					}
+					else{
+						btnSubmit.setEnabled(true);}
+				}
+				catch (NumberFormatException e1) {
+					btnSubmit.setEnabled(false);
+				}
+			}
 		}
-		{
-			textField = new JTextField();
-			GridBagConstraints gbc_textField = new GridBagConstraints();
-			gbc_textField.insets = new Insets(0, 0, 5, 5);
-			gbc_textField.fill = GridBagConstraints.HORIZONTAL;
-			gbc_textField.gridx = 1;
-			gbc_textField.gridy = 0;
-			contentPanel.add(textField, gbc_textField);
-			textField.setColumns(10);
-		}
-		{
-			JLabel lblName = new JLabel("Name:");
-			GridBagConstraints gbc_lblName = new GridBagConstraints();
-			gbc_lblName.insets = new Insets(0, 0, 5, 5);
-			gbc_lblName.anchor = GridBagConstraints.EAST;
-			gbc_lblName.gridx = 0;
-			gbc_lblName.gridy = 1;
-			contentPanel.add(lblName, gbc_lblName);
-		}
-		{
-			textField_1 = new JTextField();
-			GridBagConstraints gbc_textField_1 = new GridBagConstraints();
-			gbc_textField_1.gridwidth = 2;
-			gbc_textField_1.insets = new Insets(0, 0, 5, 5);
-			gbc_textField_1.fill = GridBagConstraints.HORIZONTAL;
-			gbc_textField_1.gridx = 1;
-			gbc_textField_1.gridy = 1;
-			contentPanel.add(textField_1, gbc_textField_1);
-			textField_1.setColumns(10);
-		}
-		{
-			JLabel lblType = new JLabel("Type:");
-			GridBagConstraints gbc_lblType = new GridBagConstraints();
-			gbc_lblType.anchor = GridBagConstraints.EAST;
-			gbc_lblType.insets = new Insets(0, 0, 5, 5);
-			gbc_lblType.gridx = 0;
-			gbc_lblType.gridy = 2;
-			contentPanel.add(lblType, gbc_lblType);
-		}
-		{
-			JComboBox comboBox = new JComboBox();
-			GridBagConstraints gbc_comboBox = new GridBagConstraints();
-			gbc_comboBox.gridwidth = 2;
-			gbc_comboBox.insets = new Insets(0, 0, 5, 5);
-			gbc_comboBox.fill = GridBagConstraints.HORIZONTAL;
-			gbc_comboBox.gridx = 1;
-			gbc_comboBox.gridy = 2;
-			contentPanel.add(comboBox, gbc_comboBox);
-		}
-		{
-			JButton btnSubmit = new JButton("Submit");
-			btnSubmit.setEnabled(false);
-			GridBagConstraints gbc_btnSubmit = new GridBagConstraints();
-			gbc_btnSubmit.gridwidth = 2;
-			gbc_btnSubmit.insets = new Insets(0, 0, 0, 5);
-			gbc_btnSubmit.anchor = GridBagConstraints.EAST;
-			gbc_btnSubmit.gridx = 1;
-			gbc_btnSubmit.gridy = 3;
-			contentPanel.add(btnSubmit, gbc_btnSubmit);
-		}
+		EntryListener entryListener = new EntryListener();
+		textField_Quantity.getDocument().addDocumentListener(entryListener);
+		textField_Name.getDocument().addDocumentListener(entryListener);
 	}
 
 }

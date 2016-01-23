@@ -5,6 +5,8 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 
 import java.awt.GridBagLayout;
 import javax.swing.JLabel;
@@ -12,12 +14,20 @@ import javax.swing.JLabel;
 import java.awt.EventQueue;
 import java.awt.GridBagConstraints;
 import java.awt.Insets;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.DataFlavor;
+import java.awt.datatransfer.Transferable;
+import java.awt.datatransfer.UnsupportedFlavorException;
+
 import javax.swing.JList;
 import javax.swing.DefaultListModel;
 import javax.swing.JButton;
 import javax.swing.JTextArea;
 import javax.swing.ListSelectionModel;
+import javax.swing.SwingUtilities;
+
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.awt.event.ActionEvent;
 
 public class HomeFrame extends JFrame {
@@ -29,6 +39,7 @@ public class HomeFrame extends JFrame {
 	private JButton btnDelete;
 	private JTextArea textArea_Url;
 	DefaultListModel recipeModel;
+	private JButton btnPaste;
 
 	/**
 	 * Create the frame.
@@ -91,6 +102,13 @@ public class HomeFrame extends JFrame {
 		gbc_textArea_Url.gridy = 2;
 		contentPane.add(textArea_Url, gbc_textArea_Url);
 
+		btnPaste = new JButton("Paste");
+		GridBagConstraints gbc_btnPaste = new GridBagConstraints();
+		gbc_btnPaste.insets = new Insets(0, 0, 0, 5);
+		gbc_btnPaste.gridx = 0;
+		gbc_btnPaste.gridy = 3;
+		contentPane.add(btnPaste, gbc_btnPaste);
+
 		btnEdit = new JButton("Edit...");
 		btnEdit.setEnabled(false);
 		GridBagConstraints gbc_btnEdit = new GridBagConstraints();
@@ -140,22 +158,75 @@ public class HomeFrame extends JFrame {
 				}
 			}
 		});
-
+		final Clipboard clipboard = this.getToolkit().getSystemClipboard();
+		btnPaste.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent actionEvent) {
+				Transferable clipData = clipboard.getContents(clipboard);
+				if (clipData != null) {
+					try {
+						if 
+						(clipData.isDataFlavorSupported
+								(DataFlavor.stringFlavor)) {
+							String s = (String)(clipData.getTransferData(
+									DataFlavor.stringFlavor));
+							textArea_Url.replaceSelection(s);
+						}
+					} catch (UnsupportedFlavorException ufe) {
+						System.err.println("Flavor unsupported: " + ufe);
+					} catch (IOException ioe) {
+						System.err.println("Data not available: " + ioe);
+					}
+				}
+			}
+		});
 
 		class UrlListener implements DocumentListener{
+
+			private boolean isRunning;
+
 			public void changedUpdate(DocumentEvent e){check();}
 			public void removeUpdate(DocumentEvent e) {check();}
 			public void insertUpdate(DocumentEvent e) {check();}
 			private void check(){
-				/*if(instructorNameValue.getText().trim().equals("") || courseNameValue.getText().trim().equals("")){
-					btnSubmit.setEnabled(false);
-				}else{
-					btnSubmit.setEnabled(true);
-				}*/
+				if(isRunning){return;}
+
+				isRunning = true;
+				//PARSE DIS SHEET
+				recipeModel.addElement("WEEEEE");
+
+				SwingUtilities.invokeLater(new Runnable() 
+				{
+					public void run()
+					{
+						textArea_Url.setText("");
+						reset();
+					}
+				});
+
+
+			}
+			protected void reset() {
+				isRunning = false;
+
 			}
 		}
+
 		UrlListener urlListener = new UrlListener();
 		textArea_Url.getDocument().addDocumentListener(urlListener);
+
+		list_recipe.addListSelectionListener(new ListSelectionListener() {
+			public void valueChanged(ListSelectionEvent e) {
+				if (e.getValueIsAdjusting() == false) {
+					if (list_recipe.getSelectedIndex() == -1) {
+						btnDelete.setEnabled(false);
+						btnEdit.setEnabled(false);
+					} else {
+						btnDelete.setEnabled(true);
+						btnEdit.setEnabled(true);
+					}
+				}
+			}
+		});
 	}
 
 }
