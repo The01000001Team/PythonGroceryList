@@ -1,1 +1,6 @@
-/bin/
+bin
+.classpath
+
+.classpath
+
+*.class
