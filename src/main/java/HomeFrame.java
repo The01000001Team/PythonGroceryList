@@ -192,25 +192,26 @@ public class HomeFrame extends JFrame {
 			private void check(){
 				if(isRunning){return;}
 
+				//error check if textarea is empty
 				isRunning = true;
-				recipeManager.addUrl(textArea_Url.getText(), textArea_Url);
+				recipeManager.addUrl(textArea_Url.getText());
 				
 
-//				SwingUtilities.invokeLater(new Runnable() 
-//				{
-//					public void run()
-//					{
-//						textArea_Url.setText("");
-//						reset();
-//					}
-//				});
+				SwingUtilities.invokeLater(new Runnable() 
+				{
+					public void run()
+					{
+						textArea_Url.setText("");
+						reset();
+					}
+				});
 
 
 			}
-//			protected void reset() {
-//				isRunning = false;
-//
-//			}
+			protected void reset() {
+				isRunning = false;
+
+			}
 		}
 
 		UrlListener urlListener = new UrlListener();
