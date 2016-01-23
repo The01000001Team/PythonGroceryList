@@ -17,12 +17,17 @@ def remove_tags(text): #Remove HTML Tags (I know.. the post.. but very specific 
 #x = raw_input("Enter the website for the recipe from FoodNetwork: ") #Prompts user for website to scrape\
 #Will only work for Food Network for now
 script, x = argv
-r = requests.get(x)
-code = r.status_code
+try:
+    r = requests.get(x)
+    code = r.status_code
+except:
+    jythonArray = None
+    sys.exit()
 
-if code != requests.codes.ok: #Did it have an error?
-	System.out.println("Sorry, there was an error and cannot proceed")
-	exit()
+
+# if code != requests.codes.ok: #Did it have an error?
+# 	System.out.println("Sorry, there was an error and cannot proceed")
+# 	exit()
 
 f = open ("recipe.txt", "w") #Open to write
 recipe = r.text
@@ -40,7 +45,7 @@ for line in f:
 				list.append(unicodedata.normalize('NFKD',(line.strip(' \t\n\r'))).encode('ascii','ignore'))
 			line = next(f)	#Proceed to the next line in the file
 
-			
+
 jythonArray = array(list, String)
 f.close() #Close the text file
-os.remove(f.name) #removes the file from memory 
+os.remove(f.name) #removes the file from memory
