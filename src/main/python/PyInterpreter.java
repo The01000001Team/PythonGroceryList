@@ -51,7 +51,7 @@ public class PyInterpreter
       ie.execfile("Python/" + fileName + ".py");
 
       //ArrayList array = new ArrayList(Arrays.asList((Object[])ie.interpreter.get("list", Object[].class)));
-      String[] array = ((ie.interpreter.get("jythonArray", CustomArray.class))).getData();
+      String[] array = ie.interpreter.get("jythonArray", String[].class);
       int size = array.length;
       for(int i = 0; i < size; i++){
     	  System.out.println(array[i]);
