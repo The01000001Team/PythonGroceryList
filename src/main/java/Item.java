@@ -30,7 +30,11 @@ public class Item {
 	
 	public void updateDisplayName(String displayName) {
 		this.displayName = displayName;
-	}	
+	}
+	
+	public void updateCurrentItem(Item item2) {
+		
+	}
 	
 	public String toString() {
 		return (new DoubleToFraction(unit.getQuantity()).toString() + " " + unit.getName() + " -- " + displayName + " -- "
