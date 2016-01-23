@@ -44,39 +44,47 @@ public class Item {
 		if(this.unit.getQuantity() != 0.0) {
 			return (new DoubleToFraction(unit.getQuantity()).toString() + " " + unit.getName() + " -- " + displayName + " -- ") + ((price == 0.0) ? "Price Unavailable" : ("$" + String.valueOf(price)));
 		}
-		return (displayName + " -- " + price == null ? "Price Unavailable" : ("$" + price));
+		return (displayName + " -- ") + ((price == 0.0) ? "Price Unavailable" : ("$" + String.valueOf(price)));
 	}
 
 	public static Item[] toItemArray(String[] recipe) {
 		Item[] result = new Item[recipe.length-1];
 		
 		for(int x = 1; x<recipe.length; x++) {
-			String[] srtArray = recipe[x].split(" ");
+			String[] arrayStr = recipe[x].split(" ");
 			String itemName = "";
 			String itemUnit = "";
 			double itemQuantity = 0.0;
-			for(int i=0; i<srtArray.length; i++) {
+			for(int i=0; i<arrayStr.length; i++) {
 				if(i == 0) {
-					if(isDouble(srtArray[i])) {
-						itemQuantity = Double.parseDouble(srtArray[i]);
+					if(isDouble(arrayStr[i])) {
+						itemQuantity = Double.parseDouble(arrayStr[i]);
 						System.out.println("Item Quantity: " + String.valueOf(itemQuantity));
 						continue;
 					}
 					else {
-						itemName = addArrToString(srtArray);
+						itemName = addArrToString(arrayStr);
 						break;
 					}
 				}
 				if(i == 1) {
-					itemUnit = srtArray[i];
+					itemUnit = arrayStr[i];
 					System.out.println("Unit Type: " + itemUnit);
 					continue;
 				}
 				if(i == 2) {
-					itemName = srtArray[i];
+					if(instanceOfUnitName(arrayStr[i]) && isDouble(arrayStr[i-1])) {
+						itemUnit = arrayStr[i];
+						System.out.println("Unit Type: " + itemUnit);
+						itemQuantity = Double.parseDouble(arrayStr[i-1]);
+						System.out.println("Item Quantity: " + String.valueOf(itemQuantity));
+						continue;
+					}
+					
+					itemName = arrayStr[i];
 					continue;
 				}
-				itemName = itemName + " " + srtArray[i];
+				itemName = itemName + " " + arrayStr[i];
 				
 			}
 			System.out.println("Item Name: " + itemName);
@@ -86,10 +94,37 @@ public class Item {
 		return result;
 	}
 	
-	private static String addArrToString(String[] srtArray) {
-		String result = srtArray[0];
-		for(int i=1; i<srtArray.length; i++) {
-			result = result + " " + srtArray[i];
+	private static boolean instanceOfUnitName(String unitName) {
+		switch(unitName) {
+		case "teaspoon": return true;
+		case "teaspoons": return true;
+		case "tablespoon": return true;
+		case "tablespoons": return true;
+		case "cups": return true;
+		case "ounce": return true;
+		case "ounces": return true;
+		case "drops": return true;
+		case "pound": return true;
+		case "pounds": return true;
+		case "gallon": return true;
+		case "gallons": return true;
+		case "fluid ounce": return true;
+		case "fluid ounces": return true;
+		case "fl. oz.": return true;
+		case "fl. oz": return true;
+		case "pint": return true;
+		case "pints": return true;
+		case "quart": return true;
+		case "quarts": return true;
+		case "sticks": return true;
+		}
+		return false;
+	}
+
+	private static String addArrToString(String[] arrayStr) {
+		String result = arrayStr[0];
+		for(int i=1; i<arrayStr.length; i++) {
+			result = result + " " + arrayStr[i];
 		}
 		return result;
 	}
