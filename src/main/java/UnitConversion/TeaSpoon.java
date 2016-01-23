@@ -2,7 +2,7 @@ package main.java.UnitConversion;
 
 public class TeaSpoon extends Unit {
 
-private final static String name = "tbsp";
+private final static String name = "tsp";
 	
 	public TeaSpoon(double quantity) {
 		super(quantity, name);
@@ -11,5 +11,9 @@ private final static String name = "tbsp";
 	
 	public String getName() {
 		return name;
+	}
+	
+	public double convertToCup() {
+		return (double) 48;
 	}
 }

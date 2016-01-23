@@ -49,8 +49,8 @@ public class PyInterpreter
    {
       PyInterpreter ie = new PyInterpreter();
       ie.execfile("Python/" + fileName + ".py");
-      PyInstance hello = ie.createClass("Hello", "None");
-      hello.invoke("run");
+      PyInstance file = ie.createClass(fileName, "None");
+      file.invoke("run");
       
       ArrayList array = new ArrayList(Arrays.asList((Object[])ie.interpreter.get("a", Object[].class)));
    }

@@ -14,5 +14,9 @@ private final static String name = "gal";
 	public String getName() {
 		return name;
 	}
+	
+	public double convertToCup() {
+		return (double) 0.0625;
+	}
 
 }

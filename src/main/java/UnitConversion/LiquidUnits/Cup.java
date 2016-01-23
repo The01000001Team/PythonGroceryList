@@ -14,5 +14,9 @@ private final static String name = "cup";
 	public String getName() {
 		return name;
 	}
+	
+	public double convertToCup() {
+		return (double) 1;
+	}
 
 }

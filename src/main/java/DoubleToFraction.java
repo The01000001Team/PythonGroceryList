@@ -25,8 +25,15 @@ public class DoubleToFraction {
     public String toString() {
          return String.valueOf(num) + "/" + String.valueOf(denom);
     }
-
-    public static void main(String[] args) {
-         System.out.println(new DoubleToFraction(123.456));
+    
+    public double fractionToDouble(String ratio) {
+    	if(ratio.contains("/")) {
+    		String[] rat = ratio.split("/");
+    		return Double.parseDouble(rat[0]) / Double.parseDouble(rat[1]);
+    	}
+    	else {
+    		return Double.parseDouble(ratio);
+    	}
     }
+
 }
