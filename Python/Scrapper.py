@@ -12,7 +12,7 @@ try:
     r = requests.get(x)
     code = r.status_code
 except:
-	jythonArray = None
+    jythonArray = None
     sys.exit()
 
 soup = BeautifulSoup(r.text.encode("utf-8", "ignore"), 'html.parser') #Parse through HTML 

@@ -30,12 +30,12 @@ public class PyInterpreter
  
    /** Creates a class for the python file. Do not call this, only call the execPyFile()
     * 
-    * @param classNameÂ 
+    * @param className 
     * @param opts
     * @return
     */
    @SuppressWarnings("unused")
-private PyInstance createClass( final String className, final String opts )
+   private PyInstance createClass( final String className, final String opts )
    {
       return (PyInstance) this.interpreter.eval(className + "(" + opts + ")");
    }
@@ -48,11 +48,18 @@ private PyInstance createClass( final String className, final String opts )
    {
 	  PySystemState state = new PySystemState();
 	  state.argv.clear();
-	  state.argv.append (new PyString (fileName));      
+	  System.out.println(state.argv.toString());
+	  state.argv.append (new PyString (fileName + ".py"));
+	  System.out.println(state.argv.toString());
 	  state.argv.append (new PyString (url));
+	  System.out.println(state.argv.toString());
 
       PyInterpreter ie = new PyInterpreter(state);
-      ie.execfile("Python/" + fileName + ".py");
+      System.out.println(ie.toString());
+      String file = "Python/" + fileName + ".py";
+      System.out.println(file);
+      ie.execfile(file);
+      System.out.println("RUNNING...");
       
 
       String[] array = ie.interpreter.get("jythonArray", String[].class);
