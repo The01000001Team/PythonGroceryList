@@ -1,16 +1,16 @@
 package main.java;
 
 import javax.swing.DefaultListModel;
-import javax.swing.JTextArea;
-
-import org.omg.CORBA.SystemException;
-import org.python.core.PyException;
 
 import main.python.PyInterpreter;
 
+import org.python.core.PyException;
+
 public class ListManager {
+	@SuppressWarnings("rawtypes")
 	private static DefaultListModel recipeModel;
 
+	@SuppressWarnings("rawtypes")
 	public ListManager(){
 		recipeModel = new DefaultListModel();
 	}
@@ -18,6 +18,7 @@ public class ListManager {
 	/**
 	 * RETURNS A STATUS. 1 = bad url, 0 = all good
 	 */
+	@SuppressWarnings("unchecked")
 	public int addUrl(String url){
 		try{
 			String[] recipe = PyInterpreter.execRecipeScraper("Scrapper", url);
@@ -38,6 +39,7 @@ public class ListManager {
 
 	}
 
+	@SuppressWarnings("rawtypes")
 	public DefaultListModel getListModel(){
 		return recipeModel;
 	}

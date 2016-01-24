@@ -34,7 +34,8 @@ public class PyInterpreter
     * @param opts
     * @return
     */
-   private PyInstance createClass( final String className, final String opts )
+   @SuppressWarnings("unused")
+private PyInstance createClass( final String className, final String opts )
    {
       return (PyInstance) this.interpreter.eval(className + "(" + opts + ")");
    }

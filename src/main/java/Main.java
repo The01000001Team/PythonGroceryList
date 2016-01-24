@@ -2,10 +2,6 @@ package main.java;
 
 import java.awt.EventQueue;
 
-import javax.swing.DefaultListModel;
-
-import main.python.PyInterpreter;
-
 
 public class Main {
 	

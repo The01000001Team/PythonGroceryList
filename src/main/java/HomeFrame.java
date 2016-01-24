@@ -1,49 +1,46 @@
 package main.java;
 
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
-
-import main.java.UnitConversion.Unit;
-
-import java.awt.GridBagLayout;
-import javax.swing.JLabel;
-
 import java.awt.EventQueue;
 import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
 import java.awt.Insets;
+import java.awt.SystemColor;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
-
-import javax.swing.JList;
-import javax.swing.DefaultListModel;
-import javax.swing.JButton;
-import javax.swing.JTextArea;
-import javax.swing.ListSelectionModel;
-
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.io.IOException;
-import java.awt.event.ActionEvent;
-import javax.swing.JScrollPane;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.JTextField;
-import java.awt.Color;
-import java.awt.SystemColor;
 
+import javax.swing.DefaultListModel;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JList;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.ListSelectionModel;
+import javax.swing.ScrollPaneConstants;
+import javax.swing.border.EmptyBorder;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+
+@SuppressWarnings("serial")
 public class HomeFrame extends JFrame {
 
 	private JPanel contentPane;
 	private JLabel lblYourGroceryList;
+	@SuppressWarnings("rawtypes")
 	private JList list_recipe;
 	private JButton btnEdit;
 	private JButton btnDelete;
 	private JTextField textField_Url;
+	@SuppressWarnings("rawtypes")
 	DefaultListModel recipeModel;
 	private JButton btnPaste;
 	private JLabel lblStatus;
@@ -54,6 +51,7 @@ public class HomeFrame extends JFrame {
 	/**
 	 * Create the frame.
 	 */
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public HomeFrame(final ListManager recipeManager) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 600, 500);
