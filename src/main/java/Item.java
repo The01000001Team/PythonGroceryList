@@ -69,7 +69,6 @@ public class Item {
 		ArrayList<Item> result = new ArrayList<Item>();
 		
 		for(int x = 1; x<recipe.length; x++) {
-			System.out.println(recipe[x]);
 			if(recipe[x].substring(recipe[x].length() - 1).equals(":")){
 				continue;
 			}

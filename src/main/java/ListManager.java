@@ -22,7 +22,6 @@ public class ListManager {
 	public int addUrl(String url){
 		try{
 			String[] recipe = PyInterpreter.execRecipeScraper("Scrapper", url);
-			System.out.println(recipe.toString());
 			Object[] items = Item.toItemArray(recipe);
 
 			for(int i=0; i<items.length; i++) {
@@ -34,7 +33,6 @@ public class ListManager {
 
 			return 0;
 		}catch(PyException e){
-			System.out.println("Returning 1");
 			return 1;
 		}
 
