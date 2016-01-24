@@ -129,7 +129,7 @@ public class HomeFrame extends JFrame {
 		gbc_textAreaStatus.gridy = 6;
 		contentPane.add(textAreaStatus, gbc_textAreaStatus);
 
-		btnPaste = new JButton("Paste");
+		btnPaste = new JButton("Paste And Go!");
 		GridBagConstraints gbc_btnPaste = new GridBagConstraints();
 		gbc_btnPaste.insets = new Insets(0, 0, 0, 5);
 		gbc_btnPaste.gridx = 0;
@@ -221,12 +221,20 @@ public class HomeFrame extends JFrame {
 				Transferable clipData = clipboard.getContents(clipboard);
 				if (clipData != null) {
 					try {
-						if 
-						(clipData.isDataFlavorSupported
-								(DataFlavor.stringFlavor)) {
-							String s = (String)(clipData.getTransferData(
-									DataFlavor.stringFlavor));
+						if(clipData.isDataFlavorSupported(DataFlavor.stringFlavor)) {
+							String s = (String)(clipData.getTransferData(DataFlavor.stringFlavor));
 							textField_Url.replaceSelection(s);
+							if(textField_Url.getText().length() <= 10){
+								textAreaStatus.setText("Entered too short of a url...");
+								textField_Url.setText("");
+							}else{
+								textAreaStatus.setText("Adding URL... This may take a moment...");
+								int returned = recipeManager.addUrl(textField_Url.getText());
+								if(returned == 0) {textAreaStatus.setText("Added!");}
+								else{ textAreaStatus.setText("The entered URL was not valid");}
+								textField_Url.setText(null);
+								textField_Url.setCaretPosition(0);
+							}
 						}
 					} catch (UnsupportedFlavorException ufe) {
 						System.err.println("Flavor unsupported: " + ufe);
