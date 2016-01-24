@@ -64,14 +64,14 @@ public class Item {
 		else {
 			itemPrice = String.valueOf(price);
 			if(itemPrice.substring(itemPrice.indexOf(".")).length() > 3) {
-				itemPrice = itemPrice.substring(0, itemPrice.indexOf(".") + 3);
+				itemPrice = "$" + itemPrice.substring(0, itemPrice.indexOf(".") + 3);
 			}
 		}
 		if(this.unit.getQuantity() != 0.0) {
 			return (new DoubleToFraction(unit.getQuantity()).toString() + " " + unit.getName() + " \t\t " + displayName + " \t\t " + itemPrice);
 		}
 		else {
-			return (displayName + " \t\t " + "$" + itemPrice);
+			return (displayName + " \t\t " + itemPrice);
 		}
 	}
 
