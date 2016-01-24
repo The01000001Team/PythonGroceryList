@@ -19,14 +19,19 @@ if code != requests.codes.ok: #Did it have an error?
 	System.out.println("Sorry, there was an error and cannot proceed")
 	exit()
 
-##f = open ("recipe.txt", "w") #Open to write
-recipe = r.text
+f = open ("groceries", "w") #Open to write
+pricesList = r.text
 
-soup = BeautifulSoup((r.text.encode("utf-8", "ignore"), 'html.parser')
-soup.prettify()
-#f.write(=recipe.encode('utf-8')).strip()) #Puts the text into a text file with no HTML
+soup = BeautifulSoup(r.text.encode("utf-8", "ignore"), 'html.parser')
+
+for price in soup.find_all('p', class_='price price-label'):
+	print price.text
+
+
+#print soup.prettify()
+f.write(soup.encode("utf-8").strip()) #Puts the text into a text file with no HTML
 #Have to parse through and find the first Ingredients (with the space)
-#f.close()
+f.close()
 
 #list = []
 
@@ -41,4 +46,4 @@ soup.prettify()
 			
 #jythonArray = array(list, String)
 #f.close() #Close the text file
-#os.remove(f.name) #removes the file from memory 
+#os.remove(f.name) #removes the file from memory
