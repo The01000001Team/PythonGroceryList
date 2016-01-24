@@ -6,6 +6,8 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
+import main.java.UnitConversion.Unit;
+
 import java.awt.GridBagLayout;
 import javax.swing.JLabel;
 
@@ -162,6 +164,19 @@ public class HomeFrame extends JFrame {
 						try {
 							EditItemDialog dialog = new EditItemDialog();
 							dialog.setVisible(true);
+
+							if(dialog.getName() == null){
+								textAreaStatus.setText("Closed Dialog Box.");
+								return;
+							}
+							String name = ((Item)recipeModel.getElementAt(list_recipe.getSelectedIndex())).getItemName();
+							String unit = ((Item)recipeModel.getElementAt(list_recipe.getSelectedIndex())).getUnit().getName();
+							Item newItem = new Item(name, dialog.getQuantity(), unit);
+							newItem.updateDisplayName(dialog.getName());
+							int index = list_recipe.getSelectedIndex();
+							recipeModel.add(index,newItem);
+							recipeModel.remove(index+1);
+							list_recipe.setSelectedIndex(index);
 						} catch (Exception e) {
 							e.printStackTrace();
 						}
@@ -183,6 +198,7 @@ public class HomeFrame extends JFrame {
 				else{
 					if (index == size) { index--;}
 				}
+				list_recipe.setSelectedIndex(index);
 			}
 		});
 		

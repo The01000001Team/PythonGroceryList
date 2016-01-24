@@ -30,11 +30,6 @@ public class Item {
 		return this.itemName;
 	}
 	
-	public void setDisplayName(String name){
-		displayName = name;
-	}
-	
-	
 	public void updateDisplayName(String displayName) {
 		this.displayName = displayName;
 	}
