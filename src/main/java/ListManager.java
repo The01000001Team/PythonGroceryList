@@ -33,7 +33,6 @@ public class ListManager {
 
 			return 0;
 		}catch(PyException e){
-			System.out.println("Returning 1");
 			return 1;
 		}
 
