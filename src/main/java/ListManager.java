@@ -29,8 +29,6 @@ public class ListManager {
 				if(checkIfExistingItem((Item)items[i])) {
 					continue;
 				}else recipeModel.addElement(items[i]);
-
-
 			}
 
 			return 0;
