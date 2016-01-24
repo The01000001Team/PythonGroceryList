@@ -20,9 +20,9 @@ public class ListManager {
 	 */
 	@SuppressWarnings("unchecked")
 	public int addUrl(String url){
-		System.out.println(url);
 		try{
 			String[] recipe = PyInterpreter.execRecipeScraper("Scrapper", url);
+			System.out.println(recipe.toString());
 			Object[] items = Item.toItemArray(recipe);
 
 			for(int i=0; i<items.length; i++) {

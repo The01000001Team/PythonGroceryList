@@ -127,7 +127,6 @@ public class Item {
 				double price = PyInterpreter.execGroceryScraper("GroceryScrapper", name);
 				result.add(new Item(name, itemQuantity, itemUnit, itemQuantity*price));
 			}catch(PyException e){
-				e.printStackTrace();
 				result.add(new Item(name, itemQuantity, itemUnit, 0.0));
 			}
 		}

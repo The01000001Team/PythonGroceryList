@@ -26,7 +26,11 @@ public class DoubleToFraction {
         if(num % denom == 0) {
         	return String.valueOf(num/denom);
         }
-        return String.valueOf((double) num/(double) denom);
+        String result = String.valueOf((double) num/(double) denom);
+        if(result.length() > 4) {
+        	result = result.substring(0, 4);
+        }
+        return result;
     }
     
     public static double fractionToDouble(String ratio) {

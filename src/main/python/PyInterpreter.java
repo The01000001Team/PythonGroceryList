@@ -48,18 +48,12 @@ public class PyInterpreter
    {
 	  PySystemState state = new PySystemState();
 	  state.argv.clear();
-	  System.out.println(state.argv.toString());
 	  state.argv.append (new PyString (fileName + ".py"));
-	  System.out.println(state.argv.toString());
 	  state.argv.append (new PyString (url));
-	  System.out.println(state.argv.toString());
 
       PyInterpreter ie = new PyInterpreter(state);
-      System.out.println(ie.toString());
       String file = "Python/" + fileName + ".py";
-      System.out.println(file);
       ie.execfile(file);
-      System.out.println("RUNNING...");
       
 
       String[] array = ie.interpreter.get("jythonArray", String[].class);
