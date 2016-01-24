@@ -5,21 +5,27 @@ import os, sys
 
 from bs4 import BeautifulSoup
 from sys import argv
-#from java.lang import String
-#from jarray import array
+from java.lang import String
+from jarray import array
 
 def median(array):
     array.sort()
     return array[len(array)/2]
 
-x = raw_input("Enter the name of the item we are searching for: ") #Prompts user for website to scrape\
+#x = raw_input("Enter the name of the item we are searching for: ") #Prompts user item to search
 #Will only work for Target now
-r = requests.get('http://www.target.com/s?searchTerm='+x)
-code = r.status_code
+script, x = argv
 
-if code != requests.codes.ok: #Did it have an error?
-	System.out.println("Sorry, there was an error and cannot proceed")
-	exit()
+try:
+	r = requests.get('http://www.target.com/s?searchTerm='+x)
+	code = r.status_code
+except: 
+	jythonArray = None
+	sys.exit()
+
+#if code != requests.codes.ok: #Did it have an error?
+#	System.out.println("Sorry, there was an error and cannot proceed")
+#	exit()
 
 f = open ("groceries", "w") #Open to write
 pricesList = r.text
