@@ -18,5 +18,9 @@ private final static String name = "cup";
 	public double convertToCup() {
 		return (double) 1;
 	}
+	
+	public boolean canConvert() {
+		return true;
+	}
 
 }

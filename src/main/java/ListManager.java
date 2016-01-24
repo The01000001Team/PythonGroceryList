@@ -44,7 +44,7 @@ public class ListManager {
 	public static boolean checkIfExistingItem(Item item) {
 		for(int i=0; i < recipeModel.getSize(); i++){
 			Item existing = (Item) recipeModel.getElementAt(i);
-			if(existing.getItemName().toLowerCase().equals(item.getItemName().toLowerCase())) {
+			if(existing.getItemName().toLowerCase().equals(item.getItemName().toLowerCase()) && (existing.getUnit().canConvert() || existing.getUnit().getName().equals("clove")) && (item.getUnit().canConvert() || item.getUnit().getName().equals("clove"))) {
 				existing.updateCurrentItem(item);
 				return true;
 			}

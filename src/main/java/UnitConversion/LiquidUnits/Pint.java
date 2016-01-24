@@ -18,5 +18,9 @@ private final static String name = "pt";
 	public double convertToCup() {
 		return (double) 0.5;
 	}
+	
+	public boolean canConvert() {
+		return true;
+	}
 
 }

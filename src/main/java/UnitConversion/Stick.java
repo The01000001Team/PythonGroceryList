@@ -13,8 +13,11 @@ public class Stick extends Unit {
 	}
 	
 	public double convertToCup() {
-		System.out.println("CONVERTING STICK TO 1/2 CUP");
 		return (double) 0.5;
+	}
+	
+	public boolean canConvert() {
+		return true;
 	}
 	
 }

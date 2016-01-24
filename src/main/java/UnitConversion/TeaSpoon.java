@@ -16,4 +16,8 @@ private final static String name = "tsp";
 	public double convertToCup() {
 		return (double) 1/48;
 	}
+	
+	public boolean canConvert() {
+		return true;
+	}
 }

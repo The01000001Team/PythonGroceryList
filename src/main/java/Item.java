@@ -47,7 +47,13 @@ public class Item {
 	}
 	
 	public void updateCurrentItem(Item item2) {
-		UnitConverter.convertToExistingUnit(this.getUnit(), item2.getUnit());
+		if(getUnit().canConvert()) {
+			UnitConverter.convertToExistingUnit(this.getUnit(), item2.getUnit());
+		}
+		else if(getUnit().getName().equals("clove") && item2.getUnit().getName().equals("clove")) {
+			getUnit().increaseQuantity(item2.getUnit().getQuantity());
+		}
+		else return;
 	}
 	
 	public String toString() {
@@ -63,6 +69,7 @@ public class Item {
 		ArrayList<Item> result = new ArrayList<Item>();
 		
 		for(int x = 1; x<recipe.length; x++) {
+			System.out.println(recipe[x]);
 			if(recipe[x].substring(recipe[x].length() - 1).equals(":")){
 				continue;
 			}
@@ -77,7 +84,10 @@ public class Item {
 				if(i == 0) {
 					if(isDouble(arrayStr[i])) {
 						itemQuantity = Double.parseDouble(arrayStr[i]);
-						System.out.println("Item Quantity: " + String.valueOf(itemQuantity));
+						continue;
+					}
+					if(arrayStr[i].contains("/")) {
+						itemQuantity = DoubleToFraction.fractionToDouble(arrayStr[i]);
 						continue;
 					}
 					else {
@@ -86,16 +96,16 @@ public class Item {
 					}
 				}
 				if(i == 1) {
+					if(arrayStr[i].contains("clove")) {
+						arrayStr[i] = "clove";
+					}
 					itemUnit = arrayStr[i];
-					System.out.println("Unit Type: " + itemUnit);
 					continue;
 				}
 				if(i == 2) {
 					if(instanceOfUnitName(arrayStr[i].toLowerCase()) && isDouble(arrayStr[i-1])) {
 						itemUnit = arrayStr[i];
-						System.out.println("Unit Type: " + itemUnit);
 						itemQuantity = Double.parseDouble(arrayStr[i-1]);
-						System.out.println("Item Quantity: " + String.valueOf(itemQuantity));
 						continue;
 					}
 					if(arrayStr[i].substring(arrayStr[i].length() - 1).equals(",")) {
