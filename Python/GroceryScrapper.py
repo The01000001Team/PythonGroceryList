@@ -20,7 +20,7 @@ script, x = argv #Parameter for user to search an item
 #Will only work for Target now
 
 try:
-	r = requests.get('http://www.target.com/s?searchTerm='+x) #Does the website work?
+	r = requests.get('http://www.target.com/s?searchTerm='+x+'&category=9975358%7CAll%7Cmatchallpartial%7Cgrocery+%26+essentials&lnk') #Does the website work?
 	code = r.status_code
 except:
 	med = None #Handle error
