@@ -62,29 +62,31 @@ public class PyInterpreter
 	} catch (Throwable e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
+		}
+
+		return array;
+
 	}
-      return array;
-   }
-   
-   public static double execGroceryScraper(String fileName, String search)
-   {
-	  PySystemState state = new PySystemState();
-	  state.argv.clear();
-	  state.argv.append (new PyString (fileName));      
-	  state.argv.append (new PyString (search));
 
-      PyInterpreter ie = new PyInterpreter(state);
-      ie.execfile("Python/" + fileName + ".py");
-      
+	public static double execGroceryScraper(String fileName, String search)
+	{
+		PySystemState state = new PySystemState();
+		state.argv.clear();
+		state.argv.append (new PyString (fileName));      
+		state.argv.append (new PyString (search));
 
-      double med = ie.interpreter.get("med", double.class);
-      try {
-  		ie.finalize();
-  	} catch (Throwable e) {
-  		// TODO Auto-generated catch block
-  		e.printStackTrace();
-  	}
-      return med;    
-   }
-   
+		PyInterpreter ie = new PyInterpreter(state);
+		ie.execfile("Python/" + fileName + ".py");
+
+
+		double med = ie.interpreter.get("med", double.class);
+		try {
+			ie.finalize();
+		} catch (Throwable e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return med;    
+	}
+
 }
