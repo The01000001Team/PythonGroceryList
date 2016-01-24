@@ -93,7 +93,7 @@ public class HomeFrame extends JFrame {
 		
 		txtrInstructionsEnterA = new JTextArea();
 		txtrInstructionsEnterA.setBackground(SystemColor.window);
-		txtrInstructionsEnterA.setText("Instructions: Enter a valid URL in \nthe box below and press 'Enter'");
+		txtrInstructionsEnterA.setText("Instructions: Copy a valid URL and hit 'Paste and Go' or Type it and hit Enter!");
 		txtrInstructionsEnterA.setEditable(false);
 		txtrInstructionsEnterA.setLineWrap(true);
 		GridBagConstraints gbc_txtrInstructionsEnterA = new GridBagConstraints();
