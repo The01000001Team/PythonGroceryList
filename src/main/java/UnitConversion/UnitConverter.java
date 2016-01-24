@@ -117,8 +117,6 @@ public class UnitConverter {
 	private static double findConversionAmount(Unit unit1, Unit unit2) {
 		double factor1 = unit1.convertToCup();
 		double factor2 = unit2.convertToCup();
-		System.out.println(factor1);
-		System.out.println(factor2);
 		
 		double quantity2 = unit2.getQuantity()*factor2;
 		return quantity2/factor1;
