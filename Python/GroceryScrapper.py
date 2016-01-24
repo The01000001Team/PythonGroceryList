@@ -9,7 +9,7 @@ from jarray import array
 
 #Computes the median of the array
 def median(array):
-    if array.len == 0:
+    if len(array) == 0:
         med = None
         sys.exit()
     array.sort()
