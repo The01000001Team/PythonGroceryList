@@ -109,7 +109,7 @@ public class Item {
 				itemName = itemName + " " + arrayStr[i];
 				
 			}
-			result.add(new Item(itemName, itemQuantity, itemUnit));
+			result.add(new Item(FoodDictionary.findFoodItemFromDictionary(itemName.toLowerCase()), itemQuantity, itemUnit));
 			
 		}
 		

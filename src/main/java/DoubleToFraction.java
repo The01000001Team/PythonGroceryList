@@ -6,7 +6,6 @@ public class DoubleToFraction {
 
     public DoubleToFraction(double d) {
          String s = String.valueOf(d);
-         System.out.println("Value of Double: " + s);
          int digitsDec = s.length() - 1 - s.indexOf('.');        
 
          int denom = 1;
@@ -27,7 +26,6 @@ public class DoubleToFraction {
         if(num % denom == 0) {
         	return String.valueOf(num/denom);
         }
-    	//return String.valueOf(num) + "/" + String.valueOf(denom);
         return String.valueOf((double) num/(double) denom);
     }
     
