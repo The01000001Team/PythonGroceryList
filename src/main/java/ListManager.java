@@ -20,7 +20,6 @@ public class ListManager {
 	 */
 	@SuppressWarnings("unchecked")
 	public int addUrl(String url){
-		System.out.println(url);
 		try{
 			String[] recipe = PyInterpreter.execRecipeScraper("Scrapper", url);
 			Object[] items = Item.toItemArray(recipe);
@@ -34,7 +33,7 @@ public class ListManager {
 
 			return 0;
 		}catch(PyException e){
-			System.out.println("Returning 1");
+			e.printStackTrace();
 			return 1;
 		}
 
