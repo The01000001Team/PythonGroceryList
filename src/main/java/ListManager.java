@@ -16,24 +16,23 @@ public class ListManager {
 	}
 
 	/**
-	 * RETURNS A STATUS. 1 failed, 2 success
+	 * RETURNS A STATUS. 1 = bad url, 0 = all good
 	 */
 	public int addUrl(String url){
 		try{
 			String[] recipe = PyInterpreter.execPyFile("Scrapper", url);
 
-			Item[] items = Item.toItemArray(recipe);
+			Object[] items = Item.toItemArray(recipe);
 
 			for(int i=0; i<items.length; i++) {
-				/*
-			if(checkIfExistingItem(items[i])) {
-				continue;
+
+				if(checkIfExistingItem((Item)items[i])) {
+					continue;
+				}else recipeModel.addElement(items[i]);
+
+
 			}
-			else recipeModel.addElement(items[i]);
-				 */
-				recipeModel.addElement(items[i]);
-			}
-			
+
 			return 0;
 		}catch(PyException e){
 			return 1;

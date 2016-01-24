@@ -23,14 +23,4 @@ public class Main {
 			}
 		});
 	}
-	
-/*
-	 //Give the name of the .py file WITHOUT THE EXTENSION and it will launch the python file
-	 // 
-	 // @param fileName Name of the .py file
-	 //
-	public static void launchPyFile(String fileName) {
-		PyInterpreter.execPyFile(fileName);
-	}
-*/
 }

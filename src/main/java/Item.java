@@ -1,5 +1,7 @@
 package main.java;
 
+import java.util.ArrayList;
+
 import main.java.UnitConversion.Unit;
 import main.java.UnitConversion.UnitConverter;
 
@@ -49,10 +51,13 @@ public class Item {
 		}
 	}
 
-	public static Item[] toItemArray(String[] recipe) {
-		Item[] result = new Item[recipe.length-1];
+	public static Object[] toItemArray(String[] recipe) {
+		ArrayList<Item> result = new ArrayList<Item>();
 		
 		for(int x = 1; x<recipe.length; x++) {
+			if(recipe[x].substring(recipe[x].length() - 1).equals(":")){
+				continue;
+			}
 			String[] arrayStr = recipe[x].split(" ");
 			String itemName = "";
 			String itemUnit = "";
@@ -99,11 +104,11 @@ public class Item {
 				itemName = itemName + " " + arrayStr[i];
 				
 			}
-			result[x-1] = new Item(itemName, itemQuantity, itemUnit);
+			result.add(new Item(itemName, itemQuantity, itemUnit));
 			
 		}
 		
-		return result;
+		return result.toArray();
 	}
 	
 	private static boolean instanceOfUnitName(String unitName) {
