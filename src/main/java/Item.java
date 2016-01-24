@@ -2,6 +2,8 @@ package main.java;
 
 import java.util.ArrayList;
 
+import org.python.core.PyException;
+
 import main.java.UnitConversion.Unit;
 import main.java.UnitConversion.UnitConverter;
 import main.python.PyInterpreter;
@@ -17,7 +19,7 @@ public class Item {
 		this.displayName = itemName;
 		this.itemName = itemName;
 		this.unit = UnitConverter.getUnitFromString(unit, quantity);
-		this.price = PyInterpreter.execGroceryScraper("GroceryScrapper", itemName);
+		this.price = 0.0;
 	}
 	
 	public Item(String itemName, double quantity, String unit, double price) {
@@ -37,6 +39,11 @@ public class Item {
 	
 	public Unit getUnit() {
 		return this.unit;
+	}
+	
+	public void setQuantity(double amount){
+		unit.setQuantity(amount);
+		price = amount * price;
 	}
 	
 	public void updateCurrentItem(Item item2) {
@@ -105,8 +112,12 @@ public class Item {
 				itemName = itemName + " " + arrayStr[i];
 				
 			}
-			result.add(new Item(FoodDictionary.findFoodItemFromDictionary(itemName.toLowerCase()), itemQuantity, itemUnit));
-			
+			try{
+				double price = PyInterpreter.execGroceryScraper("GroceryScrapper", itemName);
+				result.add(new Item(FoodDictionary.findFoodItemFromDictionary(itemName.toLowerCase()), itemQuantity, itemUnit, itemQuantity*price));
+			}catch(PyException e){
+				result.add(new Item(FoodDictionary.findFoodItemFromDictionary(itemName.toLowerCase()), itemQuantity, itemUnit, -1.00));
+			}
 		}
 		
 		return result.toArray();
@@ -164,4 +175,8 @@ public class Item {
             return false;
         }
     }
+
+	public double getPrice() {
+		return price;
+	}
 }

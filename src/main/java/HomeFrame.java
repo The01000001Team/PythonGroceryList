@@ -171,7 +171,8 @@ public class HomeFrame extends JFrame {
 							}
 							String name = ((Item)recipeModel.getElementAt(list_recipe.getSelectedIndex())).getItemName();
 							String unit = ((Item)recipeModel.getElementAt(list_recipe.getSelectedIndex())).getUnit().getName();
-							Item newItem = new Item(name, dialog.getQuantity(), unit);
+							double price = ((Item)recipeModel.getElementAt(list_recipe.getSelectedIndex())).getPrice();
+							Item newItem = new Item(name, dialog.getQuantity(), unit, dialog.getQuantity()*price);
 							newItem.updateDisplayName(dialog.getName());
 							int index = list_recipe.getSelectedIndex();
 							recipeModel.add(index,newItem);
