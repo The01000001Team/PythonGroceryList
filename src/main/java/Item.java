@@ -112,11 +112,13 @@ public class Item {
 				itemName = itemName + " " + arrayStr[i];
 				
 			}
+			String name = FoodDictionary.findFoodItemFromDictionary(itemName.toLowerCase());
 			try{
-				double price = PyInterpreter.execGroceryScraper("GroceryScrapper", itemName);
-				result.add(new Item(FoodDictionary.findFoodItemFromDictionary(itemName.toLowerCase()), itemQuantity, itemUnit, itemQuantity*price));
+				double price = PyInterpreter.execGroceryScraper("GroceryScrapper", name);
+				result.add(new Item(name, itemQuantity, itemUnit, itemQuantity*price));
 			}catch(PyException e){
-				result.add(new Item(FoodDictionary.findFoodItemFromDictionary(itemName.toLowerCase()), itemQuantity, itemUnit, -1.00));
+				e.printStackTrace();
+				result.add(new Item(name, itemQuantity, itemUnit, 0.0));
 			}
 		}
 		

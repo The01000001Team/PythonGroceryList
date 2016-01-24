@@ -34,4 +34,4 @@ for price in soup.find_all('p', class_='price price-label'):
 
 
 
-med = median(prices)/1.0 #Store the median of all the prices 
+med = float(median(prices)) #Store the median of all the prices 
