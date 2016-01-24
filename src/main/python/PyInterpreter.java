@@ -55,7 +55,7 @@ public class PyInterpreter
       
 
       String[] array = ie.interpreter.get("jythonArray", String[].class);
-      return array;    
+      return array;
    }
    
    public static double execGroceryScraper(String fileName, String search)
