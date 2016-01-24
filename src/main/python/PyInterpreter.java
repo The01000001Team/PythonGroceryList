@@ -55,6 +55,12 @@ public class PyInterpreter
       
 
       String[] array = ie.interpreter.get("jythonArray", String[].class);
+      try {
+		ie.finalize();
+	} catch (Throwable e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
       return array;
    }
    
@@ -70,6 +76,12 @@ public class PyInterpreter
       
 
       double med = ie.interpreter.get("med", double.class);
+      try {
+  		ie.finalize();
+  	} catch (Throwable e) {
+  		// TODO Auto-generated catch block
+  		e.printStackTrace();
+  	}
       return med;    
    }
    

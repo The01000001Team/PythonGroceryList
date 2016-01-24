@@ -9,6 +9,9 @@ from jarray import array
 
 #Computes the median of the array
 def median(array):
+    if(array.len == 0):
+        med = None
+        sys.exit()
     array.sort()
     return array[len(array)/2]
 
@@ -34,4 +37,4 @@ for price in soup.find_all('p', class_='price price-label'):
 
 
 
-med = float(median(prices)) #Store the median of all the prices 
+med = float(median(prices)) #Store the median of all the prices
