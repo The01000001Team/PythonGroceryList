@@ -13,7 +13,7 @@ try:
     code = r.status_code
 except:
 	jythonArray = None
-    sys.exit()
+	sys.exit()
 
 soup = BeautifulSoup(r.text.encode("utf-8", "ignore"), 'html.parser') #Parse through HTML 
 list = [] #List for the recipe ingredients 
@@ -21,6 +21,7 @@ list = [] #List for the recipe ingredients
 for ingredient in soup.find_all('li', itemprop="ingredients"): #, itemprop_='ingredients'
 	list.append(unicodedata.normalize('NFKD',((ingredient.text).strip(' \t\n\r'))).encode('ascii','ignore'))
 
-	
+for i in list: 
+	print i 
 jythonArray = array(list, String)
 
