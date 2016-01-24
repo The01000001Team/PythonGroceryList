@@ -22,8 +22,8 @@ if code != requests.codes.ok: #Did it have an error?
 ##f = open ("recipe.txt", "w") #Open to write
 recipe = r.text
 
-soup = BeautifulSoup(r.text.encode("utf-8"), "html.parser")
-print soup.prettify()
+soup = BeautifulSoup((r.text.encode("utf-8", "ignore"), 'html.parser')
+soup.prettify()
 #f.write(=recipe.encode('utf-8')).strip()) #Puts the text into a text file with no HTML
 #Have to parse through and find the first Ingredients (with the space)
 #f.close()
