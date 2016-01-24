@@ -43,7 +43,7 @@ public class PyInterpreter
     * 
     * @param fileName A String for the file name. Omit the ".py" extension
     */
-   public static String[] execPyFile(String fileName, String url)
+   public static String[] execRecipeScraper(String fileName, String url)
    {
 	  PySystemState state = new PySystemState();
 	  state.argv.clear();
@@ -56,6 +56,21 @@ public class PyInterpreter
 
       String[] array = ie.interpreter.get("jythonArray", String[].class);
       return array;    
+   }
+   
+   public static double execGroceryScraper(String fileName, String search)
+   {
+	  PySystemState state = new PySystemState();
+	  state.argv.clear();
+	  state.argv.append (new PyString (fileName));      
+	  state.argv.append (new PyString (search));
+
+      PyInterpreter ie = new PyInterpreter(state);
+      ie.execfile("Python/" + fileName + ".py");
+      
+
+      double med = ie.interpreter.get("med", double.class);
+      return med;    
    }
    
 }

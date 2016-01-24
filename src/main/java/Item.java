@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import main.java.UnitConversion.Unit;
 import main.java.UnitConversion.UnitConverter;
+import main.python.PyInterpreter;
 
 public class Item {
 	
@@ -16,7 +17,7 @@ public class Item {
 		this.displayName = itemName;
 		this.itemName = itemName;
 		this.unit = UnitConverter.getUnitFromString(unit, quantity);
-		this.price = 0.0;
+		this.price = PyInterpreter.execGroceryScraper("GroceryScrapper", itemName);
 	}
 	
 	public Item(String itemName, double quantity, String unit, double price) {

@@ -20,8 +20,7 @@ public class ListManager {
 	 */
 	public int addUrl(String url){
 		try{
-			String[] recipe = PyInterpreter.execPyFile("Scrapper", url);
-
+			String[] recipe = PyInterpreter.execRecipeScraper("Scrapper", url);
 			Object[] items = Item.toItemArray(recipe);
 
 			for(int i=0; i<items.length; i++) {
