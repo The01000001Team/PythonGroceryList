@@ -18,6 +18,10 @@ public class Unit {
 		return this.quantity;
 	}
 	
+	public void setQuantity(double amount) {
+		quantity = amount;
+	}
+	
 	public void increaseQuantity(double amount) {
 		this.quantity = this.quantity + amount;
 	}

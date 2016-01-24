@@ -20,15 +20,9 @@ public class EditItemDialog extends JDialog {
 	private final JPanel contentPanel = new JPanel();
 	private JTextField textField_Quantity;
 	private JTextField textField_Name;
-
-	/*
-		try {
-			EditItemDialog dialog = new EditItemDialog();
-			dialog.setVisible(true);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	 */
+	
+	private String name;
+	private double quantity;
 
 	public EditItemDialog() {
 		setBounds(100, 100, 307, 158);
