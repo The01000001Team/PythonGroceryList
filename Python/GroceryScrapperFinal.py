@@ -27,7 +27,7 @@ except:
 soup = BeautifulSoup(r.text.encode("utf-8", "ignore"), 'html.parser') #Parse through HTML
 prices = [] #List for prices
 
-for price in soup.find_all('p', class_='price price-label'):
+for price in soup.find_all('li', itemprop_='ingredients'):
 	for character in price.text:
 			if character == "$": #Save only actual prices
 				prices.append(unicodedata.normalize('NFKD',((price.text).strip(' $\t\n\r'))).encode('ascii','ignore'))
