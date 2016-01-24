@@ -57,11 +57,21 @@ public class Item {
 	}
 	
 	public String toString() {
-		if(this.unit.getQuantity() != 0.0) {
-			return (new DoubleToFraction(unit.getQuantity()).toString() + " " + unit.getName() + " \t\t " + displayName + " \t\t ") + ((price == 0.0) ? "Price Unavailable" : ("$" + String.valueOf(price)));
+		String itemPrice;
+		if(price == 0) {
+			itemPrice = "Price Unavailable";
 		}
 		else {
-			return (displayName + " \t\t ") + ((price == 0.0) ? "Price Unavailable" : ("$" + String.valueOf(price)));
+			itemPrice = String.valueOf(price);
+			if(itemPrice.substring(itemPrice.indexOf(".")).length() > 3) {
+				itemPrice = itemPrice.substring(0, itemPrice.indexOf(".") + 3);
+			}
+		}
+		if(this.unit.getQuantity() != 0.0) {
+			return (new DoubleToFraction(unit.getQuantity()).toString() + " " + unit.getName() + " \t\t " + displayName + " \t\t " + itemPrice);
+		}
+		else {
+			return (displayName + " \t\t " + "$" + itemPrice);
 		}
 	}
 
