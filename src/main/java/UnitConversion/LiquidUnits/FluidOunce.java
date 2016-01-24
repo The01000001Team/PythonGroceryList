@@ -16,7 +16,11 @@ private final static String name = "fl oz";
 	}
 	
 	public double convertToCup() {
-		return (double) 8;
+		return (double) 1/8;
+	}
+	
+	public boolean canConvert() {
+		return true;
 	}
 
 }

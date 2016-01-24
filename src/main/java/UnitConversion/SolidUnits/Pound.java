@@ -18,5 +18,9 @@ private final static String name = "tbsp";
 	public double convertToCup() {
 		return (double) 0.52159;
 	}
+	
+	public boolean canConvert() {
+		return true;
+	}
 
 }

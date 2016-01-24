@@ -65,6 +65,7 @@ public class FoodDictionary {
 				if(itemName.contains("green")) {
 					return "green bell pepper";
 				}
+				return "bell pepper";
 			}
 			if(itemName.contains("crushed")) {
 				if(itemName.contains("red")) {

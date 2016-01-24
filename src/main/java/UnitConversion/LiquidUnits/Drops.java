@@ -16,7 +16,11 @@ private final static String name = "drop";
 	}
 	
 	public double convertToCup() {
-		return (double) 4731.76;
+		return (double) 1/4731.76;
+	}
+	
+	public boolean canConvert() {
+		return true;
 	}
 
 }

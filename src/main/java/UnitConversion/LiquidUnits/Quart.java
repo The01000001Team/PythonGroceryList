@@ -18,5 +18,9 @@ private final static String name = "qt";
 	public double convertToCup() {
 		return (double) 0.25;
 	}
+	
+	public boolean canConvert() {
+		return true;
+	}
 
 }

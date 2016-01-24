@@ -29,7 +29,7 @@ public class DoubleToFraction {
         return String.valueOf((double) num/(double) denom);
     }
     
-    public double fractionToDouble(String ratio) {
+    public static double fractionToDouble(String ratio) {
     	if(ratio.contains("/")) {
     		String[] rat = ratio.split("/");
     		return Double.parseDouble(rat[0]) / Double.parseDouble(rat[1]);

@@ -28,6 +28,8 @@ public class UnitConverter {
 	}
 	
 	public static String updateUnitName(String unitName) {
+		System.out.println("Name to Convert: " + unitName);
+		
 		switch(unitName) {
 		case "teaspoon": unitName = "tsp";
 		break;
@@ -73,7 +75,6 @@ public class UnitConverter {
 		break;
 		}
 		
-		System.out.println("Converted Unit Name: " + unitName);
 		return unitName;
 	}
 	

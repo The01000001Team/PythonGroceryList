@@ -18,5 +18,9 @@ private final static String name = "gal";
 	public double convertToCup() {
 		return (double) 0.0625;
 	}
+	
+	public boolean canConvert() {
+		return true;
+	}
 
 }

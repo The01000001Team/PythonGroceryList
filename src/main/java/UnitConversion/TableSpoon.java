@@ -16,5 +16,9 @@ public class TableSpoon extends Unit {
 	public double convertToCup() {
 		return (double) 1/16;
 	}
+	
+	public boolean canConvert() {
+		return true;
+	}
 
 }

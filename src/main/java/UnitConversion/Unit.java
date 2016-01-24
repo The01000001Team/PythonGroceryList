@@ -33,5 +33,9 @@ public class Unit {
 	public double convertToCup() {
 		return (double) 1;
 	}
+
+	public boolean canConvert() {
+		return false;
+	}
 	
 }
