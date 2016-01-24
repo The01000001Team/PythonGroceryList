@@ -8,11 +8,13 @@ from sys import argv
 #from java.lang import String
 #from jarray import array
 
+def median(array):
+    array.sort()
+    return array[len(array)/2]
 
-
-x = raw_input("Enter the website for the recipe from FoodNetwork: ") #Prompts user for website to scrape\
-#Will only work for Food Network for now
-r = requests.get(x)
+x = raw_input("Enter the name of the item we are searching for: ") #Prompts user for website to scrape\
+#Will only work for Target now
+r = requests.get('http://www.target.com/s?searchTerm='+x)
 code = r.status_code
 
 if code != requests.codes.ok: #Did it have an error?
@@ -23,9 +25,16 @@ f = open ("groceries", "w") #Open to write
 pricesList = r.text
 
 soup = BeautifulSoup(r.text.encode("utf-8", "ignore"), 'html.parser')
+prices = []
 
 for price in soup.find_all('p', class_='price price-label'):
-	print price.text
+	for character in price.text:
+			if character == "$":
+				prices.append(unicodedata.normalize('NFKD',((price.text).strip(' $\t\n\r'))).encode('ascii','ignore'))
+			
+
+	
+med = median(prices)
 
 
 #print soup.prettify()
